@@ -1,0 +1,516 @@
+SIMPLE  =                    T / Standard FITS Format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    0 / No Image --- just extension(s)                 EXTEND  =                    T / There are standard extensions                  ORIGIN  = 'xml2fits_v1.95'     / Converted from XML-Astrores to FITS                                     e-mail: question@simbad.u-strasbg.fr                   COMMENT  ARG='-rm'                                                              LONGSTRN= 'OGIP 1.0'           / Long string convention (&/CONTINUE) may be usedDATE    = '2019-05-23'         / Written on 2019-05-23:09:06:06 (GMT)                                        by: (nobody)@d3c5b7480ccf.cfa.harvard.ed                    **********************************************************                          EXCERPT from catalogues stored in VizieR (CDS)                                             with the following conditions:                                   **********************************************************                                                                                                      VizieR Astronomical Server vizier.cfa.harvard.edu                               Date: 2019-05-23T09:06:06 [V1.99+ (14-Oct-2013)]                                Explanations and Statistics of UCDs: See LINK below                             In case of problem, please report to: cds-question@unistra.fr                                                                                          INFO    = 'votable-version=1.99+ (14-Oct-2013)' / #                             INFO    = '-ref=VIZ5ce661ec1b699' / #                                           INFO    = '-out.max=unlimited' / #                                              Q-PARAMS=                   42 / Number of queryParameters (followed by list)            -oc.form=dec                                                                    -out.max=unlimited                                                              #out.form=FITS (binary) Table                                                   -nav=cat:J/MNRAS/441/3570&tab:{J/MNRAS/441/3570/catalog}&key:source=J/M         NRAS/441/3570/catalog&HTTPPRM:&                                                 -c.eq=J2000                                                                     -c.r= 2                                                                         -c.u=arcmin                                                                     -c.geom=r                                                                       -source=J/MNRAS/441/3570/catalog                                                -order=I                                                                        -out=Name                                                                       -out=RAJ2000                                                                    -out=DEJ2000                                                                    -out=MOD                                                                        -out=E(B-V)                                                                     -out=Bmag                                                                       -out=B-V                                                                        -out=Imag                                                                       -out=R25                                                                        -out=Ell                                                                        -out=i                                                                          -out=Type                                                                       -out=t                                                                          Simbad=Simbad                                                                   -out=m1                                                                         -out=e_m1                                                                       -out=m2                                                                         -out=e_m2                                                                       -out=m3                                                                         -out=e_m3                                                                       -out=m4                                                                         -out=e_m4                                                                       -out=m9                                                                         -out=e_m9                                                                       -out=m5                                                                         -out=e_m5                                                                       -out=m7                                                                         -out=e_m7                                                                       -out=m8                                                                         -out=e_m8                                                                       -out=m6                                                                         -out=e_m6                                                                       #                                                                               #RESOURCE=yCat_74413570                                                         #Name: J/MNRAS/441/3570                                                         #Title: Nuclear star clusters in 228 spiral galaxies (Georgiev+, 2014)          #Coosys J2000: eq_FK5 J2000                                                                                                                            END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / Binary Table Extension                         BITPIX  =                    8 / binary data                                    NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                  141 / Number of bytes per record                     NAXIS2  =                  228 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                   31 / Number of data fields (columns)                CDS-CAT = 'J/MNRAS/441/3570'   / Catalogue designation in CDS nomenclature               Nuclear star clusters in 228 spiral galaxies (Georgiev+, 2014)         EXTNAME = 'J_MNRAS_441_3570_catalog' / Identification of the table              CDS-NAME= 'J/MNRAS/441/3570/catalog' / Table name in METAtab                             Catalog of Nuclear Star Clusters: main properties of galaxies (table1),         radiuses (table3), ellipticities (table4), and photometry (table5)     UCD__1  = 'meta.id;meta.main'  / ................................byte#0         TDISP1  = 'A13     '           / Display Fortran Format                         TFORM1  = '13A     '           / Ascii string                                   TTYPE1  = 'Name    '           / Galaxy name                                    UCD__2  = 'pos.eq.ra;meta.main' / ...............................byte#13        TDISP2  = 'F11.5   '           / Display Fortran Format                         TFORM2  = 'D       '           / 64-bit floating-point (double precision)       TTYPE2  = 'RAJ2000 '           / Right ascension (J2000) from HyperLeda         TUNIT2  = 'deg     '           / degree                                         UCD__3  = 'pos.eq.dec;meta.main' / ..............................byte#21        TDISP3  = 'F12.6   '           / Display Fortran Format                         TFORM3  = 'D       '           / 64-bit floating-point (double precision)       TTYPE3  = 'DEJ2000 '           / Declination (J2000) from HyperLeda             TUNIT3  = 'deg     '           / degree                                         UCD__4  = 'phot.mag.distMod'   / ................................byte#29        TDISP4  = 'F5.2    '           / Display Fortran Format                         TFORM4  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE4  = 'MOD     '           / [23/38] Median distance modulus (1)            TUNIT4  = 'mag     '           / magnitude                                      UCD__5  = 'phot.color.excess'  / ................................byte#33        TDISP5  = 'F6.3    '           / Display Fortran Format                         TFORM5  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE5  = 'E_B-V_  '           / [0/0.9] Median colour excess (1)               TUNIT5  = 'mag     '           / magnitude                                      UCD__6  = 'phot.mag;em.opt.B'  / ................................byte#37        TDISP6  = 'F5.2    '           / Display Fortran Format                         TFORM6  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE6  = 'Bmag    '           / Total B magnitude from HyperLeda               TUNIT6  = 'mag     '           / magnitude                                      UCD__7  = 'phot.color;em.opt.B;em.opt.V' / ......................byte#41        TDISP7  = 'F5.2    '           / Display Fortran Format                         TFORM7  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE7  = 'B-V     '           / ? Total B-V colour index from HyperLeda        TUNIT7  = 'mag     '           / magnitude                                      UCD__8  = 'phot.mag;em.opt.I'  / ................................byte#45        TDISP8  = 'F5.2    '           / Display Fortran Format                         TFORM8  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE8  = 'Imag    '           / ? Total I magnitude from HyperLeda             TUNIT8  = 'mag     '           / magnitude                                      UCD__9  = 'pos.distance;phys.size' / ............................byte#49        TDISP9  = 'F7.4    '           / Display Fortran Format                         TFORM9  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE9  = 'R25     '           / ? Radius at the isophote 25B-mag/arcsec^2^ from                                 HyperLeda                                      TUNIT9  = 'kpc     '           / kiloparsec                                     UCD__10 = 'src.ellipticity'    / ................................byte#53        TDISP10 = 'F5.2    '           / Display Fortran Format                         TFORM10 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE10 = 'Ell     '           / [0/1]? Ellipticity from HyperLeda              UCD__11 = 'src.orbital.inclination' / ...........................byte#57        TDISP11 = 'F4.1    '           / Display Fortran Format                         TFORM11 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE11 = 'i       '           / [0/90]? Inclination from HyperLeda             TUNIT11 = 'deg     '           / degree                                         UCD__12 = 'src.morph.type'     / ................................byte#61        TDISP12 = 'A4      '           / Display Fortran Format                         TFORM12 = '4A      '           / Ascii string                                   TTYPE12 = 'Type    '           / Morphological type from HyperLeda              UCD__13 = 'src.morph.type'     / ................................byte#65        TDISP13 = 'F4.1    '           / Display Fortran Format                         TFORM13 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE13 = 't       '           / [3.5/10]? Morphological code from HyperLeda    UCD__14 = 'phot.mag;em.opt.R'  / ................................byte#69        TDISP14 = 'F5.2    '           / Display Fortran Format                         TFORM14 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE14 = 'm1      '           / ? Deredenned F606W magnitude (4)               TUNIT14 = 'mag     '           / magnitude                                      UCD__15 = 'stat.error'         / ................................byte#73        TDISP15 = 'F5.2    '           / Display Fortran Format                         TFORM15 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE15 = 'e_m1    '           / ? rms uncertainty on F606W                     TUNIT15 = 'mag     '           / magnitude                                      UCD__16 = 'phot.mag;em.opt.I'  / ................................byte#77        TDISP16 = 'F5.2    '           / Display Fortran Format                         TFORM16 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE16 = 'm2      '           / ? Deredenned F814W magnitude (4)               TUNIT16 = 'mag     '           / magnitude                                      UCD__17 = 'stat.error'         / ................................byte#81        TDISP17 = 'F5.2    '           / Display Fortran Format                         TFORM17 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE17 = 'e_m2    '           / ? rms uncertainty on F814W                     TUNIT17 = 'mag     '           / magnitude                                      UCD__18 = 'phot.mag;em.opt.B'  / ................................byte#85        TDISP18 = 'F5.2    '           / Display Fortran Format                         TFORM18 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE18 = 'm3      '           / ? Deredenned F450W magnitude (4)               TUNIT18 = 'mag     '           / magnitude                                      UCD__19 = 'stat.error'         / ................................byte#89        TDISP19 = 'F5.2    '           / Display Fortran Format                         TFORM19 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE19 = 'e_m3    '           / ? rms uncertainty on F450W                     TUNIT19 = 'mag     '           / magnitude                                      UCD__20 = 'phot.mag;em.opt.V'  / ................................byte#93        TDISP20 = 'F5.2    '           / Display Fortran Format                         TFORM20 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE20 = 'm4      '           / ? Deredenned F555W magnitude (4)               TUNIT20 = 'mag     '           / magnitude                                      UCD__21 = 'stat.error'         / ................................byte#97        TDISP21 = 'F5.2    '           / Display Fortran Format                         TFORM21 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE21 = 'e_m4    '           / ? rms uncertainty on F555W                     TUNIT21 = 'mag     '           / magnitude                                      UCD__22 = 'phot.mag;em.opt.R'  / ................................byte#101       TDISP22 = 'F5.2    '           / Display Fortran Format                         TFORM22 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE22 = 'm9      '           / ? Deredenned F675W magnitude (4)               TUNIT22 = 'mag     '           / magnitude                                      UCD__23 = 'stat.error'         / ................................byte#105       TDISP23 = 'F5.2    '           / Display Fortran Format                         TFORM23 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE23 = 'e_m9    '           / ? rms uncertainty on F675W                     TUNIT23 = 'mag     '           / magnitude                                      UCD__24 = 'phot.mag;em.opt.U'  / ................................byte#109       TDISP24 = 'F5.2    '           / Display Fortran Format                         TFORM24 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE24 = 'm5      '           / ? Deredenned F300W magnitude (4)               TUNIT24 = 'mag     '           / magnitude                                      UCD__25 = 'stat.error'         / ................................byte#113       TDISP25 = 'F5.2    '           / Display Fortran Format                         TFORM25 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE25 = 'e_m5    '           / ? rms uncertainty on F300W                     TUNIT25 = 'mag     '           / magnitude                                      UCD__26 = 'phot.mag;em.opt.U'  / ................................byte#117       TDISP26 = 'F5.2    '           / Display Fortran Format                         TFORM26 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE26 = 'm7      '           / ? Deredenned F336W magnitude (4)               TUNIT26 = 'mag     '           / magnitude                                      UCD__27 = 'stat.error'         / ................................byte#121       TDISP27 = 'F5.2    '           / Display Fortran Format                         TFORM27 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE27 = 'e_m7    '           / ? rms uncertainty on F336W                     TUNIT27 = 'mag     '           / magnitude                                      UCD__28 = 'phot.mag;em.opt.U'  / ................................byte#125       TDISP28 = 'F5.2    '           / Display Fortran Format                         TFORM28 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE28 = 'm8      '           / ? Deredenned F380W magnitude (4)               TUNIT28 = 'mag     '           / magnitude                                      UCD__29 = 'stat.error'         / ................................byte#129       TDISP29 = 'F5.2    '           / Display Fortran Format                         TFORM29 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE29 = 'e_m8    '           / ? rms uncertainty on F380W                     TUNIT29 = 'mag     '           / magnitude                                      UCD__30 = 'phot.mag;em.opt.B'  / ................................byte#133       TDISP30 = 'F5.2    '           / Display Fortran Format                         TFORM30 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE30 = 'm6      '           / ? Deredenned F439W magnitude (4)               TUNIT30 = 'mag     '           / magnitude                                      UCD__31 = 'stat.error'         / ................................byte#137       TDISP31 = 'F5.2    '           / Display Fortran Format                         TFORM31 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE31 = 'e_m6    '           / ? rms uncertainty on F439W                     TUNIT31 = 'mag     '           / magnitude                                      END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             DDO078       @c“´9Xb@PêÕ84ÊAŞ\<“t¼A|ÌÍÿÿÿÿÿÿÿÿ?ˆ~        I   A   A™p¤<#×
+A“…<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO138-G010  @oØaöqR™ÀN§µ\wAö¸R>F§ğA9™šÿÿÿÿÿÿÿÿAI¿H>\)BBÌÍSd  @üÌÍÿÿÿÿÿÿÿÿA€£×<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO187-G051  @sÎ/FPşÀKyë…¸QAù
+=<õÂAn\ÿÿÿÿA\Qì@X4n>®{B`ffSBm A  ÿÿÿÿÿÿÿÿA´=q=\)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO202-G041  @QO@Út§ÀJyƒÁ1ÕAø  <oAp(öÿÿÿÿAdõÃ@Bz?\B“33SBm AffÿÿÿÿÿÿÿÿA´\=\)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO241-G006  @vpÿÿÿÿÿÀE¶¸Që…Aû…<D›¦AfffÿÿÿÿAUë…@^Cş>®{B`ffSBm A  ÿÿÿÿÿÿÿÿA§ë…<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO271-G005  @j!+YmèÉÀFÔ`{ÊL BG®=…¸A~\ÿÿÿÿÿÿÿÿ@„bN?¸B–ffSABmA  A®{<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO290-G039  @uúáG®ÀG	+<MAú£×<D›¦ApQìÿÿÿÿAfff@3Õg>B\B ffSBm A  ÿÿÿÿÿÿÿÿA´\=\)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO301-IG011 @I|èN´ÀBÁL;*Aù×
+<¬1A\(öÿÿÿÿAFff@SH€>B\B   IAB AffA§\)<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO357-G012  @HœqRšH\ÀAÅM$.kÜAş{<¬1A_®ÿÿÿÿAI™š@µæ›>W
+=B'™šScd @à  A¡ë…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO358-G005  @IèÏ‡ÙÅIÀ@¾/Ébü–Aü¸R<#×
+Aj¸RÿÿÿÿAS\)@*0>”záBN  SABmA  ÿÿÿÿÿÿÿÿA£p¤<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO359-G029  @OšôeßéÀ@€m:Ó Ağ=q<ƒoAmG®ÿÿÿÿÿÿÿÿ@Ù>õÂBŠ™šIB  AffÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA¯p¤<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO404-G003  @t‚¥4¹¯ÀB@[°[BQì<£×
+A`£×ÿÿÿÿAF¸R@áÛõ?\B33SBbc@y™šA¬(ö<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO418-G008  @JpSIšöÀ>6“é>“èAş(ö<uÂA^{ÿÿÿÿALõÃ@|Ùè>\)BFffSABd@öffA©®<õÂA¤zá<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA¬  =LÌÍÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO498-G005  @a¥mèÊ¿À9¹ ®Ã=B{=Æ§ğAa¸?^¸RAC…@Ö´9>uÂB'33SABb@‰™šA›G®<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO502-G020  @dêí‘hr¯À6à_CAø\=™™šAf\ÿÿÿÿANff@RQ>”záB6ffSABc@   A®zá<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO504-G017  @f&-e·£'À;aš÷ Aş¸R=²-AdQìÿÿÿÿAQG®@=-w>áG®Bh  Sbc @ƒ33ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA¥
+==uÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO504-G030  @fiıó¶E¡À;³33332Aı®=‡+Am¸ÿÿÿÿA[33@eŠÛ>½p¤BlÌÍSBd @öffÿÿÿÿÿÿÿÿA¢zá<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO508-G034  @hç©¤…Í{À9Vh8oB¸R=§ïAl£×ÿÿÿÿAX  @Ä¶®?ÌÍB¡  SABdA™šA²ff=#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO508-G036  @hîáŸ³ŠÀ:Ëğ†¶âB
+==yÛ#A33ÿÿÿÿÿÿÿÿ@šÒ‰?ë…BˆffSbc @†ffAœ{<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO549-G018  @L‡‚c«YmÀ5ywõNB33=Y‡AXzáÿÿÿÿA:{A(”¯>Ñë…B`ffSABc@™™šA¥\)<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿESO572-G022  @fbıDó‚À3C şÜºB ff=#×
+AmÂÿÿÿÿAVff@ÆˆÎ?5ÂB˜  SBcd@ÖffA«®<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIC0239       @C×¹ ®Ã@C|	+<MAö{=%A>=q?333ÿÿÿÿAŞ=\)A™šSABc@À  A¢£×<£×
+Aœzá<£×
+A©®<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIC0396       @RŸ¶ôeß@Q´9XbAöQì>bNAN¸Rÿÿÿÿÿÿÿÿ@ ¢4>ÌÌÍBZÌÍSbc @€  A\)<#×
+Av{<#×
+A‡®<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIC0769       @fäO‡ÙÅJ@(??kgıB…<í‘hAUë…ÿÿÿÿAH  A?ÈK>¸RBA33Sbc @€  A Qì<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIC1933       @IµB7ú‰åÀJdŠZ‘.1AûG®<uÂAN¸R>¸QìA9Â@Ì“>õÂBm™šSc  @ÆffA±™š=uÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIC2056       @PŠ”ÒBæÀNyƒÁ1ÕAÿp¤<ƒoAF¸R?\)A-p¤@ÒÈ´>¸Aô  Sbc @s33A†õÃ<#×
+A‚zá<#×
+AŠzá<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIC2129       @T½­e·¢À7%áîAıÂ=t¼A\ÌÍÿÿÿÿAD(ö@ºÿ—?\B“ÌÍSBd @ó33ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA¬\=£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIC3021       @fÏDDDDC@*xÔıóµB™š=C–Ao…ÿÿÿÿAp(ö@Ë(>½p¤Bk™šSm  A  A¦zá<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIC3298       @gH€WaŸ@1 éRÔB\)<¼jApõÃÿÿÿÿAf{@ÅŸV?5ÂB›  SBc @¦ffA¦ÌÍ<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIC4710       @qR‡®záÀP¾İ/Ÿ¾Aî  =¡ÊÁAH(ö?ë…A3
+=@ÓÃ>™šB™šSm  AffÿÿÿÿÿÿÿÿA’{<#×
+ÿÿÿÿÿÿÿÿA˜\<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿAœff<£×
+IC5256       @ug$.kÜÀQ,4ÊúÄ'B{<å`BAië…ÿÿÿÿATQìA„M?záB¬  SBd A   AµÂ=LÌÍÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIC5332       @vÔıó¶EÀBÿÅ¾ëJAìõÃ<uÂA4õÃÿÿÿÿÿÿÿÿ@ëjè=LÌÍA”  SABc@Ù™šÿÿÿÿÿÿÿÿAÂ<£×
+A©33<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿM063         @hŞ“t¼j~@E½ÄadAì  <ƒoA¸?8Qì@ó33AY,¥>ÌÌÍB[™šSbc @€  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA€zá<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿM074         @8,‹C•@/‘Aïp¤=}ó¶A33?\)Ap¤AaS&=\)AffSc  @¦ffAŒ=q<#×
+A…Â<#×
+A”{<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿM083         @iˆ	­eÀ=İ•ƒûrAãG®=q©ü@ú=q?(õÃÿÿÿÿAğØ<£×
+Aa™šSc  @   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA×
+<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿM100         @g7M{
+ë@/¤ÎÕruAø  <¼jA Qì?333A	¸AchÜ=¸QìA»33SABb@ƒ33ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA‘™š<£×
+AQì<£×
+M101         @jY®záG@K,­Ú9Ì’Aé
+=<oAÂ>æffÿÿÿÿAºù	=LÌÍA€ÌÍSABc@À  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿAŒ¸R<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿM106         @g­V@G¦ä»øAë¸<e`BAë…?0£×@ë…A•4?ë…Bˆ™šSABb@€  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA“ë…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿM108         @dü m:Ó@KÖJ.à^©AôÌÍ<uÂA+33?(õÃA×
+@ô@¸?záB‡  SBc @À  A=q<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿMCG-01-03-085@0E4¹¯qÀÙƒÁ1Õ¬Aò=q=ï²AFáH?@  AH(ö@×±[>…¸B,ÌÍSABc@à  AŸÂ<#×
+A™¸<£×
+A§ë…<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿMCG-03-13-063@SV“tÀ0•ªäë¿_BáH=“t¼Ah£×ÿÿÿÿAW…@Í
+==LÌÍA†ffSABb@y™šA õÃ<#×
+A33<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0014      @Šì3áöq@/¢Iº^4AôQì=‹C–APQì?záAJ=q@4¨Á>®{B^ffIB  AffÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA£p¤=LÌÍÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0247      @'’Bæ½ÈÀ4Â¬|³PSAŞzá<ƒoA¸R?\)AffA%?8QìB˜ÌÍSABc@ÜÌÍA„áH<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0275      @)‰Õ¬¶ôdÀDÛ—SAı™š=H´9ALõÃÿÿÿÿA;…@°ñª>W
+=BÌÍSBc @À  ÿÿÿÿÿÿÿÿA›…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0300      @+r2„oõÀB×œÉ(»AÓ×
+<49XA(ö?
+=ÿÿÿÿ@³g¡>£×
+BB  Scd @ÜÌÍÿÿÿÿÿÿÿÿAw×
+<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0337A     @.È\×¹ ®ÀZH\×¹ Aõp¤=º^5ANff?®ÿÿÿÿ@§n/>®{B`ffSABdA   ÿÿÿÿÿÿÿÿAªQì<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0406      @0ÚH\×¹ ÀQx'˜<Aü\<¬1APÌÍ?
+=A9ë…@ëjè?
+=qBƒ33SBc @œÌÍA©G®<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0428      @2;S÷ÎÙ?ïiĞ6iAöáH<ÌÌÍA?33>áG®A)ë…@Âéy>…¸B?™šSABmA	™šA•ë…<#×
+Aff<#×
+Aœ¸R<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA¢¸R<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0600      @7E¤…Í{À>ùÛ"ĞäAşff=C–AP(ö?ÌÍADzáA8<£×
+ATÌÍScd @à  ÿÿÿÿÿÿÿÿA=q<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0672      @:ùŸ³Š”@;n¤KŒfÚAë…=OßA6\?záA"=q@ş–¼?(öB‹33SBc @À  A–{<#×
+A£×<#×
+AœQì<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0853      @@v	­e·À"œfÚèĞAüáH<¼jA}ë…ÿÿÿÿA€ff@­·>®{Ba™šSm  A	™šÿÿÿÿÿÿÿÿAœff<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0864      @@îµ–ŞŒ @?B¬|²Aû…=0 ÅA9ë…?ÌÍÿÿÿÿA'Îp>¸RB>ffSABc@£33A“
+=<#×
+AŠ{<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC0959      @CÃ>g@A¿Oj¹:ïAóÂ=%AO…?záA8õÃ@W6z>Ñë…By33Sd  @üÌÍA“p¤<#×
+AÌÍ<#×
+A—
+=<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1003      @CèÚt§@@Do¶E¡ÊÀAñG®=yÛ#AAp¤?ÌÍA5ë…@­·?B\B¡ffSc  @À  A™…<£×
+A’¸R<#×
+A¢ff<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1042      @DËoFPÀ ŞêœeAìzá<ÔıôA:=q?
+=qA=¸@“Û#>æffBhffSABc@À  A  <#×
+AŠõÃ<#×
+A˜(ö<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1058      @DpÇV²@B«©‡eC AîÌÍ=aG®A?\)?¸RA'33@U=Ù>æffBj  Sc  @£33A†\<#×
+ÿÿÿÿÿÿÿÿAõÃ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1073      @Du‘hr° ?öiĞ6Aõ™š=\)A:áH?   ÿÿÿÿ@ãòå>½p¤BQ33SBc @©™šA‘\)<#×
+A\)<#×
+A”¸R<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1156      @Fvªªªªª@9='Ò}'ÒAë¸>Iº^AA¸?™šÿÿÿÿ@On/>W
+=B)™šIB  AÌÍÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA–ff<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1249      @GÀ£×
+=pÀJªû­+vA÷™š<uÂABáH>Ü(öA.¸RAÜ]?™šBŠ  SBc @À  A
+=<£×
+A•ë…<#×
+A¤\<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1258      @HBîîîîîÀ5Æ5?|í‘B¸<´9XA^{ÿÿÿÿAE™š@»ÜÆ>…¸B.ÌÍSABc@¶ffA¬=q<£×
+A¤=q<£×
+A°ff=#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1310      @I!Òñ©ûçÀBRÔ‰qAı™š<£×
+AI¸>ğ£×A8  @Ô»™>…¸B*ÌÍSc  @   A¡\)<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1325      @I§@ÚtÀ5‹>g)Aùë…<´9XAD  ?0£×A'
+=A3ÎÙ?&ffB”™šSBbc@€  Ašff<#×
+A’Qì<#×
+A¡®<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1325A     @I™ØgÃìâÀ5V2¾±	Aı™š<›¥ãAVff?ë…A@zá@Â=\)A¦ffScd @ÜÌÍAœQì<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1326A     @I¤µ–ŞŒ ÀB.yƒÁ1ÕAø¸R<uÂA`£×ÿÿÿÿAP£×@ ¢4>½p¤BhffSm  AÌÍA°zá=LÌÍAªõÃ<£×
+ÿÿÿÿÿÿÿÿA²  <£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1385      @K/B7ú‰À8€S½ÄaAôõÃ<“t¼A7\)?\A"{@ÑĞ}>½p¤BQ33Sc  @¼ÌÍA”õÃ<#×
+A(ö<#×
+A–=q<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1406      @KlkÜ€WaÀ?RH\×¹ AúQì<#×
+AF¸R?™šA*{A<H?LÌÍB´  SBbc@ŒÌÍA™p¤<£×
+A(ö<#×
+A¦ff<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1483      @Mbü–/ÈÀG½¸Që„AşõÃ;Ä›¦AS
+=>Ü(öA<õÃ@Í
+=>B\B33SBbc@€  A­¸<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1487      @Mx”ÒBæ½ÀE/Ÿ¾vÈAíë…<#×
+ADÌÍ>áG®ÿÿÿÿ@cqv>£×
+BY™šScd @æffA”  <#×
+A“¸<#×
+A“G®<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1493      @M®¦’5íÀGşh8oAò(ö<t¼A=G®?\ÿÿÿÿ@¶¾=\)A¶ffSBc @À  A…<#×
+AŠ{<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1494      @M¶Àƒn–ÀHt¬1&éA÷\);£×
+AD  ÿÿÿÿA3
+=@öƒ>õÂB‰ÌÍScd @à  ÿÿÿÿÿÿÿÿA áH<£×
+AªáH<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1507      @N€WaŸÀ€÷”˜ÑAñ®>‡+AM¸?ë…ÿÿÿÿ@Âéy?J=qB´  SBd A  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA™š<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1518      @NÚ„oõËÀ5,.kÜ€WAï33=0 ÅAC…>ğ£×ÿÿÿÿ@š¬?¸RB´  SBd A33A¥p¤<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1559      @P‡ÙÅJiÀOdLuk-¼A÷G®<ÔıôA0Qì>³33A=qAo>õÂBpÌÍSBc @¼ÌÍA—G®<£×
+A‘¸<£×
+A…<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1566      @P@ğû8©ÀKx
+/!Aïë…<oA$£×?¸RA(öA'Îp>¸RB?™šSABb@€  ÿÿÿÿÿÿÿÿAq™š<#×
+ÿÿÿÿÿÿÿÿA€zá<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA}¸<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1569      @PíZËoF@P6H\×¹ AÙ®?í‘A<£×?Tzáÿÿÿÿ?Èe•>æffB…  IB  A™šÿÿÿÿÿÿÿÿAR\<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA5¸<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1744      @R¿{
+ì3À:_CÏÁAñp¤=t¼A;\)>õÂA(  A®?¸RB‹ÌÍSBcd@ÖffA™™š<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1796      @Rë_’Åù,ÀN‘èÊ¿ÓAğõÃ<¬1AM™š?
+=qA5™š@;qv?   Bx  SBc @¦ffÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿAˆ¸R<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1809      @RáoõÌÀQdSIšöAö£×=‡+AS33?\(öAF{@ıjè?(öB  Sc  @   A–áH<#×
+A‘Â<#×
+A›™š<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC1892      @SÒj~ùÛ"ÀP=mtGèUAù¸=‡+AM¸?
+=A4õÃAJõ?333B˜™šSc  @¬ÌÍA¤zá<£×
+A™G®<£×
+A¯ë…=LÌÍÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2090      @U°ƒÁ1Õ¬ÀA bMÒñAó™š=t¼A7®?J=qAQì@ÿÃa?!G®BffSc  @  Aff<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2139      @V’""""!À7¬#¨`B£×<õÂA?®>¸QìA-™šAP[W>…¸B.ÌÍSc  @¼ÌÍÿÿÿÿÿÿÿÿA£×<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿAŠQì<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2207      @W…à˜êÖ[À5_j¹:ï×Aÿ
+==²-AB=q?.{AÌÍA‡s>áG®BhÌÍSABc@“33ÿÿÿÿÿÿÿÿA‰
+=<#×
+ÿÿÿÿÿÿÿÿA”Qì<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA¦áH=LÌÍÿÿÿÿÿÿÿÿA¡¸<£×
+NGC2283      @Y^-½B7À26>Y¨)ŞAïÂ>­VAO33ÿÿÿÿA+×
+@|Ùè>\)B0ÌÍSc  @¼ÌÍA—p¤<#×
+A’=q<#×
+Aff<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2344      @[¤…Í{@G•\wëùAø{=º^5AN=q?O\)ÿÿÿÿ@—L˜=¸QìAĞ  SABb@‰™šA…
+=<#×
+A{×
+<#×
+A‹\)<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2427      @\‡¨`ïÀGÑPÈ?·.Aò¸R>A‰7AD£×?W
+=A%¸A›=?ë…B§33SABd@ù™šA×
+<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2500      @^.kÜ€V@I^]L;*Ağ{=\)AC…?záÿÿÿÿ@eŠÛ=\)A¤ÌÍScd @à  ÿÿÿÿÿÿÿÿA‘G®<#×
+Aš¸R<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2541      @^ê³Š”ÒB@H‡áöqR™Aó¸=49XAD  >ë…A7®@¨4n>úáHBrffSABc@À  A¢ÌÍ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2552      @_5yƒÁ1Õ@I=ªäë¾Aó×
+=#×
+AK33>áG®AIG®@«TÊ>ë…Bˆ  SABmA  ÿÿÿÿÿÿÿÿAõÃ<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2748      @aM¼Áà˜ê@SkÜ€WaAüõÃ<Ä›¦AFff?:áHA+×
+Ab?ë…Bˆ33Sbc @€  A¡p¤<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2758      @a)ûçl‹À3
+ó|Bp¤=ãSøA`£×ÿÿÿÿAPõÃA xÕ?G®B´  SBbc@y™šA ÌÍ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2763      @a‰­e·À.ÿ×óAÃwB áH=ƒoAJff?¸RA1G®AÈ´>aG®B!33SBc @¶ffÿÿÿÿÿÿÿÿA›Â<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2805      @a‚¶ôeß@P—ÍµÑB õÃ=8QìA<ÌÍ>úáHAB=qA]6>B\B  SABc@ÜÌÍÿÿÿÿÿÿÿÿA–zá<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2835      @ao¡ıDÀ6ZÅù,_’Añp¤=¶E¢A0õÃ>úáHAÂA#;Í>×
+=Ba™šSc  @   A•ë…<#×
+A®<#×
+A¸R<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2903      @aáY‡+@5€\×¹ ®Aîff<å`BAzá?+…@ü(öA($?ÌÍB†33SABb@€  A\)<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA\)<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC2997      @bM,¶ôeÀ?0ò~ÖAóp¤=Ä›¦A £×ÿÿÿÿÿÿÿÿA‘#>ÌÌÍBY33SABc@£33A…¸<#×
+Ayp¤<#×
+Azá<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3041      @bˆô§@Ú@0­{
+ì3B ®<õÂADÌÍ?E¸A/…AL¹>³33BN  SABc@¬ÌÍAš=q<£×
+A“p¤<£×
+A £×<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3184      @cRCìâ¥4@D¶QwõMAóë…<e`BA&\?záÿÿÿÿAX-<£×
+AfffSABc@¼ÌÍA’  <£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3259      @cÄ¦:µ–Ş@PB¡n]Bp¤<TıôAR=qÿÿÿÿAC\)AvÉ>õÂBtffSABb@lÌÍA•ë…<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3274      @cÂL	­@;«-½B7Aì{<¬1AS\)>Ç®ÿÿÿÿ?ğï5?   BvffScd @Ó33A›™š<£×
+A–Qì<£×
+A¡…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA£33=LÌÍÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3319      @cùC>g@D×é>“é>Aõ™š<TıôA<Qì>Ñë…A7\)@éAò?\BzÌÍSBc @¼ÌÍA—®<#×
+A”ff<#×
+ÿÿÿÿÿÿÿÿAš{<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3338      @dIº]@+~h8oAÿ×
+<å`BA7
+=?
+=A*\@‚A>×
+=Ba™šSc  @£33A‰p¤<#×
+A‚=q<#×
+A‘×
+<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3344      @d&:µ–Ş@8ìKR%ÅAû33<í‘hA(  ?
+=ÿÿÿÿA•äZ=LÌÍA•™šSbc @€  A{…<#×
+ÿÿÿÿÿÿÿÿA…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3346      @d/r]†@-¾Y¨)ŞÆAş  <Ä›¦AIp¤ÿÿÿÿA>=qA	÷>.{BffSBc @¼ÌÍÿÿÿÿÿÿÿÿAœQì<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3359      @d4éxÔıó@Oœ¯¬Br:Aû\);å`BA1¸>ë…A733A6O>¸RB<ÌÍSc  @¦ffA¥33<£×
+A›p¤<£×
+A°ÌÍ=uÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3423      @dYê'˜<@\e}bAò{<ÔıôA9Â>æffA<õÃ@º#:>™šB ffSc  @À  Aœ¸R<£×
+A–Qì<#×
+A¤{<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3445      @dtÂæ½È@L~±òÍANAúáH;å`BANáH>¸QìAŠáH@uöı=¸QìAß33SABmAffÿÿÿÿÿÿÿÿA—…<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA=q=LÌÍÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3455      @dt$…Í{@1Hã8ãB33<í‘hAdõÃÿÿÿÿAFáHA,Ø>½p¤BVÌÍSABb@lÌÍA…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3621      @e22ÛÑ”#À@h0=å& Aé¸=‘hsA!™š?¸RAáHA
+¦?
+=B‡  SBcd@ÜÌÍA‚  <#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3631      @eHbMÒñ©@J•ÄadÎAîzá<uÂA+\)?záÿÿÿÿ@mÆ>.{B
+ÌÍSc  @¦ffA‚£×<#×
+Axzá<#×
+A‰ë…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3666      @eczáG®@&¯û­+vAûp¤<í‘hAK33ÿÿÿÿA7…Aâë?5ÂB›™šSBc @¦ffAáH<#×
+A‰…<#×
+A—×
+<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3756      @eÆl3áöq@K%‹òX¿%Aı×
+<#×
+AAG®?¸RA/\)@Ä¶®>úáHBxÌÍSABb@€  A–áH<#×
+A®<#×
+A{<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3782      @eÚÃìâ¥4@GA³¨ØAö=q<ƒoAQp¤ÿÿÿÿAC
+=@$£>úáHBq33Scd @Ğ  A¦  <£×
+A¢=q<£×
+A«®<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3906      @f-e·£(F@H6†Aı¹tAõ®<¼jAXzáÿÿÿÿAO®@.ó>½p¤BQ™šSBcd@ÖffÿÿÿÿÿÿÿÿA¥®<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3913      @f51&éxÔ@K­L;*Aù33<49XAUÂ?
+=qAJáH@ƒ+Ô>™šB33Scd @Ó33AŸÂ<£×
+A›G®<£×
+A¥Â<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC3949      @fM³Š”Ñ@Gíî@+°ÏAúÌÍ<›¥ãA5ë…>æffA#…@Â>Ñë…Bb  Sbc @€  A‘Â<#×
+AŒ\<#×
+A—Â<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4030      @fƒ$İ/Ÿ¿ñ™™™™™™AÿG®<¼jA3®ÿÿÿÿA™šAU5¨>”záB<ffSbc @€  A‹\)<#×
+AƒG®<#×
+A”=q<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4041      @f‘ ØgÃ@O’QwôAş=q<uÂA:ff?záA0QìAÅm=\)A°  Sbc @€  AÂ<#×
+A‰G®<#×
+A˜£×<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4062      @f ‚»ø}@?åUUUUTAøÌÍ<¬1A>ff?B\A(  A ş]?(öBŒ  SABc@©™šA™ë…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4096      @f°'@Út@G½>“é>“Aó
+=<ƒoA1™š?!G®A.=qAâë?@  B¡  SABc@©™šA›p¤<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4204      @fùë…¸Q@4¨ 2øòAë×
+<í‘hA_
+=ÿÿÿÿAK
+=@•8ï        SBd A   ÿÿÿÿÿÿÿÿA¢Qì<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4208      @fı?%‹òX@+Í47…Aù…<í‘hA<zá?+…A Qì@âç>ÌÌÍBZ  Sc  @œÌÍA‘ë…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿAš{<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4214      @fı9 ®Ã=@B)é³¨AÛp¤<›¥ãA#\)>ë…ÿÿÿÿ@@°ò>aG®B.ÌÍI   AÌÍA„zá<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4237      @g	…¸Që@.¥ÔÃ²¡Aı\)<İ/AF{?^¸RA-™š@¶¾>³33BNÌÍSABb@€  A”  <#×
+Aë…<#×
+A›
+=<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4242      @gvğú@FÏ>g)AèÌÍ<49XA9p¤?
+=qA"\@iÏ«>”záBN  Sd  @üÌÍA˜  <#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4254      @g›ıDó@,Õ4¹¯qA÷Â=\)A&\?ë…A¸A6O=\)A ÌÍSc  @¦ffAŠõÃ<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿAšõÃ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4276      @g! WaŸ@ÄadÎÔB×
+<ÔıôAW®ÿÿÿÿAK…@Ú±Ä=áG®Aõ™šSABd@ó33A¥33<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4299      @g-d»ø@'*Š OAù
+=<í‘hAK33>Ñë…AL  @gªÎ=\)A·33SABmA  ÿÿÿÿÿÿÿÿA™™š<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4393      @gNÔıó¶E@;–j
+w±Aòff<¼jA]ë…ÿÿÿÿAS®@³Ğ=\)A³33Scd @ÖffA¥®<£×
+AŸ…<£×
+A«™š<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4395      @gN…¸Që@@Åûçl‹CAá33<uÂA-p¤>ë…ÿÿÿÿ@%‡”?+…B´  Sm  AffÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿAˆ¸R<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4396      @gOİ/Ÿ¾@/W˜<ZAôÌÍ<¼jAQp¤>õÂAJ\@µË?&ffB33Scd @ÜÌÍA¨Qì<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4411b     @gVKÆ§ï@!Äİ/Ÿ¾Aù
+=<İ/AP£×?
+=A\(ö@•8ï=áG®AÔÌÍSABc@É™šÿÿÿÿÿÿÿÿA“™š<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4414      @gSšH\×¸@?90¤JAúff<‹C–A/×
+?W
+=A¸@¥!ÿ>×
+=BbffSc  @¦ffÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA~ff<£×
+NGC4449      @gax}œT¦@FèU–iAß™š<‹C–A  >ÌÌÍÿÿÿÿ@)aå>Ñë…B~  IB  AÌÍAmë…<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4487      @gx˜êÖ[yÀ 
+ì3áAû®<›¥ãA=G®ÿÿÿÿA(ÌÍAí>æffBhÌÍSc  @À  A…<#×
+A  <#×
+AG®<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4490      @gtÚt§@@DÒc«YmèAêáH<›¥ãA(ö>áG®ÿÿÿÿ@êV?@  B  SBcd@à  A”(ö<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4496A     @g}6ôeß@„“t¼iA÷™š<´9XAAë…?¸ÿÿÿÿ@ô@¸>.{B  SBd @ó33ÿÿÿÿÿÿÿÿA ff<£×
+ÿÿÿÿÿÿÿÿA¦õÃ<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4498      @g}5–ŞŒ @0Ú–¤KŒfAøáH<ÔıôALzáÿÿÿÿAB{@ßÉï>áG®Be33Sc  @ÌÌÍAŸp¤<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4504      @g‚T¦’5À@Út§@Aı¸<´9XAB¸RÿÿÿÿA+\)A›=>Â\BS™šSABc@À  A™ë…<£×
+A”Qì<#×
+A¡™š<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4517      @g†¹¯r?½W']úşgAñ¸<¬1A1™š?5ÂÿÿÿÿAb]d?W
+=B´  Sc  @À  Ap¤<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4522      @gKoFP@"Y™™™™™AùÂ<“t¼AO…ÿÿÿÿA=™šA„M?=p¤B33SBc @À  A \<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4525      @gĞå`Aˆ@>Gáï(AøáH<£×
+ATÌÍÿÿÿÿAB{@šÒ‰>úáHBrffSBc @¼ÌÍAG®<#×
+A—®<#×
+A£\)<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4534      @g¸©M$.@AÂ^5?|íA÷p¤<#×
+ARffÿÿÿÿADõÃ@Ä¶®>Ñë…Bz  Sd  @ù™šA¡ë…<£×
+Aœ  <£×
+A§
+=<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4540      @g–ÆPş¢@/'˜<Aù
+=<õÂAG…ÿÿÿÿA3®@«TÊ>.{BÌÍSABc@ÆffÿÿÿÿÿÿÿÿA›
+=<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4559      @gŸ±~Kä@;õ®ˆı
+±Aí
+=<ƒoA$zá>æffAffAMc?
+=qB™šSc  @À  AQì<#×
+A‰Â<#×
+A‘¸<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4567      @g¤[Ñ”#@&„_CÏAÿ33<í‘hAAÂ?@  AM™šA¿H>W
+=B™šSbc @€  A‡™š<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4571      @g§„“t¼@,o7ÀHÑYAø¸R='ïA?…?\A9™šAeş=\)A°ÌÍSc  @Ğ  ÿÿÿÿÿÿÿÿA˜ff<#×
+ÿÿÿÿÿÿÿÿA¤£×<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4592      @gºÿÿÿÿ¿áêœe}Añ
+=<£×
+AI¸ÿÿÿÿA;\)@ÉKÇ?5ÂB´  Sd  A   A=q<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4595      @g¾í:Ó @.˜gÃìâ¤AøõÃ=oANáHÿÿÿÿA@Qì@kùr>½p¤BS33SABb@s33A˜(ö<#×
+A“\)<#×
+A›p¤<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4597      @gÁ¸Që…À2;›1`Aù33<´9XAMë…ÿÿÿÿA=¸A8?™šB´  Sm  A33A…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4618      @gÌ^ä»@D“³Š”ÒAêzá<›¥ãA4õÃ>ë…ÿÿÿÿ@p]d>³33BfffSBm A33ÿÿÿÿÿÿÿÿA•¸<#×
+A¨(ö<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4625      @gÏÙÅJh@D£ø}œTAì\<ƒoAPzá?ë…ADQì?×·é>uÂB8ffSABmAÌÍÿÿÿÿÿÿÿÿA—®<#×
+ÿÿÿÿÿÿÿÿA£×<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4631      @gÑOß;c@@ElÿÅ¾ëAé…<uÂA…?\)ÿÿÿÿAg£?Y™šB´  SBcd@Ó33A–¸R<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4634      @gÕmèÊ¿@,˜\×¹ ®Aİ×
+<ÌÌÍAR\?E¸Ad£×? §?B\B¡  SBc @¼ÌÍA§G®<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4635      @gÕ:Ó l@3ñøC[?ñAşáH<ÌÌÍAW
+=ÿÿÿÿAM™š@Õ·>\)B2ffSABc@Ó33A£…<£×
+Aœ¸R<£×
+Aª=q<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4639      @gÖûçl‹C@*ƒ™%p.Aı™š<¼jAC
+=?5ÂA(õÃAÓÃ>®{BL  Sbc @`  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA’£×<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA•ë…<£×
+NGC4651      @gİ¯r]†@0dµ"\c6B áH<Ä›¦A6{?ë…A\)A{§ğ>®{BF  Sc  @¦ffÿÿÿÿÿÿÿÿAr=q<#×
+Aˆ¸R<£×
+A‡
+=<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4656      @gßªªªªª@@ÈvğAçë…<49XA¸>áG®ÿÿÿÿ@¼ºÇ?fffB´  SBm A  AÂ<£×
+A‘
+=<#×
+A˜  <£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4700      @h	/ÉbüÀ&ÑÕ¬¶ôdAôÌÍ='ïA@£×ÿÿÿÿA4(ö@¥!ÿ?TzáB´  SBc @œÌÍA•p¤<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4701      @h	†$İ/@]úcB   <ÔıôAM¸>×
+=ÿÿÿÿ@Ë(>…¸B-33Sc  @¼ÌÍÿÿÿÿÿÿÿÿA…™š<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4771      @h*Ô¦’5?ôNd”]À½Aû™š<“t¼ANáHÿÿÿÿA5™šA8?.{B”™šSc  @ÆffÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA—33<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4775      @h.<ZÀ}B7ú‰B zá<ıó¶A9G®ÿÿÿÿA(£×A
+KÇ=áG®Aã33Scd @ÜÌÍÿÿÿÿÿÿÿÿA{<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4781      @h3,1&éÀ%õN2¾Aö£×=,1A6=qÿÿÿÿA&=q@÷¥ã?™šBˆ  Scd @à  Aœff<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4790      @h6ëÜ€WaÀ$~Õruß¯AşõÃ=,1ALQìÿÿÿÿA6¸R@ºÿ—>æffBk33SBc @™™šÿÿÿÿÿÿÿÿA}G®<#×
+A„(ö<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4806      @hA§˜<À=€À÷”˜BÌÍ=›¥ãAVáHÿÿÿÿAAG®@Â>™šB™šSc  @œÌÍA£™š<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4861      @hX>g)@An/Ébü–Aò\<#×
+AMÂÿÿÿÿÿÿÿÿ@Í
+=?¸RB´  Sm  AffA­
+==#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4900      @he:Ó l@Iº^5AşáH<¬1A>\?®A:{@êV=LÌÍA˜  SBc @¦ffAŒzá<#×
+A‡×
+<#×
+Aff<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4904      @hgÑ”#¨¿œ0=å& sAıp¤<¼jAJ¸R?!G®A:\@ÉKÇ>½p¤BRffSc  @¹™šÿÿÿÿÿÿÿÿAff<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC4942      @h‚‹š÷ À˜ò~ÖB¸R=,1AZ\ÿÿÿÿAB\AÅm>\)B0  SABc@ÜÌÍA—ë…<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5054      @hçÌ	¬À0¢}'Ò}'AúÌÍ=•A:=q?B\A{AY,¥>×
+=Bd  Sbc @†ffA®<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5068      @h÷XbMÒÀ5
+¥©âAç33=º^5A*=q?+…ÿÿÿÿ@Ïä&=áG®A×33Sc  @À  A“
+=<#×
+A(ö<#×
+A–õÃ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5112      @i…vğú@C^	­e·B ™š<t¼AJ{>ë…A7®A=&>Â\BVffSBc @¹™šA¥33<£×
+A {<£×
+A©…<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5204      @iLÜ(õÂ@M5ªäë¿_Aã
+=<49XA;…>Ñë…ÿÿÿÿ@E/>½p¤Bk33Sm  AffA›G®<#×
+A•…<#×
+A¡Â<£×
+A™š<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5264      @i¬æÇVÀ=é¨)ŞÆáAâ(ö=8QìAIp¤?™šA333?÷®>…¸B?33IB  A33A•…<#×
+AG®<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5300      @iâ#×
+=p@›?ñoºÒAş\<£×
+APõÃÿÿÿÿA=G®A£n>³33BK33SABc@¦ffA“33<#×
+A¸<#×
+A™Â<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5334      @jB7ú‰å¿ñÕ84ÊúÄB¸='ïAO…ÿÿÿÿAC
+=AÕ2>\)B333Sc  @¦ffA {<#×
+Aš=q<£×
+A¦ÌÍ<£×
+A¢ÌÍ<£×
+A(ö<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5398      @jJáŸ³ŠÀ@ˆ&:µ–ŞAìÌÍ=m‘hAaG®ÿÿÿÿA6áH@U=Ù>ÌÌÍBw™šSd  @üÌÍÿÿÿÿÿÿÿÿA—®<#×
+ÿÿÿÿÿÿÿÿA(ö<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA¡33<£×
+ÿÿÿÿÿÿÿÿA£p¤<£×
+NGC5427      @j[záG®ÀQ<Áà˜Bzá<ÌÌÍA?\)?ë…A$QìA.}=¸QìAÌ  SABc@   AŒff<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5474      @jh4¹¯q@JÔÄ›¥ãSAç33<t¼A7®?\AIG®@Œ>®{BHÌÍSc  @Ã33ÿÿÿÿÿÿÿÿAœ  <£×
+A¥Â<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5530      @jÓ£¨`ÀE±ÙPÈ?¶AòÌÍ=Ğå`A=¸ÿÿÿÿA"{Aè§?ÌÍB…  SABb@†ffA•×
+<#×
+A\)<#×
+AœÌÍ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5556      @jä‹C•À==å& tAúáH=}ó¶AM¸?&ffA1G®AğØ>W
+=B33Scd @ÖffAŸ™š<£×
+A™ë…<£×
+A¤ff<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5584      @jó+YmèÉ¿ØÎ*SIšB 
+==\)AK®ÿÿÿÿA?×
+A9²–>…¸B)™šSABc@À  ÿÿÿÿÿÿÿÿA£33<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿAÌÍ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5585      @jŞl‹C•€@L]^o€‘¢Aí™š<e`BA6=q>ë…A2\@¬ë>Â\BTffSABc@ÜÌÍA–(ö<#×
+A\<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5668      @kK=p£×	@Í$.kÜ€B ™š=+AD  ?ÌÍAEG®@î°ò>™šB  Scd @ÜÌÍAœ  <#×
+A–zá<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5669      @kE×
+=p£@#ÈU–j
+Aÿë…<Ä›¦AO…ÿÿÿÿA<ÌÍAŠ>×
+=Bc33SABc@À  ÿÿÿÿÿÿÿÿA¬ff=LÌÍÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5774      @kíªªªªª@©RÔ‰qB£×=PAQ™š?™šAXQì@ïÊÁ>Â\BR  SABc@ÜÌÍÿÿÿÿÿÿÿÿA©®<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5789      @lÁ1Õ¬¶@>;Óf,%QB G®<›¥ãAa¸ÿÿÿÿÿÿÿÿ@ŠŸ¾=áG®AîffSBd @ù™šÿÿÿÿÿÿÿÿA¨ff<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5964      @mLÓIšö@äúO¤úOB ¸R=Y‡AV¸RÿÿÿÿA-G®AW.²>uÂB(  SBcd@ÜÌÍA(ö<£×
+A™™š<#×
+A¤Qì<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC5970      @mT WaŸ@(_IôŸIôBp¤=PA?×
+?5ÂA(  A>%>¸RB>ÌÍSBc @   A›ë…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC6384      @pqZËoF@=À½SƒLB ¸=ß;dA9ë…?8QìÿÿÿÿA{J?
+=qB…33SABb@fffA“p¤<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC6412      @pf€ƒn—@RíÌ	AşáH=\)AF{?®ÿÿÿÿ@êV>¸AøÌÍSABc@¦ffÿÿÿÿÿÿÿÿA˜zá<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC6503      @pµÄoõÌ@Q‰<Áà˜êAåG®<å`BA-Â?333A(ö@“Û#?+…B“  Sc  @¹™šA¸R<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC6509      @pİ°Luk-@%ãS÷ÎØB  >/ ATõÃÿÿÿÿÿÿÿÿ@½™š>™šAû33SABc@Ğ  A…<£×
+A—…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC7090      @tAíe·£(ÀKG_ÍáAí™š<£×
+A4õÃ?(öÿÿÿÿA$¾w?LÌÍB´  Sc  @   A™™š<£×
+A’¸R<#×
+AŸ…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC7162      @t™ÅJi!ÀE§0x&:µB(ö<D›¦ATQì?
+=A;
+=A}ûç?#×
+BÌÍSc  @™™šA¸R<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC7188      @t­ïÉbü•À4QlÁlB 
+=<å`BA_…ÿÿÿÿAF{@ĞÙè?ë…BŠ33SBbc@`  A›¸<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC7421      @uƒä»ÀB¬w=6bÂAÿ™š<D›¦AIë…?!G®A.áHA	÷>B\BffSbc @lÌÍA  <#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC7424      @u…9XbMÀD‰
+±òÍAAòff<#×
+A0£×>õÂÿÿÿÿAè§>ë…Bl  Sc  @À  A˜¸R<£×
+A”zá<#×
+A™…<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC7462      @u›êÖ[yÀDjêaÙPÈAô\<t¼AC\)ÿÿÿÿA+×
+A£n?TzáB´  SBbc@fffA£×<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC7689      @viĞ6ÀK|y>B 33<49XAB=qÿÿÿÿA,£×A8ØE>½p¤BNffSABc@¼ÌÍÿÿÿÿÿÿÿÿAõÃ<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC7713      @v! +°Ï‡ÀBø$h¬ñ5Ağ\<uÂA7×
+>£×
+A(Qì@ëjè?\)BƒÌÍScd @ÖffA•®<#×
+A£×<#×
+A˜ÌÍ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA”zá<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNGC7741      @v?¡G®z@:R%Æ3mA÷¸=‰7LA=¸?®A/…@ş–¼>®{BHÌÍSBc @¼ÌÍA›G®<£×
+ÿÿÿÿÿÿÿÿA{<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC02302     @E$¬1&é@DDDDDAõ×
+=\)A`(öÿÿÿÿÿÿÿÿAâë=LÌÍA   Sm  AÌÍÿÿÿÿÿÿÿÿA¨áH<#×
+ÿÿÿÿÿÿÿÿA¯p¤<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC03574     @YÒÊ¿ÔN@L–Àƒn—AûÂ=<jAaÂÿÿÿÿA1ë…@‡x=\)A¯33Sc  @¹™šA¤  <£×
+A{<£×
+A¬ff<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC03698     @ZÔİİİİİ@F0£×
+=pAêff=¬1AtõÃÿÿÿÿÿÿÿÿ?€Ë)>³33Be™šI   AÌÍÿÿÿÿÿÿÿÿA­×
+<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC03755     @[ÇV²ÛÑ@%
+ÇË5;Aãë…=Ÿ¾wAhzá?ÌÍÿÿÿÿ?–¡b?záB´  IAB AffA¢¸R<£×
+A¡®<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC03826     @[Çp£×
+<@NØÒBæ½ÇB ®=yÛ#Al(öÿÿÿÿÿÿÿÿAL¹>¸AîffSABc@Ó33ÿÿÿÿÿÿÿÿA¦(ö<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC03860     @\´èN@Db“ :AAêff=Y‡Aqë…>ë…AuG®?µí)>Ñë…BzffIB  AÌÍÿÿÿÿÿÿÿÿA«™š<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC04499     @`-‡ÙÅJi@IÓz§˜AôQì<ıó¶AxÌÍÿÿÿÿA„áH@cqv?\)B¢ffSd  A   ÿÿÿÿÿÿÿÿA«p¤<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC04904     @ajä±~K@Dô™ÓÚ®NAşff<“t¼ApÌÍÿÿÿÿÿÿÿÿ@Bz>¸RB=™šSBbc@‰™šÿÿÿÿÿÿÿÿA¯\)=#×
+AÀ¸R>\)A¹G®=\)Aµ×
+=¸QìÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC04988     @aš‚c«Y@A]ÿ‹}Ö•Aı
+=<ƒoAw
+=ÿÿÿÿAg\)@]=Ù>uÂB:ffSm  A  ÿÿÿÿÿÿÿÿA¤ff<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC05015     @a®fffff@A#x`{ÊKAı×
+<ƒoAz=qÿÿÿÿAm™š@§n/=LÌÍA¤  SABd@üÌÍÿÿÿÿÿÿÿÿA¤£×<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC05189     @b7KÆ§ï@"÷›à$h¬B…<Ä›¦A^ff>Ç®ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ--- ÿÿÿÿÿÿÿÿÿÿÿÿA£¸<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿA˜zá<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC05428     @bèô§@Ú@P£Çóğ†AŞáH=° ÅA|£×ÿÿÿÿÿÿÿÿ>ì‹D=LÌÍA—33I   AÌÍA¥®<#×
+AŸ\)<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC05692     @c´¤.kÜ€@Q§ÄÕæøAà  =t¼AW×
+?Y™šÿÿÿÿ?õj>½p¤Bh  Sm  AÌÍAš(ö<#×
+A”(ö<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC05889     @d:úáG®@,#Óf,%QAé…<ıó¶Afff?(öÿÿÿÿ?¹N<=LÌÍA  SABmAffÿÿÿÿÿÿÿÿAë…<#×
+ÿÿÿÿÿÿÿÿA¦  <#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC06192     @dé¥‹òX¾@N²»õüĞpB33<t¼A|£×ÿÿÿÿAp£×@U=Ù>£×
+BDffSABb@`  ÿÿÿÿÿÿÿÿA¤£×<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC06931     @fkd±~K@L÷&tö«Aù×
+<¼jAk33ÿÿÿÿA\zá@<N¥>³33Be33SBm A  ÿÿÿÿÿÿÿÿA²ff=uÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC06983     @fy=Èv@JZ•»G9‘Aı¸<Ä›¦ATÌÍÿÿÿÿAF=q@¼ºÇ>W
+=B™šSBc @¼ÌÍA¨(ö<£×
+A£G®<£×
+A­™š<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC07943     @gö‡+@Ò;›1`Aûë…<Ä›¦A]Âÿÿÿÿÿÿÿÿ@™g¡>\)B0  SBc @À  A¬ff=#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC08041     @h9¯Ébü•?½İİİİİİAù\)<›¥ãAX£×ÿÿÿÿAM™š@ü@¸>ÌÌÍBX  SBcd@ÜÌÍAõÃ<#×
+AŒ(ö<#×
+A”õÃ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC08085     @hRN*SI@-æIEÛBff<¼jAië…ÿÿÿÿAPõÃA ş]?@  B¡ffSc  @¹™šA«…<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC08516     @i_c«Ym@4 FÿQ<ÁAş£×<ÔıôA_®ÿÿÿÿAQp¤@~¼>£×
+BC™šSc  @¼ÌÍÿÿÿÿÿÿÿÿAœÌÍ<£×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC09215     @jûŸg)¤?û›1a*B =q<í‘hA\  ÿÿÿÿAHQì@û+?®B33SBc @É™šA\)<£×
+A–=q<£×
+A£\)<õÂÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC11583     @s9ìâ¥4@N8gÃìâ¤Aé®>ŠÀƒA|õÃÿÿÿÿÿÿÿÿ@ä?=p¤B´  I   A   Aš\<#×
+A“™š<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGC12732     @v2§)¤…@:<qÇqÆAó®=Ÿ¾wAdzáÿÿÿÿÿÿÿÿ@mÆ=¸QìAÔÌÍSABmA33ÿÿÿÿÿÿÿÿA›™š<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGCA086      @Múîîîîî@PÉ0ì¨dAØõÃ?T9XAX  ÿÿÿÿÿÿÿÿ?áä÷>®{Bb  I   A   A×
+<#×
+Ay™š<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGCA196      @bİ“Ì	À;CÏÂAû…=‡+AU™šÿÿÿÿAD£×AÓ[?.{B“™šSABc@É™šA˜áH<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿUGCA200      @bì­½B7ÀÿÿÿÿÿÿAè{=0 ÅA‚{ÿÿÿÿÿÿÿÿ?w$t>ÌÌÍBs™šI   A   A£\)<#×
+A(ö<#×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

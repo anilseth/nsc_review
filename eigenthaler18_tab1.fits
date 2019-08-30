@@ -1,0 +1,325 @@
+SIMPLE  =                    T / Standard FITS Format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    0 / No Image --- just extension(s)                 EXTEND  =                    T / There are standard extensions                  ORIGIN  = 'xml2fits_v1.95'     / Converted from XML-Astrores to FITS                                     e-mail: question@simbad.u-strasbg.fr                   COMMENT  ARG='-rm'                                                              LONGSTRN= 'OGIP 1.0'           / Long string convention (&/CONTINUE) may be usedDATE    = '2019-05-22'         / Written on 2019-05-22:13:50:05 (GMT)                                        by: apache@vizier.u-strasbg.fr                              **********************************************************                          EXCERPT from catalogues stored in VizieR (CDS)                                             with the following conditions:                                   **********************************************************                                                                                                      VizieR Astronomical Server vizier.u-strasbg.fr                                  Date: 2019-05-22T13:50:05 [V1.99+ (14-Oct-2013)]                                Explanations and Statistics of UCDs: See LINK below                             In case of problem, please report to: cds-question@unistra.fr                                                                                          INFO    = 'votable-version=1.99+ (14-Oct-2013)' / #                             INFO    = '-ref=VIZ5ce5534e2e83' / #                                            INFO    = '-out.max=999999'    / #                                              Q-PARAMS=                   40 / Number of queryParameters (followed by list)            -oc.form=dec                                                                    -out.max=999999                                                                 #out.form=FITS (binary) Table                                                   -nav=cat:J/ApJ/855/142&tab:{J/ApJ/855/142/dgal}&key:source=J/ApJ/855/14         2&HTTPPRM:&                                                                     -c.eq=J2000                                                                     -c.r= 2                                                                         -c.u=arcmin                                                                     -c.geom=r                                                                       -source=J/ApJ/855/142/dgal                                                      -order=I                                                                        -out=Seq                                                                        -out=NGFS                                                                       -out=Ref                                                                        -out=RAJ2000                                                                    -out=DEJ2000                                                                    -out=i'mag                                                                      -out=g'mag                                                                      -out=u'mag                                                                      -out=(g'-i')0                                                                   -out=(u'-g')0                                                                   -out=(u'-i')0                                                                   -out=g'Mag                                                                      -out=logM*                                                                      -out=Type                                                                       -out=rei                                                                        -out=ni                                                                         -out=elli                                                                       -out=PAi                                                                        -out=reg                                                                        -out=ng                                                                         -out=ellg                                                                       -out=PAg                                                                        -out=reu                                                                        -out=nu                                                                         -out=ellu                                                                       -out=PAu                                                                        -out=PapI                                                                       -out=SimbadName                                                                 -out=NED                                                                        NED=NED                                                                         #                                                                               #RESOURCE=yCat_18550142                                                         #Name: J/ApJ/855/142                                                            #Title: Next Generation Fornax Survey (NGFS) II. (Eigenthaler+, 2018)           #Coosys J2000: eq_FK5 J2000                                                                                                                            END                                                                             XTENSION= 'BINTABLE'           / Binary Table Extension                         BITPIX  =                    8 / binary data                                    NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                  146 / Number of bytes per record                     NAXIS2  =                  258 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                   29 / Number of data fields (columns)                CDS-CAT = 'J/ApJ/855/142'      / Catalogue designation in CDS nomenclature               Next Generation Fornax Survey (NGFS) II. (Eigenthaler+, 2018)          EXTNAME = 'J_ApJ_855_142_dgal' / Identification of the table                    CDS-NAME= 'J/ApJ/855/142/dgal' / Table name in METAtab                                   Photometric properties and stellar masses and structural properties of          the dwarf galaxy (tables 1 and 2)                                      UCD__1  = 'meta.id '           / ................................byte#0         TDISP1  = 'I3      '           / Display Fortran Format                         TFORM1  = 'I       '           / 16-bit (short) integer                         TTYPE1  = 'Seq     '           / [1/258] Internal index number                  UCD__2  = 'meta.id;meta.main'  / ................................byte#2         TDISP2  = 'A13     '           / Display Fortran Format                         TFORM2  = '13A     '           / Ascii string                                   TTYPE2  = 'NGFS    '           / Identifier (HHMMSS+DDMMSS; J2000)              UCD__3  = 'meta.id.cross'      / ................................byte#15        TDISP3  = 'A12     '           / Display Fortran Format                         TFORM3  = '12A     '           / Ascii string                                   TTYPE3  = 'Ref     '           / Reference to galaxies listed (G1)              UCD__4  = 'pos.eq.ra;meta.main' / ...............................byte#27        TDISP4  = 'F10.6   '           / Display Fortran Format                         TFORM4  = 'D       '           / 64-bit floating-point (double precision)       TTYPE4  = 'RAJ2000 '           / [53.2/56] Right Ascension (J2000)              TUNIT4  = 'deg     '           / degree                                         UCD__5  = 'pos.eq.dec;meta.main' / ..............................byte#35        TDISP5  = 'F10.6   '           / Display Fortran Format                         TFORM5  = 'D       '           / 64-bit floating-point (double precision)       TTYPE5  = 'DEJ2000 '           / [-36.6/-34.5] Declination (J2000)              TUNIT5  = 'deg     '           / degree                                         UCD__6  = 'phot.mag;em.opt.I'  / ................................byte#43        TDISP6  = 'F5.2    '           / Display Fortran Format                         TFORM6  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE6  = 'i_mag   '           / [13/22.2]? Apparent CTIO/DECam i' band AB                                       magnitude                                      TUNIT6  = 'mag     '           / magnitude                                      UCD__7  = 'phot.mag;em.opt.B'  / ................................byte#47        TDISP7  = 'F5.2    '           / Display Fortran Format                         TFORM7  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE7  = 'g_mag   '           / [14.2/22.9]? Apparent CTIO/DECam g' band AB                                     magnitude                                      TUNIT7  = 'mag     '           / magnitude                                      UCD__8  = 'phot.mag;em.opt.U'  / ................................byte#51        TDISP8  = 'F5.2    '           / Display Fortran Format                         TFORM8  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE8  = 'u_mag   '           / [15.4/22.9]? Apparent CTIO/DECam u' band AB                                     magnitude                                      TUNIT8  = 'mag     '           / magnitude                                      UCD__9  = 'phot.color;em.opt.B;em.opt.I' / ......................byte#55        TDISP9  = 'F5.2    '           / Display Fortran Format                         TFORM9  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE9  = '__g_-i__0'          / [0.1/2.3]? Intrinsic (g'-i') color index       TUNIT9  = 'mag     '           / magnitude                                      UCD__10 = 'phot.color;em.opt.U;em.opt.B' / ......................byte#59        TDISP10 = 'F5.2    '           / Display Fortran Format                         TFORM10 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE10 = '__u_-g__0'          / [-0.2/1.9]? Intrinsic (u'-g') color index      TUNIT10 = 'mag     '           / magnitude                                      UCD__11 = 'phot.color;em.opt.U;em.opt.I' / ......................byte#63        TDISP11 = 'F5.2    '           / Display Fortran Format                         TFORM11 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE11 = '__u_-i__0'          / [0.5/2.8]? Intrinsic (u'-i') color index       TUNIT11 = 'mag     '           / magnitude                                      UCD__12 = 'phys.magAbs;em.opt.B' / ..............................byte#67        TDISP12 = 'F6.2    '           / Display Fortran Format                         TFORM12 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE12 = 'g_mag_lc'           / [-17.3/-8.5]? Absolute g' band magnitude (1)   TUNIT12 = 'mag     '           / magnitude                                      UCD__13 = 'phys.mass'          / ................................byte#71        TDISP13 = 'F9.6    '           / Display Fortran Format                         TFORM13 = 'D       '           / 64-bit floating-point (double precision)       TTYPE13 = 'logM_   '           / [5.7/9.6]? Log stellar mass                    TUNIT13 = '[Msun]  '           / log[ solar mass ]                              UCD__14 = 'meta.code'          / ................................byte#79        TDISP14 = 'A1      '           / Display Fortran Format                         TFORM14 = 'A       '           / Ascii string                                   TTYPE14 = 'Type    '           / [ox] Morphological galaxy type classification                                   (x=non-nucleated or o=nucleated dwarf galaxy)  UCD__15 = 'phys.size.radius'   / ................................byte#80        TDISP15 = 'F6.3    '           / Display Fortran Format                         TFORM15 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE15 = 'rei     '           / [0.1/2.8]? The i' band effective radii         TUNIT15 = 'kpc     '           / kiloparsec                                     UCD__16 = 'spect.index;em.opt.I' / ..............................byte#84        TDISP16 = 'F5.2    '           / Display Fortran Format                         TFORM16 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE16 = 'ni      '           / [0.08/2.3]? The i' band Sersic index (2)       UCD__17 = 'src.ellipticity'    / ................................byte#88        TDISP17 = 'F5.2    '           / Display Fortran Format                         TFORM17 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE17 = 'elli    '           / [0/0.7]? The i' band ellipticity (1-b/a)       UCD__18 = 'pos.posAng'         / ................................byte#92        TDISP18 = 'I3      '           / Display Fortran Format                         TFORM18 = 'I       '           / 16-bit (short) integer                         TTYPE18 = 'PAi     '           / ? The i' band position angle (3) [NULL integer                                  written as an empty string]                    TUNIT18 = 'deg     '           / degree                                         TNULL18 =               -32768 / NULL definition                                UCD__19 = 'phys.size.radius'   / ................................byte#94        TDISP19 = 'F6.3    '           / Display Fortran Format                         TFORM19 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE19 = 'reg     '           / [0.1/2.4]? The g' band effective radii         TUNIT19 = 'kpc     '           / kiloparsec                                     UCD__20 = 'spect.index;em.opt.B' / ..............................byte#98        TDISP20 = 'F5.2    '           / Display Fortran Format                         TFORM20 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE20 = 'ng      '           / [0.06/1.7]? The g' band Sersic index (2)       UCD__21 = 'src.ellipticity'    / ................................byte#102       TDISP21 = 'F5.2    '           / Display Fortran Format                         TFORM21 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE21 = 'ellg    '           / [0/0.7]? The g' band ellipticity (1-b/a)       UCD__22 = 'pos.posAng'         / ................................byte#106       TDISP22 = 'I3      '           / Display Fortran Format                         TFORM22 = 'I       '           / 16-bit (short) integer                         TTYPE22 = 'PAg     '           / ? The g' band position angle (3) [NULL integer                                  written as an empty string]                    TUNIT22 = 'deg     '           / degree                                         TNULL22 =               -32768 / NULL definition                                UCD__23 = 'phys.size.radius'   / ................................byte#108       TDISP23 = 'F6.3    '           / Display Fortran Format                         TFORM23 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE23 = 'reu     '           / [0.03/1.9]? The u' band effective radii        TUNIT23 = 'kpc     '           / kiloparsec                                     UCD__24 = 'spect.index;em.opt.U' / ..............................byte#112       TDISP24 = 'F5.2    '           / Display Fortran Format                         TFORM24 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE24 = 'nu      '           / [0.1/2.4]? The u' band Sersic index (2)        UCD__25 = 'src.ellipticity'    / ................................byte#116       TDISP25 = 'F5.2    '           / Display Fortran Format                         TFORM25 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE25 = 'ellu    '           / [0/0.7]? The u' band ellipticity (1-b/a)       UCD__26 = 'pos.posAng'         / ................................byte#120       TDISP26 = 'I3      '           / Display Fortran Format                         TFORM26 = 'I       '           / 16-bit (short) integer                         TTYPE26 = 'PAu     '           / [5/180]? The u' band position angle (3) [NULL                                   integer written as an empty string]            TUNIT26 = 'deg     '           / degree                                         TNULL26 =               -32768 / NULL definition                                UCD__27 = 'meta.ref.url'       / ................................byte#122       TDISP27 = 'I3      '           / Display Fortran Format                         TFORM27 = 'I       '           / 16-bit (short) integer                         TTYPE27 = 'PapI    '           / Display data from Paper I (Munoz+, 2015,                                        J/ApJ/813/L15) [NULL integer written as an                                      empty string]                                  TNULL27 =               -32768 / NULL definition                                UCD__28 = 'meta.id '           / ................................byte#124       TDISP28 = 'A19     '           / Display Fortran Format                         TFORM28 = '19A     '           / Ascii string                                   TTYPE28 = 'SimbadName'         / Simbad column added by the CDS                 UCD__29 = 'meta.ref.url'       / ................................byte#143       TDISP29 = 'A3      '           / Display Fortran Format                         TFORM29 = '3A      '           / Ascii string                                   TTYPE29 = 'NED     '           / NED column added by the CDS                    END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              033309-352349FCC114      @J¤šoù¼×ÀA²Ï8ŸûA•\)Aœ\A¢=q?fff?8Qì?Ï\)Á>ff@uu:>À0x?2ñª?O\)>Ü(ö b?$Z?8Qì>ð£× a??#×
+>ë… c NGFS J033309-352349NED 033311-353956            @J¥Ô –.ÀAÕ2qËÅ}A ffA¬õÃÿÿÿÿ?ÈõÃÿÿÿÿÿÿÿÿÁ™š@5&Rz Xx?bJ?!G®>uÂ }?AÊÁ>k…?    jÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033311-353956NED 033348-355010FCC125      @J¹Ò·hç1ÀAëª½NÚA¸A”  A¸?\(ö?“33@ £×ÁO…@vK©K¾Ex?e`B?5Â>™š ?]²-?&ff>\) ‹?D“?   >¸ – NGFS J033348-355010NED 033350-355706            @Jº™tQ:lÀAùÑÌjA§G®A¬\ÿÿÿÿ?(õÃÿÿÿÿÿÿÿÿÁff@ôsÊ“x>Þ¸R>æff>Ç® r? Äœ?   >Ü(ö ˆÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033350-355706NED 033400-354533            @J¿ÞŠL–
+ÀAá.Æ¼èSA’ffAœ(öA ff?œ(ö?
+=q?áG®Á?33@í¦a(:x? Å?^¸R>uÂ >×P?!G®>.{ ?;d?£×>™™š  NGFS J033400-354533NED 033406-351638FCC127      @JÃ.Æ¼èRÀA£~]¼GA”áHA›¸A¢ff?G®?k…?Ù™šÁAG®@ª¡”9ÞIx?vÉ?Që…>k… H?¬?Që…>aG® J?§ð?B\>uÂ I NGFS J033406-351638NED 033407-352838            @JÃ¸FDç`ÀA½‹‚¡A¥
+=A³Âÿÿÿÿ?ë…ÿÿÿÿÿÿÿÿÁ  @Ö>Ðö':x?|î?Që…>¸ ­>·ÎÙ>™™š>#×
+ vÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033407-352838NED 033409-353100FCC130      @JÄåFŸÇÈÀAÂž^›ÆA‹
+=AÌÍÿÿÿÿ?8QìÿÿÿÿÿÿÿÿÁUë…@¹§Áz‰4x?èÔþ?LÌÍ>.{ ‡@ ƒ?hõÃ>8Qì ‚ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033409-353100NED 	033412-351343FCC131      @JÆxïèBÀAEÀÖA™33AŸ\)A¤  ?E¸?
+=?®{Á8ÌÍ@‚%t-ÏGo?§ð?@  >áG® ?`B?hõÃ>ð£× €>ó33?8Qì>®{ m NGFS J033412-351343NED 
+033414-354910            @JÇžƒä%®ÀAèä¶0¨AžQìA£Âÿÿÿÿ?.{ÿÿÿÿÿÿÿÿÁ0  @ÉbI¡3Ãx?"MÓ>Ç®>.{ ?7
+=?ë…>€   ³ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033414-354910NED 033423-355042            @JÌrKîDÔÀAì'úñA™p¤A¤{ÿÿÿÿ?ª=qÿÿÿÿÿÿÿÿÁ/\)@°…nikx?Y‡?:áH>W
+= b?,Iº>Ñë…>™š Eÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033423-355042NED 033427-350621            @JÎ|ä>ÀA‰ÎÁÉKA¤ffA¬ffÿÿÿÿ?€  ÿÿÿÿÿÿÿÿÁ¸R@;+º˜í£x>î—?s33>×
+= >¶E¢?.{>£×
+ !ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033427-350621NED 033433-350236            @JÑ\Rç- ÀA…‡iì,äA£
+=A¤õÃÿÿÿÿ>uÂÿÿÿÿÿÿÿÿÁ-™š@ï;!>>*x>ÿ|î?G®>¸Qì d?(1'?0£×>Ç® cÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033433-350236NED 033436-360315            @JÓg,và ÀBñfhºìA¤záA¬áHÿÿÿÿ?†ffÿÿÿÿÿÿÿÿÁÂ@Q~wÕ#´x?°!?¸R?\ ¨>ï ?   >¸Qì ³ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033436-360315NED 033443-353115            @J×$)ÂÐšÀAÂ«`kz¢A£™šA¨Qìÿÿÿÿ?
+=ÿÿÿÿÿÿÿÿÁ&áH@‹~Mã¸¢x>Á%?=p¤=¸Qì c>ÌÌÍ?:áH=áG® Yÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033443-353115NED 033446-345334            @JØ>/¶¾ÀArB•/wÔA¤(öAªQìÿÿÿÿ?E¸ÿÿÿÿÿÿÿÿÁ"áH@Íî4üao>áG®?&ff>”zá Œ>Ñë…?+…>aG® bÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033446-345334NED 033456-351127FCC140      @JÞ+‹†ÀA˜q?AŒáHA’  AšõÃ?#×
+?£×?â\ÁS…@`]RÁmõo?eãT?O\)>ë… _?wÎÙ?c×
+>ð£× ^?K…?!G®>ð£× ^ NGFS J033456-351127NED 033458-351324WFLSB6-2    @JÞ²éÌ·ÓÀAœšu%EA•ÂAÂA£™š?€  ?=p¤?Þ¸RÁ<  @rùÊ[ÙFx? ?€  >”zá )?J?LÌÍ>ž¸R 2>øÔþ?&ff>™™š 6 NGFS J033458-351324NED 033458-350235FCC142      @Jß	1xwÈÀA…t†ÒAŠ¸RA’õÃA›™š?ƒ×
+?‹…@®ÁQ™š@úµ€í!o?hs?«…=uÂ †?XÔþ?‚\=uÂ •?4ýô?k…=áG®  NGFS J033458-350235NED 033500-351920FCC144      @Jà°_®»ÀA©@öjUA‘ë…A˜áHAž£×?^¸R?:áH?ÌÌÍÁEÂ@#Åyò4fx?Ôþ?O\)>k… 8?P?E¸>€   8?ãT?Që…>k… 7 NGFS J033500-351920NED 033505-352703WFLSB5-1    @JâØeofïÀA¹´^ oŽAœ  A¢(öA§¸?E¸?!G®?³33Á333@ûÀ6âìx?X“u?E¸>æff T?LIº?:áH>ð£× R?z¬?k…?® U NGFS J033505-352703NED 033505-351307FCC145      @Jâì!=ÆÚÀA›úÒ"GjAG®A—p¤A\)?‚\?@  ?â\ÁH£×@Ã²VÿÁx?MÓ?E¸>Š=q ®?	ûç?Tzá>\) ®?	xÕ?@  >”zá ± NGFS J033505-351307NED 033524-360530FCC149      @Jì²•éá°ÀB¹Œ~(#A—¸AœõÃA¤zá?:áH?s33?×
+=Á=™š@7èF¥ÖÀx?vÉ?.{>³33 ¢?'ïž?B\>½p¤ ¢?£×?¸R>Ç® ¡ NGFS J033524-360530NED 033530-351508FCC154      @Jð1ø -ÀA K*ˆáA
+=A”áHA×
+?:áH?£×?î{ÁMÂ@ýð
+¿v¤x?Oß?^¸R?¸ 0?‘ë…?hõÃ?    -?k…?=p¤?
+=q - NGFS J033530-351508NED 033534-344817FCC155      @JòeÎðcÀAgDT“Aˆ¸RAG®A•Â?Që…?Që…?Ñë…ÁXõÃ@8}õÏ&x?CSø?333>£×
+ ?E`B?8Qì>¨õÃ ?A‰7?!G®>½p¤  NGFS J033534-344817NED 033543-355051            @Jö÷ >ŸÀAì}ªOÊBAœ£×A£™šÿÿÿÿ?^¸RÿÿÿÿÿÿÿÿÁ0Qì@ƒÊû;u"x??#×
+>B\ >ò°!>æff>8Qì ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033543-355051NED 033556-344943FCC159      @Jýªpi•õÀAjMŠµAˆQìAŽáHÿÿÿÿ?Që…ÿÿÿÿÿÿÿÿÁYÂ@yÁø]tPx?¬Iº?@  ?    O?³33?B\?\ Pÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033556-344943NED 033556-351740            @JýÒsÕº±ÀA¥°Ô0åªA˜{Ažzáÿÿÿÿ?LÌÍÿÿÿÿÿÿÿÿÁ:\@HG,{Åx?BJ?fff>áG® Y?KÆ¨?fff>ë… Xÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033556-351740NED 033557-343756            @Jþt·ÁsÀAPð /z)A‘\)A—¸AŸ¸?8Qì?G®?Ýp¤ÁIG®@jé«)ä×x?j?G®?\ £?È´?n{?    ¤>Á‰7=õÂ>úáH ® NGFS J033557-343756NED 033558-352053WFLSB6-4    @JþÛØ/ÖÀA¬‹C•A–QìAœ¸RA£
+=?LÌÍ?LÌÍ?ÌÌÍÁ>{@H·^¦~…x>Ôýô?8Qì>¸Qì X>Ó÷Ï?=p¤>½p¤ W>Å¸?.{>Ñë… \ NGFS J033558-352053NED 033600-355610            @K rÐ¿ÀA÷Õ>ƒ™A¨{A©p¤ÿÿÿÿ>.{ÿÿÿÿÿÿÿÿÁ$£×@È23Xòáx>¹X>Ç®=\) †>õ?}?®>\) mÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033600-355610NED  033600-345240            @K ÅÕôÀAp[Ðià†A—p¤Aœ  ÿÿÿÿ?ë…ÿÿÿÿÿÿÿÿÁ?…@ï„‡¹Fx?A%?333>k… ¬?J~ú?W
+==¸Qì ±ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033600-345240NED !033601-361529            @K ’™³;ZÀB!|tf2Až£×A¤{A¨(ö?.{?¸?™™šÁ/\)@OÄ~I±üx>¹Û#?8Qì>k… >¼j?5Â>LÌÍ >½ó¶>”zá>k… z NGFS J033601-361529NED "033607-355033FCC163      @KŽô‘NÀAëÙÓEŒÑAÌÍA˜(öA¡¸?k…?£×@33ÁG33@½‚4"F}x?™7L?™š>³33 X? Å?\)>Â\ T?|(ö>¨õÃ>½p¤ ] NGFS J033607-355033NED #033610-354017            @KcÂ¦©cÀAÕñ®¤óQA¤(öA©ë…ÿÿÿÿ?8QìÿÿÿÿÿÿÿÿÁ#®@³‚äKn”x?   ?@  >k… ³?l‹?k…>Š=q «ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033610-354017NED $033611-345034            @KéùrFÀAkáeøáÎA–\A×
+ÿÿÿÿ?hõÃÿÿÿÿÿÿÿÿÁ;×
+@Ð9h×Yïx?MÒò?n{=õÂ ›?<j?G®>W
+= šÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033611-345034NED %033620-343539            @K
+«´NPÅÀALÏ´A©G®A­…ÿÿÿÿ?®ÿÿÿÿÿÿÿÿÁzá@Hùn‡Rx>áÊÁ>Ñë…>ë… o>Ý²->½p¤>ž¸R lÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033620-343539NED &033625-354212            @Kl›“?#ÀAÚqpåA˜QìAž  A¦  ?5Â?G®?Ü(öÁ;…@5C®«{x?!%?\(ö>æff h?8b?‚\>×
+= k?6È´?^¸R>Ñë… u NGFS J033625-354212NED '033628-351239FCC168      @Kéh…TOÀAšü½Ì®AŒ\A“®A™×
+?c×
+?G®?ÕÂÁP(ö@D‚Æo?DZ?n{=áG® ?L1?záH>\) ?BÐå?k…=ÌÌÍ  NGFS J033628-351239NED (033632-362537            @K*j–GÀB6©iuÌA•ÂA›…ÿÿÿÿ?8QìÿÿÿÿÿÿÿÿÁ@zá@”Ê’_évo?]²-?W
+=>™š „?c×
+?aG®>.{ ƒÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033632-362537NED )033639-353641            @KlxžÀAÎ?ï4ßAŸ
+=A¦=qÿÿÿÿ?fffÿÿÿÿÿÿÿÿÁ+
+=@Ã°ÄX‹x?¬?\(ö>8Qì ?²?(õÃ>#×
+ 	ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033639-353641NED *033641-353520WFLSB2-11   @K®54ÀAËcN$úA§¸Aª  ÿÿÿÿ>¸QìÿÿÿÿÿÿÿÿÁ#…@]½µØ”‚x?&é>W
+=>LÌÍ ?UÂ?
+=q>õÂ ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033641-353520NED +033643-352609FCC175      @Kî`ž½ÀA·ÈdÿÒA‹
+=A‘
+=A›™š?@  ?ª=q@¸ÁUp¤@úB(™|>x?¡ë…?€  ?\ ®?®¸R?ž¸R?    ®?U?}?p£×>õÂ © NGFS J033643-352609NED ,033654-354450WFLSB10-2   @K O9Ê=ÀAß¢i4ŽAŸG®A¤áHÿÿÿÿ?333ÿÿÿÿÿÿÿÿÁ-Â@¢Ì³¢Y]x?¸?(õÃ?
+=q –?r°?8Qì?    “ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033654-354450NED -033655-362112            @KJ3‰jŽÀB-;ë€u¬A záA¦(öA¨£×?5Â>£×
+?ƒ×
+Á+33@ÈÌW\ix>É7L?¸R>k… 2>ÍÒò>úáH>\) ->ß¾w>Ñë…=ÌÌÍ  NGFS J033655-362112NED .033655-355640IM3_7_LSB2  @KSp¨€ÀAøáÕÑÿSA©33A­…ÿÿÿÿ?
+=qÿÿÿÿÿÿÿÿÁzá@RZ«GAx>yÛ#?:áH>¸ ‘>“÷Ï?fff>#×
+ ‰ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033655-355640NED /033700-352035WFLSB4_4    @Kß;dZÀA«çl‹C•AÂA—ë…A™33?‚\>.{?˜QìÁG®@)&„Ï;o?„¼j?c×
+=\) E?q©ü?B\=¸Qì T?©xÕ?Ð£×     B NGFS J033700-352035NED 0033700-350816            @KìVÕÏªÀA‘ 'RT`A…A§¸A©…?™™š>ž¸R?ÁG®Á)G®@ WK@p3o?@ƒ?£×>¸Qì R?éy?&ff>ž¸R `?&ff?B\>ž¸R ` NGFS J033700-350816NED 1033703-345233FCC185      @K!jIaÒRÀAp[Ù»øA‘™šA™™šAž\?€  ?!G®?Ð£×ÁDQì@/Q¬šþx?(r°?ŒÌÍ=£×
+ M?V?ŒÌÍ=#×
+ A?9X?ƒ×
+=\) K NGFS J033703-345233NED 2033708-344353FCC189      @K$Y¿wBÀA]šùt›ËAŒ{A”  AšáH?}p¤?^¸R?î{ÁO…@~_0çÿYo>ð£×?B\>k… >÷KÇ?=p¤>€   >íV?hõÃ>€    NGFS J033708-344353NED 3033710-352312FCC191      @K%Pä5þÀA±~w]ÕµA‘¸A˜¸RA\)?s33?
+=?Å¸ÁF{@8,nóÓ£o?	xÕ?0£×>#×
+ i?ãT?&ff>.{ h?ãT?Tzá>#×
+ i NGFS J033710-352312NED 4033710-355317FCC192      @K%}ž©,„ÀAñ­Ò^ÜA“
+=A›™šA¢ÌÍ?ˆõÃ?hõÃ?ýp¤Á@Qì@-ËÝ¹„o?Gl‹?ž¸R>…¸ ?"Ðå?s33>…¸ ??c×
+>£×
+  NGFS J033710-355317NED 5033713-361528            @K&åVïqkÀB!÷¢’Aš  A¡¸ÿÿÿÿ?c×
+ÿÿÿÿÿÿÿÿÁ5G®@‡PÁ¹tx?!G®?Që…>×
+= _?ñª?Tzá>¸Qì \ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033713-361528NED 6033716-352130WFLSB2-3    @K(]yÐ¥ÀA­Úß=¸ßA¤(öA¥ë…ÿÿÿÿ>aG®ÿÿÿÿÿÿÿÿÁ+®@«Q½aõ¿x?´9>ð£×>ë… 	?&éy?zá>×
+= ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033716-352130NED 7033718-345052            @K)Ê"}òÀAl†ÆÏŒ‚AšÌÍA õÃÿÿÿÿ?E¸ÿÿÿÿÿÿÿÿÁ5™š@­)™V}¼x?eãT?G®>¨õÃ I?}p¤?:áH>¸Qì Zÿÿÿÿÿÿÿÿÿÿÿÿ                       NED 8033727-355747WFLSB10-6   @K.§›ºÜ	ÀAûEúV¢ŒA™×
+A¡p¤A§…?s33?E¸?Ü(öÁ4£×@¢€fÂ®o?p¤?c×
+>¸ ?
+Àƒ?5Â>.{ ?	ûç?¦ff>.{ " NGFS J033727-355747NED 9033735-343400            @K2iÌÁ%ÀAHƒÀ¯XAž£×A§
+=ÿÿÿÿ?†ffÿÿÿÿÿÿÿÿÁ)p¤@|€„Þx?¸?\(ö>õÂ 1>Ú¬?¸R?
+=q -ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033735-343400NED :033738-352308WFLSB2-1    @K4‡ü¹#¢ÀA±XbMÒA›ë…A ¸RA¦áH?™š?G®?°£×Á6{@
+{9'x>üj?B\>#×
+ š?çm?n{>™š —>üj?hõÃ=#×
+ T NGFS J033738-352308NED ;033741-361026            @K5×TÎ.ûÀBB®Ñ9BAŸp¤A±33ÿÿÿÿ@{ÿÿÿÿÿÿÿÿÁ¸@½ÀTïEŸx?MOß?E¸>ž¸R 2>Å¸>ë…>Ç® *ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033741-361026NED <033741-351746FCC197      @K5éá°‰ŸÀA¥è£§AÌÍA—p¤A…?Tzá?E¸?ÌÌÍÁH£×@`¬:†Íx?zá?J=q>B\ P??}?J=q>W
+= P?ùÛ?E¸>ž¸R U NGFS J033741-351746NED =033742-355721WFLSB10-7   @K6_{x½°ÀAúV>Y¨)A˜\AŸp¤ÿÿÿÿ?\(öÿÿÿÿÿÿÿÿÁ8£×@Og±Àx?©ü?W
+=?ÌÍ ¡?q&é?=p¤?
+=q  ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033742-355721NED >033744-354214WFLSB2-7    @K7´˜á„CÀAÚ$áØ&AžõÃA¥¸Aª{?E¸?!G®?³33Á-G®@d2ÊW§ˆx>®—?
+==¸Qì ">¯²?ë…<#×
+ e>¨õÃ>³33     2 NGFS J033744-354214NED ?033754-353429            @K<ºƒ}ž¨ÀAÉ’—^µhÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿxÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED @033806-360301WFLSB10-8   @KCVêÈ`VÀBk0Ÿ4A›ÂA áHA¤\?#×
+>ð£×?Ž{Á5Â@Òœº¶IÔx>ÊÀƒ?+…=uÂ J>ñ©ü?\(ö=õÂ Q?1?G®=áG® { NGFS J033806-360301NED A033807-353531WFLSB2-9    @KC’:)ÇyÀAËÆ§ï²A¯33A³™šÿÿÿÿ?ÌÍÿÿÿÿÿÿÿÿÁQì@$p!Ñ!x>—P?ÌÍ>³33 }>ž5?>ÌÌÍ>W
+= ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033807-353531NED B033808-360030WFLSB10-1   @KDƒÃ†[žÀB½É=A¥×
+Aª{ÿÿÿÿ?®ÿÿÿÿÿÿÿÿÁ#\)@ù2±-5x>«?LÌÍ>”zá U>Ç+?Që…>k… Pÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033808-360030NED C033809-350954            @KD™º¥ÀA•"BÁuhAž  A¨ffÿÿÿÿ?¦ffÿÿÿÿÿÿÿÿÁ&¸R@!]³9}Ñx?^5>Ñë…>.{ c>ð£×>¨õÃ>™š Jÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033809-350954NED D033811-362016            @KEÞœðÅ ÀB+8W¾ÓýA¡G®A¨Qìÿÿÿÿ?aG®ÿÿÿÿÿÿÿÿÁ&áH@›‚<…ÂMx>ô9X>úáH>™š €>Òn˜?   =áG® ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033811-362016NED E033815-361652            @KH6eÛÀB#ýW—7AžffA¥™šÿÿÿÿ?fffÿÿÿÿÿÿÿÿÁ,Qì@9ˆLj;ßx?$›¦?
+=>\) ?9X>×
+=>™™š ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033815-361652NED F033822-345537            @KKýGGtÀAv¥ŠÈÅA£ÂA¨ffÿÿÿÿ?záÿÿÿÿÿÿÿÿÁ&¸R@~}=B‚x?Z?xQì>×
+= v?‰7?Y™š>uÂ vÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033822-345537NED G033827-350907            @KN…mò)ÀA“w!@aAŸ…A¥®A«ë…?E¸?J=q?Ç®Á,(ö@ka4Î=çx?+C–?Ó33?ÌÍ }?+…?Ó33?ÌÍ |>ñ©ü?™™š>ë… s NGFS J033827-350907NED H033828-350222            @KNíwÆ±AÀA…
+îˆgéA—p¤AžáHÿÿÿÿ?n{ÿÿÿÿÿÿÿÿÁ9Â@­¼fM;ôx?Áhs?™š>uÂ i?›C–>Ñë…=#×
+ 
+ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED I033837-355002FCC214      @KS‡½ÏÀAê¾¿ìžA™šA–¸RAœõÃ?c×
+?J=q?×
+=ÁJ{@ª´0ô”“o?   ?J=q=ÌÌÍ >öE¢?E¸=£×
+ >ð£×?G®>\)  NGFS J033837-355002NED J033838-354527FCC215      @KT¼¢ÀAàøÅØA’QìA˜áHA ff?Që…?s33?â\ÁEÂ@9ÔØ4	o?JÀƒ?:áH>LÌÍ ?Oß;?(õÃ>uÂ ’?6È´?\)>”zá ‰ NGFS J033838-354527NED K033842-353308IM1_2_5_LSB1@KV‚‹H>ŒÀAÆ¬2"‘ûA–(öAœõÃA ¸R?Y™š>õÂ?ª=qÁ=™š@õƒ¥;x>àÄœ?E¸>Š=q i>íV?\(ö>\) g>ýó¶?‚\>…¸ X NGFS J033842-353308NED L033845-351600FCC218      @KX-àpÀA¢!u³iõAˆ¸RA™šA˜ff?\(ö?Ž{?ü(öÁXQì@NœË}Auo?qhs?hõÃ>ž¸R š?mOß?fff>™™š ›?>¸R?B\>Š=q   NGFS J033845-351600NED M033854-355912WFLSB9-6    @K\ç«ud/ÀAþK	éÍA¦QìA¯
+=ÿÿÿÿ?‹…ÿÿÿÿÿÿÿÿÁp¤@kßL+Sx>ÊÀƒ?®{>uÂ '>Å¸?uÂ>ÌÌÍ )ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033854-355912NED N033854-344932            @K\ìé¢ÆhÀAi¯u{}A™\)A™šA£Â?®?G®?§®Á<Qì@„CécÝo?¸R?
+=>Â\ ´?LÌÍ?aG®>Â\ ³?Z^5?¬ÌÍ>ë…  NGFS J033854-344932NED O033855-351413FCC220      @K][î´­ÙÀAžV“tA\)A–  AÂ?Tzá?záH?ç®ÁK…@Ùul“§x?@  ?W
+=>ž¸R 1?E`B?Tzá>¨õÃ 0?0å`?5Â>Ñë… - NGFS J033855-351413NED P033858-351105FCC_401     @K^´ñmfLÀA—¢à
+ÆëA”£×Aš(öA¢=q?0£×?‚\?ÚáHÁC33@Á)ˆ†x?D“?8Qì=#×
+ ?L‹D?=p¤<#×
+ f? ƒ?¸=#×
+ " NGFS J033858-351105NED Q033907-350722WFLSB3-2    @KcÆTÇŽÀAºg‡WGAŸ
+=A¥33Aª\?E¸?.{?¹™šÁ-¸@kN˜‡x>µÂ?W
+=>½p¤ `>¶È´?E¸>Â\ b>È1'?ƒ×
+?
+=q ] NGFS J033907-350722NED R033929-353421WFLSB1-2    @Kojñ'~™ÀAÉJfÌíkA›G®A¡®ÿÿÿÿ?LÌÍÿÿÿÿÿÿÿÿÁ4(ö@¤p!Ñ!x?S¶F?333>¸ Ÿ?nV?0£×>£×
+ ®ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033929-353421NED S033932-360559            @Kq,Ø½ûHÀBÂ0ó¥AœffA¢=qAª{?:áH?}p¤?Ü(öÁ3
+=@2ˆÎp:üx?Iº?&ff=áG® @?—?@  =#×
+ J?È´>”zá>×
+= 4 NGFS J033932-360559NED T033942-353155WFLSB1-3    @Kv0ŸÃÔÀAÄCFG;A›
+=A¡®A¦õÃ?Tzá?+…?À  Á4(ö@=ù½ÆŸx??}p¤>uÂ r>÷KÇ?O\)>B\ ~?
+~ú?®>½p¤ ” NGFS J033942-353155NED U033942-352806WFLSB1-4    @Kvf3æžÀA»óHÁ
+8A¢áHA¬záÿÿÿÿ?™™šÿÿÿÿÿÿÿÿÁ\@ò«ï³yx?;¥ã?¨õÃ=áG® Y?Ù?:áH>¸Qì ?ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033942-352806NED V033950-350124FCC226      @KzÆ³–;oÀA‚ù»c/A‡G®AŽzáÿÿÿÿ?fffÿÿÿÿÿÿÿÿÁZ\@ÙFÃ2ðx?ÿ|î?ë…>k… œ?ý/>ë…>€   ›ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033950-350124NED W033951-360045            @K{I•ÖÀB—‘øë A¥ÂA«¸ÿÿÿÿ?+…ÿÿÿÿÿÿÿÿÁ!G®@G,{ÃÇx>¸Qì?E¸>B\ 2>Å¡Ë?O\)>™™š 0ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033951-360045NED X033951-351919FCC228      @K{gM3GÀA©9°œDVAŽffA–¸RAŸ¸?…¸?‡®@ffÁJ{@8ìˆ3Ax?i7L?:áH>™š ¤?KÆ¨?™š>\) œ??;d>úáH>B\ ² NGFS J033951-351919NED Y033953-360831            @K|1&éxÀB+JH‚A£…Aª  A°£×?O\)?W
+=?Ó33Á#…@¯0çÿX;x>¾ùÛ?333>ð£× Q>Ôýô?E¸?® S>÷KÇ?&ff?#×
+ Q NGFS J033953-360831NED Z033955-344146            @K}HýŸÒÀAYPÖ:ÚA˜{Až  ÿÿÿÿ?=p¤ÿÿÿÿÿÿÿÿÁ;…@(“1 ‹ýx>Å¡Ë?5Â>#×
+ >>É7L?.{>LÌÍ 5ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033955-344146NED [033955-353943FCC229      @K}‹O<ÃÀAÔº­o	ºA…A”{Ap¤?Që…?—
+=@   ÁO\)@c!¢çööo?ixÕ?!G®>ž¸R X?eãT?(ö>ž¸R X?,Iº>ë…>8Qì S NGFS J033955-353943NED \033956-353721WFLSB1-6    @K~~*xÀAÏ©¨–gA›…A¥p¤ÿÿÿÿ?ž¸RÿÿÿÿÿÿÿÿÁ,£×@€£“î^ïo?[¥ã?   >æff ‚?n˜?!G®>\) ƒÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033956-353721NED ]034000-360537            @K€)Çy¦´ÀBüìg%yA›ÂA¢{A«p¤?J=q?—
+=?ü(öÁ3\)@…ý¢üñx?I7L?™™š>æff ”?K?˜Qì>úáH “>Ý²-?‚\>™š Ÿ NGFS J034000-360537NED ^034001-344323            @K€K~k·7ÀA\•ÉBAšffA£33ÿÿÿÿ?ŒÌÍÿÿÿÿÿÿÿÿÁ1¸@p[úÒ›o?3÷Ï?^¸R>…¸ Œ?"Ðå?5Â>®{ ™ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034001-344323NED _034003-352754WFLSB1-5    @K©¨–gÀA»‡ƒîRA›p¤A Qìÿÿÿÿ?(öÿÿÿÿÿÿÿÿÁ6áH@7ÚaàÅ©x?st¼>úáH>8Qì i?~vÉ>úáH=õÂ Rÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034003-352754NED `034005-343907            @K‚»QßÞÀASvp(WNA
+=A¢ÌÍA©×
+?8Qì?c×
+?Î{Á1ë…@úhµÌ x>ãSø?(õÃ>ÌÌÍ %>çl‹?8Qì>Ç® '>Ÿ¾w?
+=q>™š  NGFS J034005-343907NED a034010-355011FCC236      @K…)åÄtÀAë­›O«A33A–záAœ  ?hõÃ?333?Î{ÁJ\@­¸4SÆo?%ãT?333>Â\ A?p¤?!G®>½p¤ B?!G®?.{>Â\ B NGFS J034010-355011NED b034012-351720            @K†©rl—ÀA¤ö´åÆÈA£
+=A¨{ÿÿÿÿ?!G®ÿÿÿÿÿÿÿÿÁ'\)@½LýÔ¼x? >ð£×>ÌÌÍ ?!%?¸R>Ü(ö ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034012-351720NED c034016-353946            @KˆZå¾ÀAÔÔLÛò3AœÌÍA£Âÿÿÿÿ?^¸RÿÿÿÿÿÿÿÿÁ0  @{™ÔQüMo>éûç?\)<#×
+ h>Ù™š?   <#×
+ °ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034016-353946NED d034018-360332            @K‰¢H”ÄGÀB‰G›pKAªQìA³33ÿÿÿÿ?Ž{ÿÿÿÿÿÿÿÿÁ¸@F0eùYx>É7L?&ff>ž¸R >ºáH>æff>æff ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034018-360332NED e034019-350815WFLSB3-4    @K‰èG”r¸ÀA‘™ÌÝvA\)A£p¤ÿÿÿÿ?B\ÿÿÿÿÿÿÿÿÁ0£×@$Îó x?;çm?.{>#×
+ §?6‡+?5Â>¸ £ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034019-350815NED f034019-361850            @KŠR6ÝÀB(.¨rÿA˜£×A¡33A¤Qì?ˆõÃ>ÌÌÍ?¼(öÁ5¸@œÊ÷	·:o?r-?uÂ>£×
+ ™?:áH?&ff>…¸ œ?X“u?c×
+>ÌÌÍ ˜ NGFS J034019-361850NED g034026-350013            @KŽ`~ÑÀA€r¦Î¬ÐAœ  A¡™šÿÿÿÿ?333ÿÿÿÿÿÿÿÿÁ4Qì@J¼QT†kx?Ôþ?W
+=>áG® :?)º^?xQì>õÂ ;ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034026-350013NED h034027-352512            @KŽ;äEÀAµÂ†
+*A›…A£33A«G®?uÂ?‚\?ýp¤Á1¸@…fÏAòx?	º^?LÌÍ>¸ n?Ý/?\(ö>.{ Z>¶E¢>ð£×>#×
+ } NGFS J034027-352512NED i034028-344710            @K‰eæ=ÀAdž
+¸ð^A¨áHA«…ÿÿÿÿ>¨õÃÿÿÿÿÿÿÿÿÁ zá@óÇ™kwx>­V>aG®>#×
+ (>Þ¸R?LÌÍ>™š 8ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034028-344710NED j034034-355318            @K‘îˆgé4ÀAñ³ŒéX5Až{A¤{A§®?@  >ë…?šáHÁ/\)@htÈÿ¸³x?
+~ú?5Â>¨õÃ h?MÓ?zá>\) e?¥ã?¸R>®{ M NGFS J034034-355318NED k034037-352119            @K“£ìòùÀA­ud0+@AžffA£¸ÿÿÿÿ?
+=ÿÿÿÿÿÿÿÿÁ1G®@•»¾‡­x?R°!>õÂ>”zá ‡?WP>³33>W
+= ’ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034037-352119NED l034038-360716FCC246      @K”Ÿ¸fÀB‚o!AŽ{A•\)A®?hõÃ?†ff?úáHÁLÌÍ@5~g,o?z^5?:áH>£×
+ ˆ?mÒò?&ff>®{ ˆ?XÔþ?®>Â\ ‚ NGFS J034038-360716NED m034041-345656            @K•œ/^2êÀAyw1ÅA‘®A˜{Až¸R?LÌÍ?W
+=?Ñë…ÁG\)@??Rü&Xx?DZ?8Qì>#×
+ 3?Gïž?5Â>#×
+ 1?4ýô?0£×=õÂ @ NGFS J034041-345656NED n034044-361108            @K—c$3çÀB¼v%—˜AŽ¸RA—G®ÿÿÿÿ?ˆõÃÿÿÿÿÿÿÿÿÁHõÃ@¶,wWOso?ÂJ?Që…>8Qì ? Äœ?(ö>W
+= ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034044-361108NED o034050-350126FCC251      @Kšî¢	ÀAƒ®>lLA¸RA–QìAë…?333?uÂ?ÔzáÁJáH@}ÅÖ8†Zx?;¥ã?.{>\) „?>¸R?333>”zá †?,Iº>ë…>Â\ Š NGFS J034050-350126NED p034053-350704            @Kœ56*ÕÅÀA½É=A’záA™ë…A¢\?n{?‹…@G®ÁC®@_áTCN4x?D“?Š=q>.{ ?.—?ƒ×
+>\) >ýó¶?B\<õÂ 7 NGFS J034053-350704NED q034058-361959            @KŸ%ë{ÌÀB*¾V)A°ÌÍAµ×
+ÿÿÿÿ?!G®ÿÿÿÿÿÿÿÿÁ×
+@üÉêš=.x>e`B?ÌÍ>³33 >o²?.{>”zá ‘ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034058-361959NED r034104-345715FCC256      @K¢SuÿÀAz!u³iõA”õÃA›
+=A¡×
+?B\?\(ö?Ï\)ÁAp¤@–bºà;@x?‡?.{>ž¸R †?
+=?5Â>ž¸R ‰?ïž?ÌÍ>®{ Œ NGFS J034104-345715NED s034107-354125FCC258      @K£¯·éøÀAØ[À6âA”QìA›ë…A¢Qì?s33?O\)?áG®Á?®@Å¡ÊÀƒx?C×
+?^¸R>k… c?#Sø?0£×>LÌÍ f?#Sø?ë…=LÌÍ T NGFS J034107-354125NED t034112-360409            @K¦Y•…¯0ÀBÞŸEK“A¤¸RAªffA²Qì?5Â?€  ?ÚáHÁ"¸R@ˆiÎÐ´x>³¶F?(õÃ>Ñë… 1>¨õÃ?(õÃ>ÌÌÍ 5>å`>…¸?    8 NGFS J034112-360409NED u034115-352703            @K§ÕœÂ*ÀA¹¸ªwg'A™p¤AŸë…A¤ff?O\)?ë…?°£×Á7®@vÈ´9Xx>Ä“?8Qì>B\ z>¼í‘?+…>B\ }>®—?s33     u NGFS J034115-352703NED v034124-354548            @K¬•Œ¬ÂšÀAáµûgA©ÂA¯×
+ÿÿÿÿ?B\ÿÿÿÿÿÿÿÿÁ×
+@©í9SÞ¥x>Ót¼?G®>ÌÌÍ ®>éxÕ?Që…>ð£× ´ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034124-354548NED w034126-352247            @K®
+8ÀA°–4rnáA¤{Aª(öA®(ö?B\?\?¢\Á#33@AÏþ°t¨x>™™š?¸R>Š=q @>Ÿ;d?.{>€   @>—P?   =áG® œ NGFS J034126-352247NED x034127-345500            @K®X¹AìÀAuRŽ¡¿AªQìA±×
+ÿÿÿÿ?p£×ÿÿÿÿÿÿÿÿÁ×
+@ì] l‡x>ŽÙ?(õÃ>.{ Œ>n—>æff=ÌÌÍ •ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034127-345500NED y034141-352108            @KµªYZyÀA­Ö¶ZšA“™šAš=qA =q?Tzá?B\?Ë…ÁC
+=@Ï<B¦ox?2-?B\>ÌÌÍ ^?/ß;?.{>áG® \?…?#×
+>”zá W NGFS J034141-352108NED z034157-351733FCC269      @K¾”/þúÀA¥l.§’AŠzáA‘™šAœ£×?c×
+?±ë…@ë…ÁTQì@7Lû‹'x?¨Ôþ?.{>uÂ A?ž5??0£×>W
+= @?t¼j>³33>LÌÍ 7 NGFS J034157-351733NED {034211-352635FCC272      @KÅõÐúXÀA¸¸ào÷A¸A™Âÿÿÿÿ?Ê=qÿÿÿÿÿÿÿÿÁD  @ 
+ÈæŽ>óx?ï;d?‚\?
+=q D?€£×?™š>æff ?ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034211-352635NED |034219-353340FCC275      @KÊ.Òc†ÀAÇÏ´¶NA’záA—
+=A ¸R?ë…?œ(ö?å¸ÁIp¤@LYûñx?-Oß?&ff>W
+= ?L1?O\)>uÂ ~?©ü?™š>k… … NGFS J034219-353340NED }034225-353541WFLSB11-4   @KÍqŸŒ§ÀAÌ -%£?A—
+=Ap¤A¡®?LÌÍ?
+=q?«…Á<£×@é–ú‚è~o?/\)?™š<õÂ w?+Æ¨?™š<õÂ ;?L1?záH>.{ | NGFS J034225-353541NED ~034233-353155WFLSB11-3   @KÑ™‰IïõÀAÄÉÉƒ›A›ë…A§33ÿÿÿÿ?´záÿÿÿÿÿÿÿÿÁ)¸@Åûø3‚åx?©ü?LÌÍ>B\ ±?Co>ð£×>³33 °ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034233-353155NED 034235-355906            @KÒ°ž˜ÜÚÀAþ—Ì9ÿA’¸RA™\)A¢{?Tzá?ŒÌÍ?÷
+=ÁDÌÍ@HPß¤®x?ZáH?B\>×
+= @?_|î?aG®>ÌÌÍ >?‘h?333>LÌÍ P NGFS J034235-355906NED €034237-355721FCC280      @KÓ¯)Å% ÀAú[|‡
+bAG®A“33Aš£×?=p¤?p£×?×
+=ÁQ¸@.ÓR"Äx?=ó¶?!G®>\) ?B\?0£×>…¸ ?.V?ë…>Š=q  NGFS J034237-355721NED 034243-353226WFLSB11-2   @KÖè},{ˆÀAÅ4¶žA›p¤A¢ffA¨{?^¸R?8Qì?Ë…Á2¸R@:\|Øšx>áÊÁ?B\>áG® b>ð Å?uÂ>õÂ `>÷ÎÙ?ŒÌÍ>úáH f NGFS J034243-353226NED ‚034247-352323WFLSB11-7   @KÙ6Íòf¹ÀA±áêÊ´ÜA¥…A­…ÿÿÿÿ?€  ÿÿÿÿÿÿÿÿÁzá@Óª6ŸÐx>Ôýô?B\>™™š ¤>©xÕ>³33>Š=q ˜ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034247-352323NED ƒ034253-353317WFLSB11-8   @KÜE^7”ÀAÇ6ÞBÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿxÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034253-353317NED „034300-353809            @Kà>k…ÀAÑašf§¤A¨(öA±Âÿÿÿÿ?™™šÿÿÿÿÿÿÿÿÁ  @äUêî x? ƒ?(ö?ÌÍ “>àÄœ?@  ?    •ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034300-353809NED …033316-353551            @J¨…±…H©ÀAÌyÿ@íA£ë…Aª£×A¯®?W
+=?#×
+?½p¤Á"=q@qòÜ+¢x>%?0£×>B\ >j~ú?¸R>uÂ >p£×>k…>¸Qì  NGFS J033316-353551NED †033332-353942            @J±ç=ðÌÀAÔ³g ù	AšÌÍAŸ\)A¥33?ë…?=p¤?§®Á8ÌÍ@6Î5‚˜Ío?P£×?€  ?zá i?¾w?´zá?¸R k? ?†ff>Ñë… i NGFS J033332-353942NED ‡033457-354115            @JÞ)ÐË¾ÀA×ûœÛÌêA¨(öA­®ÿÿÿÿ?0£×ÿÿÿÿÿÿÿÿÁ(ö@ÖÜG©äx>ž5??:áH>™™š S> Äœ?B\>®{ Sÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033457-354115NED ˆ033512-351923FCC146      @Jæ#„QªEÀA©X*AA“G®Aš{AŸ®?Y™š?5Â?Ç®ÁC\)@Öô8K éo?‡?:áH>ð£× A?Ù?!G®>õÂ A?§ð?.{>õÂ ? NGFS J033512-351923NED ‰033512-352603            @Jæ]0Dâ·ÀA·”uøÏA¦{A°ffÿÿÿÿ?¥¸ÿÿÿÿÿÿÿÿÁ¸R@~bÜn*x>ÍÒò?¬ÌÍ>½p¤ Z>„“?}p¤>Ç® Uÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033512-352603NED Š033525-361044FCC151      @JímCXëkÀBê)ìÂAˆ=qAŽQìA—…?B\?”zá?õÂÁZáH@dàTiâo?ë…?…¸=õÂ ?&é?†ff=áG® ?W
+=?xQì>8Qì  NGFS J033525-361044NED ‹033543-352018FCC156      @JöËÀÔ ¾ÀA«R—óÖäA€\A‡¸A=q?Që…?“33?ü(öÁiG®@ yúü‹ zx?  Å?c×
+>”zá §?¥ãT?n{>™™š §?€A‰?(õÃ>”zá © NGFS J033543-352018NED Œ033543-353051FCC157      @JöÎ5ùæÈÀAÁÏ‘+ÝAˆáHA®Ažzá?Y™š?î{@-p¤ÁX(ö@í!ÿ.Hêo?š=q?c×
+=áG® ?ž—?B\=õÂ ?f$Ý>Ü(ö>…¸  NGFS J033543-353051NED 033547-352142WFLSB5-6    @Jù?|í‘gÀA®N¾J‚ÃA¢áHA©¸A©™š?G®=\)?Y™šÁ%G®@[¢¾Šx>Á%?‡®>ë… 0>·KÇ?‚\>õÂ 0?ïž@™š?¸ ; NGFS J033547-352142NED Ž033552-345517            @Jû­)"ÀAuñ¾ôœõA«G®A°{A¶õÃ?™š?^¸R?¼(öÁ\)@7`¿]yx>$Ý/?hõÃ=ÌÌÍ d>+?Tzá>#×
+ =éxÕ?(ö>™™š « NGFS J033552-345517NED 033602-351839WFLSB6-8    @K ð®SeÀA§Å’¥YØA£®A©×
+A°áH?E¸?c×
+?ÔzáÁ#×
+@¬Ìy1Ex>‘hs?W
+=>k… U>ŽV?Tzá>”zá Z>~ùÛ?ÌÍ?¸ T NGFS J033602-351839NED 033603-362116            @K^”ÈðÎÀB-`¥»·A¨{A±\)ÿÿÿÿ?”záÿÿÿÿÿÿÿÿÁÌÍ@ÓK×nç?x>œ(ö?¡G®>Ç® 4>A‰7?
+=>Š=q 8ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033603-362116NED ‘033605-362009            @KkP°ò{ÀB*þÅm\úAœQìA¢¸Rÿÿÿÿ?LÌÍÿÿÿÿÿÿÿÿÁ2{@o0¤ãy¸x?4ýô?+…>ž¸R ?"MÓ?®>€   ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033605-362009NED ’033608-355913            @K}Ý“MÀAþSŸB÷A¤záAª¸RA°¸R?G®?B\?Å¸Á"{@hŒŠ½_x>ÊÀƒ?£×
+?(ö K>Ão?§®?¸R L>¦éy?î{?!G® J NGFS J033608-355913NED “033612-354447            @K„kLæÀAß‰Ü… A¦ÌÍA¬ÌÍÿÿÿÿ?@  ÿÿÿÿÿÿÿÿÁë…@<1ßv¾x>«?!G®>úáH X>œ(ö?5Â>×
+= Qÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033612-354447NED ”033624-353122            @KŸj“òÀAÂç-¡"úA°QìA´záÿÿÿÿ?¸ÿÿÿÿÿÿÿÿÁ\@Û>7Åjx>%ãT>ë…>k… £>>vÉ?#×
+>™š  ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033624-353122NED •033627-353821            @K4ÛJmÊÀAÑÐOÇîA­33A¯®ÿÿÿÿ>ž¸RÿÿÿÿÿÿÿÿÁ(ö@ž²ix>l‹D?(ö<#×
+ >Ç+?°£×>#×
+ ¤ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033627-353821NED –033637-352309FCC171      @KÜHjÒÜÀA±evd¹A†QìA“\)A›ë…?Ð£×?Š=q@-p¤ÁPÌÍ@ lµ5 “o@‘h?áG®>¸ š?¬¬?aG®>™š ­?Š~ú?µÂ>B\ ³ NGFS J033637-352309NED —033642-344241            @KK=-ªÀA[(^LŒA›¸A¡p¤ÿÿÿÿ?J=qÿÿÿÿÿÿÿÿÁ4£×@§Xžý†ªx?G®?^¸R>×
+= °>äÝ/?B\>¸Qì °ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033642-344241NED ˜033646-355527IM3_7_LSB1  @K|¾öñzÀAöNGsÓfAªÌÍA°ffÿÿÿÿ?333ÿÿÿÿÿÿÿÿÁ¸R@TùÁø]ux>aG®?ë…>aG® ">{çm?¸R>™™š ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033646-355527NED ™033649-361348FCC180      @K8l·‰†ÀBpš„òrA„=qA‹™šA“33?k…?uÂ?ð£×Á`Qì@ >-b8Ûx?¿ ?ƒ×
+?+… T?ÃSø?†ff?0£× S?ª¬?k…?333 T NGFS J033649-361348NED š033653-362911FCC183      @KÜm³1ÀB>Eþÿ®qA€ffA‡33AŽQì?Y™š?fff?à  Ái¸@ dë¯$o?¡%?s33?\ '?Ÿ;d?n{?    (?“¶F?p£×?    ) NGFS J033653-362911NED ›033657-355011WFLSB10-5   @Kt†Òv)ÀAëÜ$áA¥p¤Aª  ÿÿÿÿ?ë…ÿÿÿÿÿÿÿÿÁ#…@"·ºìÐyo>·KÇ?LÌÍ=ÌÌÍ h>ï ?£×>k… fÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033657-355011NED œ033703-354802WFLSB10-4   @K!Í£,ð
+ÀAæy‘¼U†Aš(öAë…A¤  >ð£×?E¸?ž¸RÁ;®@PÇ}Ørôo>Ö‡+?ƒ×
+>.{ $??£×>aG® 4? A‰?Tzá>Š=q - NGFS J033703-354802NED 033706-352031WFLSB4-3    @K#8q`•kÀA«¶`¶A õÃA©×
+ÿÿÿÿ?Ž{ÿÿÿÿÿÿÿÿÁ#×
+@%kÊSuÊx?Ý/?
+=     V?$›¦>uÂ>ž¸R eÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033706-352031NED ž033723-345401FCC195      @K,[…Ù"-ÀAs<Ä5ÝÿÿÿÿA‚\AŠQìÿÿÿÿ?záHÿÿÿÿÁrff@ ¼Ù@x–oÿÿÿÿÿÿÿÿÿÿÿÿ  ?¦éy?G®>ë… D?“÷Ï?uÂ>æff E NGFS J033723-345401NED Ÿ033742-343816            @K6`Ë>ÀAQ¢r†/YA”õÃA™Âÿÿÿÿ?™šÿÿÿÿÿÿÿÿÁD  @~X`fo?a%?&ff=õÂ ?på`?Tzá>¸ °ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED  033751-352146WFLSB2-13   @K;&¶5R ÀA®rãdGxA¨{A­™šÿÿÿÿ?0£×ÿÿÿÿÿÿÿÿÁQì@Úô­¼fNx>èr°>õÂ>Ñë… :>È1'?333>\) 0ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033751-352146NED ¡033755-345256FCC200      @K=)NNqdÀApîú•Œ¬A€ffA‰
+=A  ?Š=q?aG®?úáHÁep¤@ qe}‘&x?XÔþ?¨õÃ>B\ –?A‰7?—
+=>8Qì ”?0å`?‹…>8Qì ˜ NGFS J033755-345256NED ¢033815-350722            @KGðÌž2UÀA¹|.~€A¥×
+A®=qÿÿÿÿ?†ffÿÿÿÿÿÿÿÿÁ
+=@Ü­ ¢x>Ü¬?5Â>uÂ U>µÂ?\>\) Mÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033815-350722NED £033818-344028            @KI­úÙØÀAVSüwäûAšõÃA¤\ÿÿÿÿ?™™šÿÿÿÿÿÿÿÿÁ.ff@ˆ,õ+¨x??n{>×
+= l>×P?5Â>½p¤ sÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033818-344028NED ¤033819-353151FCC208      @KJ ÈdÿÀAÃõjzA®Aˆ  A‘
+=?J=q?‘ë…?÷
+=Ág…@ Z)³úno?Ÿ\)?Y™š>£×
+ ›?Ÿ;d?LÌÍ>£×
+ ?¾w?&ff>¨õÃ Ÿ NGFS J033819-353151NED ¥033819-360357FCC210      @KJA¼zÎ£ÀBiyÿ@ìA
+=A“p¤Aš\?LÌÍ?fff?Ù™šÁP£×@:B®Ñ9Dx?<¬?Y™š>k… £?@A‰?O\)>W
+= ˜?.{?(õÃ>W
+= – NGFS J033819-360357NED ¦033837-355502WFLSB9-4    @KSÙ
+àCÀAõdÇ¡CšA—
+=A33A£G®?E¸?E¸?Å¸Á=¸@Àµho>ë?LÌÍ>õÂ ™>ê~ú?LÌÍ>ë… š>âÐå?5Â?¸ š NGFS J033837-355502NED §033842-352329WFLSB1-9    @KVN›V©‰ÀA²%Ø×
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿxÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033842-352329NED ¨033847-345913            @KYÂå“„ÀA~Qô×6ƒA©p¤A°£×ÿÿÿÿ?fffÿÿÿÿÿÿÿÿÁ=q@HÏ|ªvx>xÔþ?c×
+>Ü(ö 4>Y‡?(ö>³33 7ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033847-345913NED ©033850-354334            @KZècŠºÀAÜðJ å:A…A¨\ÿÿÿÿ?°£×ÿÿÿÿÿÿÿÿÁ&ff@d6uÝÒ¯x?|¬?p£×>¸Qì £?3¶F?aG®>¨õÃ ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED ª033901-362019            @K`or–ÀB+V·„ÝyA“…A™™šAž{?B\?ë…?ª=qÁDQì@Ÿ!-w1‘x?33?p£×>Ñë… Ž>ûçm?J=q>£×
+ ?MÓ?aG®>™™š  NGFS J033901-362019NED «033906-360557FCC221      @KcD¦"=ÀB¯5kÂÞAƒ¸A‰\)A×
+?G®?Që…?ÌÌÍÁdÌÍ@ ÄXŠÒo?/ß;?Y™š>…¸ ±?/²?c×
+>€   °?*=q?J=q>\) ± NGFS J033906-360557NED ¬033916-350021            @Kh†ÍÍZÀA€À“b:A¨(öA±33ÿÿÿÿ?£×ÿÿÿÿÿÿÿÿÁ¸@¿YFÃ2ñx>‰º^?:áH>”zá j>W
+=?Tzá>k… „ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033916-350021NED ­033916-361059            @Kh¢ü»wÀBn‹æ²!AŸë…A¤záÿÿÿÿ?ë…ÿÿÿÿÿÿÿÿÁ.\@=Wyc™-x?3t¼>ÌÌÍ=£×
+ ]?7KÇ>³33>k… Fÿÿÿÿÿÿÿÿÿÿÿÿ                       NED ®033950-353122FCC227      @Kz´f¥PÀAÂìé¢ÆhA’áHAšQìA¡33?n{?^¸R?æffÁBáH@ñ€o?1ë…?‡®=£×
+ ‹?t¼?@  =uÂ r?$Ý?Që…>\) ž NGFS J033950-353122NED ¯034006-361402FCC233      @Kƒ@N¤¨ÀÀBí(ŒçAŽ  A–QìAžõÃ?…¸?‹…@QìÁJáH@Tê»x?Ê~ú?¦ff?™š ?ƒ?Tzá?¸R ?m‘h?+…?(õÃ  NGFS J034006-361402NED °034007-343554            @Kƒ¯Á;'ÄÀAL—ËG©A£p¤A©¸A³™š?5Â?¨õÃ@ë…Á%G®@TÉ…ðpx>&éy?Š=q>¸ ^>49X?‡®>.{ K=¥ã?¯\)<#×
+ Š NGFS J034007-343554NED ±034042-353941FCC247      @K–£ƒ'gLÀAÔ©¼ýKðA†áHAŠáHAQì?   ?0£×?˜QìÁaÂ@NÛÌx?€A‰?(õÃ>½p¤ ‘?tzá?=p¤>Ç® ?V?0£×>Ç®  NGFS J034042-353941NED ²034044-353222            @K—@«Ù–¯ÀAÅi!A­¸A´áHÿÿÿÿ?xQìÿÿÿÿÿÿÿÿÁÂ@lÚô­¼gx>•?zá>®{ b>aG®>úáH<£×
+ sÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034044-353222NED ³034045-353007WFLSB7-3    @K˜-àpÀAÀA‰7KÆA©\)A¯×
+ÿÿÿÿ?O\)ÿÿÿÿÿÿÿÿÁ×
+@ØÓkL5x>° Å?+…=õÂ e>¦ff?xQì>.{ 2ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034045-353007NED ´034050-352318            @Kšx1áSTÀA±¸V”‘AªffA´áHÿÿÿÿ?§®ÿÿÿÿÿÿÿÿÁÂ@«ÅHf¢x>—P>¨õÃ>…¸ r>‘ë…=ÌÌÍ>úáH mÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034050-352318NED µ034057-344248            @Kž>Ù­ÀA[Jº¯ÃA¦¸RA¨=qA­Â>B\?333?c×
+Á'
+=@˜,²²%x>dZ>Ñë…>Â\ ª> Äœ?¸>™™š ª>´¼j=õÂ?
+=q  NGFS J034057-344248NED ¶034104-353851FCC257      @K¢Úô6mÀAÒäHsA‡\)AŽ=qA•\)?\(ö?fff?áG®Á[
+=@e/Âej¿x?çm?}p¤>\) 4?ýô?xQì=õÂ 2? A‰?G®=ÌÌÍ 5 NGFS J034104-353851NED ·034107-353052FCC259      @K£ÖÏü[îÀAÁÙ
+àDA†\AŽ£×A™×
+?G®?´zá@áHÁZ=q@ 
+ZFsCo?¶E¢?¢\>Ç® `?/?£×>ÌÌÍ `?R°!?G®>×
+= d NGFS J034107-353052NED ¸034113-350932FCC260      @K¦×Yw:áÀA”SuQ‹ûA}™šA…×
+AŽõÃ?aG®?“33@ë…Ák×
+@ «i©o?¸1'?E¸=#×
+ s?¸Qì?333=LÌÍ m?š=q?(ö=\) U NGFS J034113-350932NED ¹034123-350020            @K¬djlUÀA€¶ùÅA­p¤A´ffÿÿÿÿ?^¸RÿÿÿÿÿÿÿÿÁ¸R@'¢xåÆx>¾ùÛ?¸R?™š />ÍOß=áG®?(õÃ 3ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034123-350020NED º034123-355348            @K¬/ö²ÀAòÅ  }‰A§
+=AªõÃA®\>úáH>ë…?s33Á!™š@z}¶åx>³¶F?(õÃ?\) >¦éy?záH>ÌÌÍ >Ïß;@Â?.{  NGFS J034123-355348NED »034150-353207            @Kº´Bª(,ÀAÄƒíwÆ±A¸RA–(öAšáH?.{?™š?£×
+ÁK33@*fƒDx?X?333>Ü(ö 1?‹D?333>Ü(ö 3?ÊÁ?(õÃ>æff 3 NGFS J034150-353207NED ¼034218-352819WFLSB11-1   @KÉI¸	®ÀA¼h ‚}LA¡ÂA¦\A¯p¤?™š?\)?Ü(öÁ*ff@+©K¾Duo>¦ff?€  >®{ <>¸Qì?Å¸>Â\ 9>ž5??ã×
+>¸Qì 4 NGFS J034218-352819NED ½034239-354551            @KÔžýZþÀAáÏŠ.K=A®¸RA³Âÿÿÿÿ?!G®ÿÿÿÿÿÿÿÿÁ  @gHäu_ÿx>…¡Ë?:áH=ÌÌÍ )>‹Æ¨?:áH=õÂ yÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034239-354551NED ¾034314-353109FCC287      @Kç4¬¯öÒÀAÂr!üÙÂA…×
+A®A™p¤?záH?½p¤@p¤Á\(ö@ "™•gÛ²x?xb?™™š>W
+= ?N—?Ž{>W
+= ?"J?‚\>k…  NGFS J034314-353109NED ¿034335-354028            @Kòå½vw%ÀAÖQ±D
+ÿÿÿÿA¢\ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÁ2ffÿÿÿÿÿÿÿÿxÿÿÿÿÿÿÿÿÿÿÿÿ  ?1hs>£×
+>€   ‘ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034335-354028NED À033301-353635            @J q&TWWÀAÎ£þŸA‰…AŽáHA“®?+…?(ö?£×
+ÁYÂ@›ítAXx?r°?c×
+>×
+= ?vÉ?¦ff>õÂ ?^5?§®>ð£×  NGFS J033301-353635NED Á033322-353620            @J«ÔaÔ§»ÀAÍ„±3ºYA‘…A˜=qAœ=q?W
+=?\?¬ÌÍÁG
+=@åÞÊno>àA‰?aG®>\) e>Øb?\(ö>™š d>Ý/?xQì>.{ d NGFS J033322-353620NED Â033343-355137FCC123      @J¶òÆC½ÀAîuMTA}ë…A†záA•
+=?p£×?ê=q@1G®Áj\@ ÷=[«!‚x@0å`?™š?® 2@r°?¸?    3?«?
+=q>™™š / NGFS J033343-355137NED Ã033346-353455            @J¸ƒÃ†[ŸÀAÊÛáãÌÿÿÿÿA¦=qÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÁ+
+=ÿÿÿÿÿÿÿÿoÿÿÿÿÿÿÿÿÿÿÿÿ  ?ãT?B\>uÂ €ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED Ä033412-354401            @JÆqz7-{ÀAÝèxƒo£Aª=qA°{ÿÿÿÿ?:áHÿÿÿÿÿÿÿÿÁ\)@Ç`|Bx>Iº^>ë…>aG® >9X?
+=q>.{ ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033412-354401NED Å033418-354741FCC132      @JÉ¼E6š®ÀAå¶ÓÅµ™Aˆ  AŽáHA–ÌÍ?\(ö?€  ?î{ÁYÂ@ZÓ¦áèx?ýô?n{>¨õÃ a?ýô?uÂ>¨õÃ `?Ù?aG®>¸Qì a NGFS J033418-354741NED Æ033420-352145FCC133      @JÊ¼èS;ÀA®j˜›œ‘A‚(öA‰ÂA”(ö?s33?§®@£×Ád  @ k»¥];o?•?†ff=¸Qì N?ó¶?fff=£×
+ M?co?@  =\) Z NGFS J033420-352145NED Ç033421-354934            @JËuÑ´ÂÒÀAé¾ôœõnÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿxÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED È033422-353349            @JËšµáoJÀAÈ'kö"A¬¸RA±®ÿÿÿÿ?¸RÿÿÿÿÿÿÿÿÁ(ö@Èf¡Éx=í‘h?   =\) ‘=Òñª?&ff>#×
+ Hÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033422-353349NED É033429-345640            @JÏ6/~Ò=ÀAxä:§›ºA°õÃA¶Qìÿÿÿÿ?+…ÿÿÿÿÿÿÿÿÁ
+áH@	»j¤¹‰x>¯²?=p¤>áG® >|í‘?aG®>³33  ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033429-345640NED Ê033444-355141FCC137      @J×‡ƒîRÀAîDú;Az\A„\Ap¤?hõÃ?¯\)@ë…Ánff@ ì®Bž
+Bo?žV?†ff=£×
+ °?Ÿ;d?‚\=\) ¬?rn˜?E¸=¸Qì  NGFS J033444-355141NED Ë033446-354239            @JØ”,ÑÀhÀAÚû˜2ÁA£\)A«®ÿÿÿÿ?…¸ÿÿÿÿÿÿÿÿÁ (ö@…Þzt;x?$Ý/>Ü(ö>³33 ¦?MÓ?:áH=õÂ ¢ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033446-354239NED Ì033448-351757            @JÙÝ]µµÀA¦Là›?\ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿxÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED Í033453-353411            @JÜ.×‘ÀAÈíÔûŸ0A•×
+AœáHA£\)?aG®?Që…?Ù™šÁ=Â@p–5a
+Þo>ë…?hõÃ=áG® g>éûç?aG®>™š k>ÌÌÍ?ÌÍ=ÌÌÍ  NGFS J033453-353411NED Î033515-353012            @Jè7ÕA†âÀAÀq²•éA®õÃA³\)ÿÿÿÿ?ÌÍÿÿÿÿÿÿÿÿÁÌÍ@0¹Ü/@`x?o=£×
+?&ff B?õÃ?!G®?\) >ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033515-353012NED Ï033604-352320FCC160      @K%ùvðPÀA±Æ¸?GUA€õÃAˆÌÍA’(ö?záH?—
+=@
+=qÁeë…@ }êFZWeo?—ÎÙ?†ff>#×
+ c?—
+=?uÂ>#×
+ g?j=q?O\)>\) ` NGFS J033604-352320NED Ð033624-355442FCC165      @K–4rnáÀAô­GlÕÔA‚ffAˆáHAÌÍ?O\)?€  ?ç®ÁeÂ@ 9dè·äßo?£33?B\>úáH ?©X?O\)>õÂ ?›C–?=p¤?\  NGFS J033624-355442NED Ñ033631-344755FCC169      @KnÁ~ºðÀAf4ÑøUÿÿÿÿÿÿÿÿÿA‡Âÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿxÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ  ?èr°?c×
+>Ç® m NGFS J033631-344755NED Ò033653-345619FCC181      @Kg'ÍÔÀAx"×TÎA\)A†=qAŒõÃ?Që…?Y™š?ÕÂÁk
+=@ nåGÇo?vE¢?J=q>Ç® z?{"Ñ?W
+=>Ç® ?tzá?LÌÍ>ÌÌÍ z NGFS J033653-345619NED Ó033705-353525FCC188      @K"]0Dâ·ÀAË9†ªÙAj{AxõÃA…p¤?n{?£×@×
+Á~\@!¦ˆ~Ào?—
+=?hõÃ<õÂ A?˜1'?s33<õÂ B?‰7L?G®<õÂ E NGFS J033705-353525NED Ô033705-343606FCC187      @K"ˆèüiÀAMHf)ÐËA€  A†õÃA‘33?^¸R?¥¸@
+=qÁi™š@ ›a»úìx@ å`?€  ?ë… ˆ@9X?€  ?ë… ‡?›?‹…>³33 ˆ NGFS J033705-343606NED Õ033716-354701            @K(gµñ¾ôÀAäNÞéÖ	A¬(öA±™šÿÿÿÿ?.{ÿÿÿÿÿÿÿÿÁQì@Æ£½ßËx>›"Ñ?™š>Ñë… G>¬‹D?
+=?ÌÍ 9ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033716-354701NED Ö033718-354157FCC194      @K)Œ~($
+ÀAÙb¶®}Aˆ{AŽzáA”ÌÍ?LÌÍ?LÌÍ?ÌÌÍÁZ\@!ÍåÑ€’o?‡+?:áH>B\ ?X?G®>B\  ?Ôþ?E¸>aG® ´ NGFS J033718-354157NED ×033720-353118            @K*šÊÚ$ÓÀAÂÃÓ@ãÅA õÃA§×
+ÿÿÿÿ?\(öÿÿÿÿÿÿÿÿÁ'×
+@¡S6Þ¹_x>ƒo@G®>™š >£×
+?Që…>€   ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033720-353118NED Ø033722-344149            @K+Ž*èj‡ÀAY1ã§Ú¤A†  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿo?-?ˆõÃ>.{ `ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED Ù033734-354945FCC196      @K2#„QªEÀAê#–õÙÜAƒ\)AŠffA’Qì?aG®?€  ?ð£×Áb¸R@ %ŒŽï­o?•`B?aG®>úáH C?–éy?aG®?    C?Š^5?Tzá?¸ D NGFS J033734-354945NED Ú033736-351035            @K3iÂ;yRÀA–>K¬ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿoÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED Û033750-353302WFLSB2-10   @K:™'kö!ÀAÆtÁŠßAª  A°ffÿÿÿÿ?LÌÍÿÿÿÿÿÿÿÿÁ¸R@²Æ%éž•x>£Sø?   >€   ˜>¬‹D>Ç®>…¸ §ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033750-353302NED Ü033817-353028            @KHÛA²³ÀAÀÿôYbBA|QìA…G®AÂ?c×
+?ˆõÃ?úáHÁlõÃ@ ³0äÅo?tzá?¦ff>™™š ?k?“33>”zá ?KÆ¨?‚\>™™š                      NED Ý033831-344629            @KPÈ£é®lÀAc'VýlA£®A©\)A®£×?5Â?+…?°£×Á$ÌÍ@sc,B¼x>‹Æ¨?O\)>æff }>ŒÌÍ?c×
+>áG® |>‡®?ÁG®>ë… y NGFS J033831-344629NED Þ033917-362904            @Khã_žl–ÀB> m„—‘A¦\A¬ffÿÿÿÿ?:áHÿÿÿÿÿÿÿÿÁ¸R@=êFZWex?	ûç?W
+=>×
+= ­?   ?ŒÌÍ>8Qì §ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED ß033920-354329FCC223      @KjyõîÕLÀAÜÁDyÜLAk®Az¸RA†ÌÍ?p£×?˜Qì@QìÁ|ÌÍ@!™)Ë«eo?ÚÀƒ?€  >¸ ?×®?uÂ>¸ ?®Ù?B\>8Qì  NGFS J033920-354329NED à033922-353524IM1_2_2_LSB1@KküTñ"ÕÀAË…ÖÍ§ÕA–\A›…AŸë…?¸R?\)?—
+=Á@zá@îQL"îBx>‹Æ¨?Š=q=#×
+ >ŠÀƒ?n{<õÂ >†$Ý?k…=#×
+  NGFS J033922-353524NED á034001-344529FCC230      @K€¯¬Br;ÀAas’'…A~áHA†(öAŒõÃ?W
+=?\(ö?Ù™šÁk33@ wƒ Uvo?qhs?p£×?® ƒ?s¶F?€  ?® 1?kÆ¨?uÂ?
+=q ƒ NGFS J034001-344529NED â034004-350422            @K‚e@ÌxéÀA‰N-âaA¥p¤A«\)A°áH?=p¤?333?¸QìÁ ÌÍ@$â:ôx>fff?záH=õÂ M>l‹D?”zá>¸ \>¡ÊÁ>.{?#×
+ T NGFS J034004-350422NED ã034019-343233            @KŠÀü=£ÀAEo¸….AžffA£ë…A¢ÌÍ?0£×¾¸?\)Á/®@ËÀ nŸòx>~ùÛ?\(ö=áG® ´>V?(ö>¸ >©xÕ?§®>ÌÌÍ 
+ NGFS J034019-343233NED ä034023-351636FCC241      @KŒ„¬Š®sÀA£iŽ÷öuAw33Aƒ33AŒ£×?s33?˜Qì@õÃÁq¸@!9q:Õ¿o?¬ÌÍ?€  =\) *?©xÕ?s33=\) -?‘%?J=q=\)  NGFS J034023-351636NED å034027-362957FCC243      @KŽb¡µÇÍÀB?á}FJApzáA€ffA‡®?‚\?k…?øQìÁv¸R@!B¸A$o?”“?”zá=\) ™?ƒ¶F?\)=£×
+ ¤?n{?G®=uÂ ž NGFS J034027-362957NED æ034031-355241FCC244      @KYaÄWÀAð`ªdÂøA…p¤A®A“ë…?ƒ×
+?J=q?èõÃÁ\(ö@ÅÑÃ¬’œo?L‹D?O\)>õÂ †?E¡Ë?J=q>õÂ ‡?DÝ/?B\?    ˆ NGFS J034031-355241NED ç034041-354609            @K– lÃÀAâq“Øîêÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿxÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED è034043-355139FCC248      @K—rªÁÀAî-Ö»¦AŒ{A’áHA˜£×?Y™š?:áH?Ê=qÁQÂ@LvÕItx?ÊÁ?\(ö>¨õÃ ^>ú^5?Tzá>¨õÃ ]?l‹?}p¤>³33 _ NGFS J034043-355139NED é034101-354434FCC254      @K ib²pÀAßkN\lA‚áHAŠQìA”zá?n{?£×
+@p¤ÁbáH@ T–‰Cáo?™7L?E¸=uÂ ‚?–‡+?8Qì=\) ~?jÀƒ?=p¤=£×
+ } NGFS J034101-354434NED ê034106-353623            @K£Wj!ÄÀAÍ^J82A°QìA·¸ÿÿÿÿ?Y™šÿÿÿÿÿÿÿÿÁ	G®@‰›õ”l4x>Š=q>Š=q>õÂ >€  >uÂ>ë… ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034106-353623NED ë034121-352155            @KªòŒ¨hÀA®¾ß¤?åÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿxÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ                       NED ì034121-355655FCC262      @K«fß‘›µÀAùm>/¶A„õÃAŒQìA”Qì?k…?G®?÷
+=Á^áH@  iÆm7<x?`  ?Që…=#×
+ ?\¬?Tzá=#×
+ Š?IxÕ?@  =uÂ m NGFS J034121-355655NED í034124-360450            @K¬»
+£÷©ÀB
+P{ZrãA¡¸A¤£×ÿÿÿÿ>áG®ÿÿÿÿÿÿÿÿÁ.=q@»66ó²x?ÌÍ?œ(ö?&ff J?—?¨õÃ?&ff Gÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034124-360450NED î034128-354313            @K®ädÝÀAÜ3ùC¬ÎAŠzáA“33A”£×?‹…>B\?£×
+ÁQ¸@En&NHcx?Oß?…¸>õÂ ?4ýô?333>æff ’?!G®?k…?    “ NGFS J034128-354313NED ï034132-353523FCC264      @K°èá^ûOÀAË|o½'=Av\A×
+AˆQì?Që…?Që…?Ñë…Ás×
+@ Ü,¡Hº…x?ƒSø?záH?zá ?†éy?†ff?™š ?‚MÓ?‡®?(ö  NGFS J034132-353523NED ð034135-352625            @K²°1EHÀA¸Vµ0W†AŽÌÍA”¸RAšzá?=p¤?:áH?¼(öÁN{@±ñŒŸ¶o?´9?E¸>½p¤ ž?Òò?Y™š>½p¤ ž?-?ˆõÃ>ÌÌÍ ž NGFS J034135-352625NED ñ034146-353055WFLSB7-4    @K¸ËásôÀAÁ÷QÕQA¥×
+A±…ÿÿÿÿ?ºáHÿÿÿÿÿÿÿÿÁzá@äÜY1Ëx?,ÌÍ?aG®>æff l>ó33=uÂ>ð£× uÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034146-353055NED ò034157-355322            @K¾(MüãÀAñÙ06çAª=qA±®ÿÿÿÿ?n{ÿÿÿÿÿÿÿÿÁ(ö@ë-
+$F1x>uÂ?\>8Qì >cSø?\)>uÂ ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034157-355322NED ó034217-353227FCC274      @KÉ8PÁB$ÀAÅ5˜ÏšAs
+=A€õÃA‰ë…?n{?£×@×
+Áu™š@!3eìÃão?V?}p¤<£×
+ ?Œ(ö?ƒ×
+<õÂ ?_|î?@  <õÂ  NGFS J034217-353227NED ô034239-355205FCC281      @KÔ‹û	ÀAïôDiŒAƒ×
+A×
+A–ÌÍ?   ?£×@QìÁ[×
+@ @ÕA”Éx?Œí‘?¡G®=#×
+ %?UÂ?€       ?,‹D?LÌÍ>¸ T NGFS J034239-355205NED õ033538-350539WFLSB6-7    @JôU¦ã¥…ÀAŒjüÍA«×
+A°=qÿÿÿÿ?ÌÍÿÿÿÿÿÿÿÿÁ
+=@ÐxR÷ôšx>På`?0£×>.{ |>Týô>®{>LÌÍ nÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033538-350539NED ö033546-355921FCC158      @Jø«ˆ¤~ÀAþ¡AE¤Az=qA„(öA…?aG®?—
+=@×
+Áo33@ ÙuòËdo?Þ¸R?Tzá>ë… }?á%?Y™š>ë… }?¼(ö?0£×>õÂ ~ NGFS J033546-355921NED ÷033429-353241FCC136      @JÏµ”Š­ÀAÅöE©CAP£×Ac×
+Aw…?™™š?ž¸R@(öÁ‰×
+@#
+JHùno?Ý‘h?ó33>W
+= ®?Ðå`?Ôzá>aG® ­?¨1'?•Â>W
+= ¬ NGFS J033429-353241NED ø033457-351224FCC141      @JÞ^¢—ÀAšsÌhšLA‘™šA•ë…A™p¤?
+=q>æff?}p¤ÁK®@ÈÎp:û€x>vÈ´?@  ?\ ´>vÈ´?(ö?\ ³>_;d?
+=?\)  NGFS J033457-351224NED ù033524-362150FCC150      @JìÓ®h]¶ÀB.\(õÂAd(öÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿo?.Ù?ÈõÃ>8Qì 
+ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J033524-362150NED ú033613-360959FCC164      @KÝ)4¬ÀBHUÚ'(Amë…A{×
+A…¸?^¸R?hõÃ?ã×
+Á{®@!X:¸b²}x?†§ð?ÁG®>×
+= C?…Â?ºáH>Ü(ö C?…?®{>æff C NGFS J033613-360959NED û033807-352624FCC202      @KC|í‘hrÀA¸MüãAXÌÍAh£×A|zá?}p¤?   @\)Á‡p¤@"”Å2¤—ûo?©ûç?ØQì>×
+= Z?©Û#?ÈõÃ>Ñë… Z?  Å?ŒÌÍ>ÌÌÍ Z NGFS J033807-352624NED ü033819-350745FCC207      @KJC´fÀA„µÜÆ>AfffAtÌÍAÂ?fff?n{?ê=qÁ\)@!¼Á æ¯Ío?o\)?·
+=>#×
+ o?nV?°£×>#×
+ n?]p¤?—
+=>#×
+ p NGFS J033819-350745NED ý033913-352217FCC222      @Kgn—OÀA¯Œ¨A_
+=An\A¸?xQì?ž¸R@p¤Á„zá@"BmæÏo?Ó÷Ï?¯\)>™š ?ËC–?¨õÃ>™š ?¢n˜?†ff=õÂ  NGFS J033913-352217NED þ034017-363206FCC238      @K‰$Jb#áÀBDwFˆzAŽÌÍÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿo?IxÕ?333>™š &ÿÿÿÿÿÿÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ   NGFS J034017-363206NED ÿ034034-350122FCC245      @K’[TŠÀA‚í”1zAg®Av=qA…×
+?hõÃ?¬ÌÍ@£×Á€£×@!ÜŠÅÁ@o?§ïž?®{=ÌÌÍ ?©Û#?¬ÌÍ=áG® ?„›¦?‚\=õÂ  NGFS J034034-350122NED 034050-354454FCC252      @KšÞ¨—c]ÀAßÍ‰‹.œAf\Aw
+=A…p¤?ƒ×
+?   @ë…Á€=q@!çX}o—ho?A‰?‘ë…=£×
+ ’?Ž¸R?˜Qì=£×
+ ’?‚n˜?‚\=\) ‘ NGFS J034050-354454NED034141-351013FCC266      @K¶É-ÀA•Î¯%AiG®Aw\)A‚{?aG®?O\)?ØQìÁ€{@!‰Ö¶Z›o?.V?£×
+=LÌÍ ?49X?—
+==\) ?:áH?€  =áG®  NGFS J034141-351013NED033821-351535FCC211      @KKs¬¦¤ÀA¡B†kïAn{A{×
+A…
+=?\(ö?fff?áG®Á{®@!Tb¡µÇÎo? Äœ?¢\>€   ?&§ð?·
+=>€   ?dZ?¡G®>W
+=   FCC 211            NED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

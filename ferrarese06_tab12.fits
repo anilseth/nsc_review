@@ -1,0 +1,203 @@
+SIMPLE  =                    T / Standard FITS Format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    0 / No Image --- just extension(s)                 EXTEND  =                    T / There are standard extensions                  ORIGIN  = 'xml2fits_v1.95'     / Converted from XML-Astrores to FITS                                     e-mail: question@simbad.u-strasbg.fr                   COMMENT  ARG='-rm'                                                              LONGSTRN= 'OGIP 1.0'           / Long string convention (&/CONTINUE) may be usedDATE    = '2019-05-23'         / Written on 2019-05-23:09:32:10 (GMT)                                        by: (nobody)@d3c5b7480ccf.cfa.harvard.ed                    **********************************************************                          EXCERPT from catalogues stored in VizieR (CDS)                                             with the following conditions:                                   **********************************************************                                                                                                      VizieR Astronomical Server vizier.cfa.harvard.edu                               Date: 2019-05-23T09:32:10 [V1.99+ (14-Oct-2013)]                                Explanations and Statistics of UCDs: See LINK below                             In case of problem, please report to: cds-question@unistra.fr                                                                                          INFO    = 'votable-version=1.99+ (14-Oct-2013)' / #                             INFO    = '-ref=VIZ5ce667a91bfde' / #                                           INFO    = '-out.max=unlimited' / #                                              Q-PARAMS=                   37 / Number of queryParameters (followed by list)            -oc.form=dec                                                                    -out.max=unlimited                                                              #out.form=FITS (binary) Table                                                   -nav=cat:J/ApJS/164/334&tab:{J/ApJS/164/334/acsvcs}&key:source=J/ApJS/1         64/334/acsvcs&HTTPPRM:&                                                         -c.eq=J2000                                                                     -c.r= 2                                                                         -c.u=arcmin                                                                     -c.geom=r                                                                       -source=J/ApJS/164/334/acsvcs                                                   -order=I                                                                        -out=n_ACSVCS                                                                   -out=ACSVCS                                                                     -out=R                                                                          R=R                                                                             -out=VCC                                                                        -out=RAJ2000                                                                    -out=DEJ2000                                                                    -out=BTmag                                                                      -out=Jmag                                                                       -out=e_Jmag                                                                     -out=Hmag                                                                       -out=e_Hmag                                                                     -out=Ksmag                                                                      -out=e_Ksmag                                                                    -out=E(B-V)                                                                     -out=Vsys                                                                       -out=MType                                                                      -out=OName                                                                      -out=Dust                                                                       -out=SD                                                                         -out=LD                                                                         -out=N                                                                          -out=B                                                                          -out=Simbad                                                                     Simbad=Simbad                                                                   -out=NED                                                                        NED=NED                                                                         #                                                                               #RESOURCE=yCat_21640334                                                         #Name: J/ApJS/164/334                                                           #Title: ACS Virgo Cluster Survey. VI (Ferrarese+, 2006)                         #Coosys J2000: eq_FK5 J2000                                                                                                                            END                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / Binary Table Extension                         BITPIX  =                    8 / binary data                                    NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                   97 / Number of bytes per record                     NAXIS2  =                  100 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                   24 / Number of data fields (columns)                CDS-CAT = 'J/ApJS/164/334'     / Catalogue designation in CDS nomenclature               ACS Virgo Cluster Survey. VI (Ferrarese+, 2006)                        EXTNAME = 'J_ApJS_164_334_acsvcs' / Identification of the table                 CDS-NAME= 'J/ApJS/164/334/acsvcs' / Table name in METAtab                                Morphological properties and peculiarities of program galaxies         UCD__1  = 'meta.ref.url'       / ................................byte#0         TDISP1  = 'A1      '           / Display Fortran Format                         TFORM1  = 'A       '           / Ascii string                                   TTYPE1  = 'n_ACSVCS'           / Simbad column added by the CDS                 UCD__2  = 'meta.id;meta.main'  / ................................byte#1         TDISP2  = 'I3      '           / Display Fortran Format                         TFORM2  = 'I       '           / 16-bit (short) integer                         TTYPE2  = 'ACSVCS  '           / Running source identification number (G1)      UCD__3  = 'meta.ref.url'       / ................................byte#3         TDISP3  = 'A1      '           / Display Fortran Format                         TFORM3  = 'A       '           / Ascii string                                   TTYPE3  = 'R       '           / Note about this galaxy (from ``notes'' table)  UCD__4  = 'meta.id '           / ................................byte#4         TDISP4  = 'I4      '           / Display Fortran Format                         TFORM4  = 'I       '           / 16-bit (short) integer                         TTYPE4  = 'VCC     '           / Virgo Cluster Catalog identification number                                     (G2)                                           UCD__5  = 'pos.eq.ra;meta.main' / ...............................byte#6         TDISP5  = 'F11.5   '           / Display Fortran Format                         TFORM5  = 'D       '           / 64-bit floating-point (double precision)       TTYPE5  = 'RAJ2000 '           / NED Hour of Right Ascension (J2000)            TUNIT5  = 'deg     '           / degree                                         UCD__6  = 'pos.eq.dec;meta.main' / ..............................byte#14        TDISP6  = 'F11.5   '           / Display Fortran Format                         TFORM6  = 'D       '           / 64-bit floating-point (double precision)       TTYPE6  = 'DEJ2000 '           / NED Degree of Declination (J2000)              TUNIT6  = 'deg     '           / degree                                         UCD__7  = 'phot.mag;em.opt.B'  / ................................byte#22        TDISP7  = 'F5.2    '           / Display Fortran Format                         TFORM7  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE7  = 'BTmag   '           / The VCC B_T_ plate magnitude (1)               TUNIT7  = 'mag     '           / magnitude                                      UCD__8  = 'phot.mag;em.IR.J'   / ................................byte#26        TDISP8  = 'F5.2    '           / Display Fortran Format                         TFORM8  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE8  = 'Jmag    '           / ? 2MASS J band isophotal magnitude (1)         TUNIT8  = 'mag     '           / magnitude                                      UCD__9  = 'stat.error;phot.mag;em.IR.J' / .......................byte#30        TDISP9  = 'F5.2    '           / Display Fortran Format                         TFORM9  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE9  = 'e_Jmag  '           / ? Error in Jmag                                TUNIT9  = 'mag     '           / magnitude                                      UCD__10 = 'phot.mag;em.IR.H'   / ................................byte#34        TDISP10 = 'F5.2    '           / Display Fortran Format                         TFORM10 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE10 = 'Hmag    '           / ? 2MASS H band isophotal magnitude (1)         TUNIT10 = 'mag     '           / magnitude                                      UCD__11 = 'stat.error;phot.mag;em.IR.H' / .......................byte#38        TDISP11 = 'F5.2    '           / Display Fortran Format                         TFORM11 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE11 = 'e_Hmag  '           / ? Error in Hmag                                TUNIT11 = 'mag     '           / magnitude                                      UCD__12 = 'phot.mag;em.IR.K'   / ................................byte#42        TDISP12 = 'F5.2    '           / Display Fortran Format                         TFORM12 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE12 = 'Ksmag   '           / ? 2MASS Ks band isophotal magnitude (1)        TUNIT12 = 'mag     '           / magnitude                                      UCD__13 = 'stat.error;phot.mag;em.IR.K' / .......................byte#46        TDISP13 = 'F5.2    '           / Display Fortran Format                         TFORM13 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE13 = 'e_Ksmag '           / ? Error in Ksmag                               TUNIT13 = 'mag     '           / magnitude                                      UCD__14 = 'phot.color.excess'  / ................................byte#50        TDISP14 = 'F6.3    '           / Display Fortran Format                         TFORM14 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE14 = 'E_B-V_  '           / The (B-V) color excess (2)                     TUNIT14 = 'mag     '           / magnitude                                      UCD__15 = 'spect.dopplerVeloc;pos.heliocentric' / ...............byte#54        TDISP15 = 'I4      '           / Display Fortran Format                         TFORM15 = 'I       '           / 16-bit (short) integer                         TTYPE15 = 'Vsys    '           / NED heliocentric systemic velocity             TUNIT15 = 'km/s    '           / kilometre per second                           UCD__16 = 'src.morph.type'     / ................................byte#56        TDISP16 = 'A12     '           / Display Fortran Format                         TFORM16 = '12A     '           / Ascii string                                   TTYPE16 = 'MType   '           / The VCC morphological type                     UCD__17 = 'meta.id '           / ................................byte#68        TDISP17 = 'A10     '           / Display Fortran Format                         TFORM17 = '10A     '           / Ascii string                                   TTYPE17 = 'OName   '           / Other name(s)                                  UCD__18 = 'meta.code;src.morph' / ...............................byte#78        TDISP18 = 'A3      '           / Display Fortran Format                         TFORM18 = '3A      '           / Ascii string                                   TTYPE18 = 'Dust    '           / [C1-4: ] Dust detection (1)                    UCD__19 = 'meta.code;src.morph' / ...............................byte#81        TDISP19 = 'A1      '           / Display Fortran Format                         TFORM19 = 'A       '           / Ascii string                                   TTYPE19 = 'SD      '           / [Y] Small-scale disk (2)                       UCD__20 = 'meta.code;src.morph' / ...............................byte#82        TDISP20 = 'A2      '           / Display Fortran Format                         TFORM20 = '2A      '           / Ascii string                                   TTYPE20 = 'LD      '           / [Y: ] Large-scale disk (2)                     UCD__21 = 'meta.code;src.morph' / ...............................byte#84        TDISP21 = 'A2      '           / Display Fortran Format                         TFORM21 = '2A      '           / Ascii string                                   TTYPE21 = 'N       '           / Presence of a nucleus (3)                      UCD__22 = 'meta.code;src.morph' / ...............................byte#86        TDISP22 = 'A2      '           / Display Fortran Format                         TFORM22 = '2A      '           / Ascii string                                   TTYPE22 = 'B       '           / [Y: ] Existence of a bar                       UCD__23 = 'meta.ref.url'       / ................................byte#88        TDISP23 = 'A6      '           / Display Fortran Format                         TFORM23 = '6A      '           / Ascii string                                   TTYPE23 = 'Simbad  '           / Simbad column added by the CDS                 UCD__24 = 'meta.ref'           / ................................byte#94        TDISP24 = 'A3      '           / Display Fortran Format                         TFORM24 = '3A      '           / Ascii string                                   TTYPE24 = 'NED     '           / Simbad column added by the CDS                 END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             P R @gn=B7˙@  6ùi–Aı√@Ãz·<£◊
+@∏  <£◊
+@∞QÏ<£◊
+<¥9XÂE2/S0_1_(2) M49, N4472C1    II  SimbadNEDP R$@gvñﬁå°@(»?∑.¶AGÆ@⁄è\<£◊
+@≈∏<£◊
+@ºÃÕ<£◊
+<ºjE0          M87, N4486C1    0   SimbadNEDP R∫@g›I∫^5?@'Ô◊ÛA√Aı√@ÿQÏ<£◊
+@¬è\<£◊
+@∫è\<£◊
+<‘˝Ù]S0_1_(2)    M60, N4649      II  SimbadNEDP Rq@gQêπØr@)‰w=6b¡A ı√@Ê{<£◊
+@–QÏ<£◊
+@»ı√<£◊
+<ÌëhˇS0_1_(3)/E3 M86, N4406C1    II  SimbadNEDP R@gK4êπØq@20∆mÆà¸A!p§@Âp§<£◊
+@–QÏ<£◊
+@»QÏ<£◊
+<ı¬èŸS0_1_(3) pecM85, N4382C1: Y:II  SimbadNEDP R˚@gH~˘€"–@)∆$›/üA$(ˆ@ËQÏ<£◊
+@“·H<£◊
+@À33<£◊
+='Ôû$E1          M84, N4374C2    0   SimbadNEDP R€@gC¬è\(ı@E∏QÎÑA((ˆ@ˆ∏R<£◊
+@‡ı√<£◊
+@Ÿôö<£◊
+<¨1€E3          N4365           Ib  SimbadNED  Rˇ@gêi–6ù@ÃÉ˚rÍaA)¬è@Òôö<£◊
+@ŸGÆ<£◊
+@—ôö<£◊
+<¨1¿S0_3_(6)    N4526     C3    0   SimbadNEDP 	Ro@g–QÎÖ∑@'K‰±~JA,(ˆ@¯£◊<£◊
+@‚·H<£◊
+@€◊
+<£◊
+=oöE4          M59, N4621   Y  Id  SimbadNEDP 
+R`@gùO0x&:@)–pﬁA,z·@¯ı√<£◊
+@‚·H<£◊
+@€Ö<£◊
+='ÔûTS0_1_(0)    M89, N4552C1    II  SimbadNEDP Rœ@gnÑìtº@*€’84 ˙A1ôöA·H<£◊
+@QÏ<£◊
+@Ë£◊<£◊
+<Â`BƒE5          N4473         Y:II  SimbadNEDP R/@h'wwwww@&vxöºﬂ A2·HA¬è<£◊
+@Ù(ˆ<£◊
+@Óff<£◊
+<¥9XÿS0_1_(9)    N4762         Y Ib  SimbadNEDP RÇ@gh$›.@+ıﬂÍ'óA5ÎÖA
+=<#◊
+@ÔÆ<#◊
+@Ê∏R<#◊
+=8QÏ∫S0_3_(2)    N4459     C3    Id  SimbadNEDP R&@g`Ö∏QÎ@#õóS ÜA6ffA∏<£◊
+@Ú·H<£◊
+@Ï(ˆ<£◊
+<¥9XSB0_1_(6)   N4442           Id  SimbadNEDP R,@h"UUUUT@&†∂`∂A8(ˆAÆ<£◊
+@˘ôö<£◊
+@Úè\<£◊
+=oaSB0_1_(5)   N4754           IbY SimbadNEDP Rq@gVì@)ò ø‘NA<ÃÕA¬è<#◊
+Aè\<£◊
+@˛{<£◊
+=@ÉÒSB0_1_      N4267           IbY:SimbadNEDP R˜@gGfffff@'hàààààA<ÃÕA\)<#◊
+A z·<£◊
+@˘ÎÖ<£◊
+=tºØSB0_2_(r)(3)N4371     C4    IIY SimbadNEDP Rú@gß∏QÎÑ@¸M^oÄëA=∏A
+·H<#◊
+A   <#◊
+@¯QÏ<#◊
+<¥9X¬S0_1_(7)/E7 N4570        YY Ic  SimbadNED  R@g]f«V@*(kg˛-ˆA=p§A33<#◊
+@Ëı√<#◊
+@Ïz·<£◊
+<¥9X!SB0_1_(6)   N4435     C3  Y 0   SimbadNEDP R–@g‰Bè\(ı@&ao∫“∑hA?
+=A=q<#◊
+AÖ<#◊
+A  <#◊
+=Cñ;E3/S0_1_(3) N4660         Y Id  SimbadNEDP R≠@g?∏QÎÖ@0±ên]LA?◊
+AÃÕ<#◊
+A∏<#◊
+@˚Ö<#◊
+<Â`BŸS0_1_(8)    N4350     C4 YY 0   SimbadNEDP RÄ@g£î“BÊΩ@&‡À„»y˜A@QÏA·H<#◊
+Aè\<#◊
+A   <£◊
+=+vE6          N4564         Y Ic  SimbadNEDP Ré@g<¥9Xa@0πlˇ≈æA@z·Ap§<#◊
+A
+è\<£◊
+A·H<£◊
+<‘˝Ù∂RSB0_2_(5)  N4340           IbY SimbadNEDP R∞@gVº¡‡òÍ@#*Û|çAAGÆA¬è<#◊
+AÆ<#◊
+A◊
+<£◊
+<ÃÃÕKS0_1_(7)    N4417         Y Ic  SimbadNEDP Rí@g÷QÎÖ∑@&‚è\(ı¬AA¬èA∏R<#◊
+A  <#◊
+A  <£◊
+<‘˝ÙåS0_1_(7)    N4638         Y Ib  SimbadNEDP Rˇ@grQî#®@(®`{ L ABffAı√<#◊
+A	ÎÖ<#◊
+Aff<#◊
+<ƒõ¶EE2          N4478        Y  Id  SimbadNEDP R∏@g¨“BÊΩ@#FLÈÌAD£◊A\)<£◊
+A◊
+<£◊
+AQÏ=#◊
+<¨1·S0_1/2_(4)  N4578           Ia  SimbadNEDP Rc@g“BÊΩ@-¡ü≥äîAFè\Ap§<#◊
+A
+ff<#◊
+A∏R<£◊
+=tºOSB0_2/3_    N4262     C1    IdY SimbadNEDP RS@gú“BÊΩ@(q°V>YAH  A¬è<#◊
+A·H<#◊
+A  <#◊
+=#◊
+}E7/S0_1_(7) N4550     C1    Ia  SimbadNEDP R[@gÃ\(ı¬é@BFäœWAI∏A£◊<£◊
+A∏R<£◊
+A
+∏R<ı¬è<ÃÃÕSRSB0_1/2_   N4612           IaY SimbadNEDP R⁄@go! ¿É@,# ˛‹∫óAIôöA33<#◊
+A£◊<#◊
+A£◊<£◊
+=,1IS0_1_(8)    N4474         Y Ia  SimbadNEDP  R@gI˜wwww@/7Öì:zAJ∏RA◊
+<#◊
+Aı√<£◊
+AÎÖ<£◊
+<ƒõ¶-S0_1_(2)    N4379           Ia  SimbadNEDP !R@gê–6ùi@&§çû&ÆAK33A
+=<#◊
+AÖ<£◊
+A£◊<£◊
+=<j^SB0_2_(5)   N4528           IdY SimbadNEDP "R
+@gI¢–Â`A@-Ü:µñﬁåAKÖAÃÕ<#◊
+AÎÖ<#◊
+A=q<£◊
+=•„_S0_1_(3)    N4377           IdY SimbadNEDP #R)@gvˆ˚8@0¬QwıMAMp§A&∏R<£◊
+AQÏ<ı¬èA£◊<ı¬è<Â`B«S0_1_(1)    N4489           Id  SimbadNEDP $R<@gMè\(ı¬@)ü#EgâAMp§A"{<#◊
+A
+=<£◊
+AÆ<£◊
+=+1E5          N4387           Ia  SimbadNEDP %R‚@go·GÆz@(≤}'“}'ANè\A'◊
+<#◊
+AGÆ<£◊
+A∏<£◊
+<Â`B≤S0_3_(5)    N4476     C3    Ia  SimbadNEDP &R^@gù
+Ï3·@(á.¶ïANè\AÎÖ<#◊
+A33<£◊
+A33<£◊
+=æwîE2          N4551        Y  Ia  SimbadNEDP 'Rz@gg¨∂Ùe@*{ÿ‹FLAN·HA%p§<£◊
+A·H<£◊
+A33<£◊
+<ºj{E1          N4458        Y  Ia  SimbadNEDP (R@g\ÂﬂÍ'@ NÁ¶ÃXJAPı√A"∏R<£◊
+AQÏ<£◊
+AÃÕ<ı¬è<¥9X/E0/S0_1_(0) N4434           Ic  SimbadNEDP )R@guk-ΩA@"ÛA√x`AQôöA$QÏ<£◊
+A¬è<ı¬èAff=#◊
+<£◊
+kSB0_1_(5)   N4483           Ib  SimbadNEDP *Ry@g—m:”†@µ0Ï®dASÖA&·H<£◊
+Az·<£◊
+A∏=#◊
+<¥9XdE7          N4623        YY Ia  SimbadNEDP +R/@gw¨∂Ùe@(ä˙ƒ'#πAT(ˆA¬è<#◊
+Az·<#◊
+A∏<#◊
+<ºj ñE2          N4486A    C4 Y  II  SimbadNEDP ,Re@ge»\◊π @'Ç¸ñ/…bATÃÕA#
+=<£◊
+AÎÖ<£◊
+A
+=<ı¬è<ı¬è √S0_1_(9)    N4452        YY Ia  SimbadNEDP -R√@gà®ı¬è[@0C˘†·º0AU¬èA-GÆ<#◊
+A#33<£◊
+A (ˆ<ı¬è<˝Û∂∑E2          N4515        Y  Ib  SimbadNEDP .Rö@gj◊
+=p£@ P4VxöAUÎÖA((ˆ<£◊
+Aôö<£◊
+A=q<ı¬è<¥9X€E3          N4464           Ib  SimbadNEDP /R@grtß@⁄@+'ÛA√x_AW33A,£◊<£◊
+A"ff<ı¬èAè\=#◊
+<ÌëhlSB0_2_(2)   N4479           IaY:SimbadNEDP 0RÌ@gqb•4êπ@%è˚≠+vAXı√A;
+==#◊
+A1¬è=u¬èA.=q=∏QÏ<ÌëhOd:E5,N      N4482           Ia  SimbadNEDP 1R∫@g@™™™™™@&o…b¸ñ/AYôöA-ôö<ı¬èA#Ö<ı¬èA QÏ=LÃÕ<‘˝Ù S0_1_(8)    N4352        YY Ia  SimbadNEDP 2Ré@gÅÂﬂÍ'@$Ä∂`∂AZ=qA=GÆ=#◊
+A3Æ=u¬èA0ÃÕ=ÃÃÕ<˝Û∂E1,N:       I3468     C1:   Ia  SimbadNEDP 3R @g˙
+Ï3·ˆ@$h?∑.¶A\ı√A?33<ı¬èA4ı√=#◊
+A2=q=£◊
+=o<d:S0(9)     I3773         Y Ia  SimbadNEDP 4RO@g ìtºj@&∆/…b¸ïA]¬èA9GÆ<ı¬èA.∏R<ı¬èA*·H=u¬è<ı¬è7E3          I3653           Ia  SimbadNEDP 5R 	@f ˙âÊ@+¸,ô”⁄≠A^·Hˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ=æwdE1,N       I3019           Ie  SimbadNEDP 6R?@g5∆Pç˛¢@ eÅ$›/Ab=qA5GÆ<£◊
+A*{<ı¬èA&∏R=#◊
+<ÃÃÕœE4          N4318        YY Id  SimbadNEDP 7Rv@g—(û`L@'Ç~÷œAb∏RA<ı√=LÃÕA1∏=u¬èA,z·=∏QÏ<˝Û∂ ŒdE1,N       I809            Ia  SimbadNEDP 8R@g_Pç˛¢y@ .@+∞œáAc33AMÎÖ=è\)AC◊
+=∏QÏA?Ö>∏<¥9XÃS0(4)       U7580           II  SimbadNEDP 9RX@gOµ?|Ìë@$k¢?B¨Ad  AGÖ=u¬èA<QÏ=è\)A:è\>∏<ƒõ¶dE1,N       I3328           Ia  SimbadNEDP :R å@f˘≠e∑£'@,›ΩB7˘AdÃÕA?Ö<ı¬èA5∏=#◊
+A333=u¬è=çP0S0_1/2_(4)  I3065           Ia  SimbadNEDP ;RK@gz¨1&È@,:œWõﬂAdı√ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ=Cñ4dE2,N       I3442           Ia  SimbadNEDP <R?@ga¸ñ/…b@'îz·GÆAdı√AD  =LÃÕA9¬è=è\)A7◊
+=ı¬è<›/£dE3,N       I3381           Ia  SimbadNEDP =R@gt?%ãÚX@(˚*ˆÂAeGÆA1GÆ<#◊
+A%p§<£◊
+A"{<£◊
+<¨1E1          N4486B          Id  SimbadNEDP >RE@g«Œ*SI@&^~÷œ¸AeÎÖAEp§=LÃÕA;\)=u¬èA8ÃÕ=·GÆ<Ìëh÷dE0,N       I3652           Ia  SimbadNEDP ?R@g2õNÅ¥Á@-Ö}bë‹Af=qAK\)=#◊
+AAGÆ=u¬èA>·H=∏QÏ<˝Û∂ŸdE5         U7436           Ia  SimbadNEDP @Ró@gÉ≤-U@&Üí5Ó?Ah(ˆAB·H=#◊
+A8z·=LÃÕA4ÃÕ=£◊
+=PÂ`‹dE0,N       I3470           Ia  SimbadNEDP AR¯@gé·ˆqRô@*•)§ÖÕ{Ah(ˆAEÎÖ<ı¬èA;Æ=#◊
+A8QÏ=u¬è<Â`BHd:E1        I3501           Ia  SimbadNEDP BRü@gßPÂ`Aà@)
+O§˙O§Ahz·ATı√=LÃÕAJ=q=è\)AH(ˆ=∏QÏ=8QÏdS0:        I3586           Ia  SimbadNEDP CR)@g¬û∏QÎÑ@/ﬁ‰ª˜Ah£◊AEGÆ<ı¬èA;
+==#◊
+A7Ö=LÃÕ=tºèS0_1_(6)                    II  SimbadNEDP DRµ@g&Çc´Ym@1|Ø¨Br;Ah£◊AKÆ=#◊
+AAÎÖ=u¬èA>{=∏QÏ<Ìëh¬dE5,N       U7399A          Ia  SimbadNEDP ER„@gÍπ Æ√=@+bè\(ı¬AhÃÕAMp§=LÃÕAB{=è\)A?
+==∏QÏ<¥9XgdE4,N       I3735           Ia  SimbadNEDP FR !@fŸﬂÍ'ó@,å≈Ñ™6'Aj∏RAU¬è=LÃÕAK\)=è\)AH£◊=∏QÏ=çPEd:E2,N:     I3032           Ia  SimbadNEDP GR »@g}úT¶ë@*ÿg√ÏAk
+=AXÃÕ=LÃÕANè\=u¬èAKÖ=∏QÏ<ı¬è AdE2,N                       Ia  SimbadNEDP HR;@g5|>Œ*R@ÕÊIE€Ak◊
+A[\)=è\)APÃÕ=£◊
+AM∏>\)<¥9XSB0_1_(6)             C2    0   SimbadNEDP IR @f”çOﬂ;@$`^©¡¶WAl  AYGÆ=£◊
+AO33=ÃÃÕAMôö>.{<¨1˙dS0(4)      I3025           Ie  SimbadNEDP JR–@gâ ¿Én@"ÀYmË Al(ˆAXz·=£◊
+ALı√=∏QÏAK33>ôö<¨1ÖE6:         I3487         Y Ia  SimbadNEDP KRÛ@g∏üg)§@-vA˝πu0AmGÆAf=q=LÃÕA\ı√=è\)A\ÃÕ=ÃÃÕ<Â`B!dS0(6):     I3612     C1    Ie  SimbadNEDP LRg@gŒÓÓÓÓÓ@"ŒCœ¬ŸAnè\AV·H=u¬èAK33=è\)AIÎÖ>∏<ãCñd:E6        U7854           Ia  SimbadNEDP MR€@gä£®û`@)µ;ÿ‹EAo
+=A[◊
+=#◊
+ATÃÕ=è\)AQôö=∏QÏ<ı¬è˝¡E3 pec or S0I3492           II  SimbadNEDP NR	@gëâÊ∆@(R‘âqAo\)APQÏ=#◊
+AF·H=u¬èAB∏R=è\)=,1E4          I3509           Ia  SimbadNEDP OR®@gl”†m9@¯öºﬂ"Ap£◊A?Ö=#◊
+A5¬è=è\)A0QÏ=∏QÏ<ºjíE3          N4467           Ia  SimbadNEDP PRA@g«z·G≠@$Ûƒ’Ê¯Aq∏ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ<ÃÃÕzdE4:,N?     I3647           Ie  SimbadNEDP QR3@ga£®û`@$òQÎÖ∏AqGÆA\(ˆ=∏QÏAT  =·GÆAO33>#◊
+<›/4dE4,N       I3383           Ia  SimbadNEDP RRú@g◊ºj~˘⁄@%]û&Ø7Aqôöˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ<ÃÃÕàdE3                         Ie  SimbadNEDP SR[@gú˜wwww@(√äî“BÊArè\AI¬è<£◊
+A>ff<ı¬èA;Æ=#◊
+=æw ÏE0                          Ia  SimbadNEDP TR†@gÑs∂E° @.‘¶í5ÌAs33ALı√<ı¬èAAÎÖ=#◊
+A?Æ=u¬è<Â`BûE0          I798            Ia  SimbadNEDP UR Ê@g
+û`Lu@'„ﬁR`As33A`£◊=∏QÏAU¬è=ÃÃÕAUp§>8QÏ<Â`B“dE4:,N:     I3101           Ia  SimbadNEDP VR@g˙¬7˙âÂ@(U& tÇ)As33Ae∏=£◊
+A[33=ı¬èATÃÕ=ı¬è<ºj©dE5:,N      I3779           Ia  SimbadNEDP WR…@g·öH\◊∏@)‚%∆3msAtÃÕA`£◊=LÃÕAVff=è\)ASÆ=∏QÏ<ÃÃÕkE0                          Ib  SimbadNEDP XRÔ@gFr]Ü{@21ÎÖ∏QAtÃÕAM∏<ı¬èAB·H=LÃÕA?\)=u¬è=o∆dS0         I3292         Y Ia  SimbadNEDP YR$@g¡»¥9X@)ø€óS AuGÆA]ÎÖ=u¬èATÃÕ=£◊
+AQÎÖ=ÃÃÕ=çPÌdE2,N       I3635           Ia  SimbadNEDP ZR@g1˙2ÑoÙ@™‰Îø_ÃAvffAc33=£◊
+AY∏=£◊
+AV=q>∏<£◊
+ÙE0          N4309A          Ia  SimbadNEDP [R@gÄ[—î#@'«À5;ÿAw◊
+AW33=è\)AM∏=∏QÏAMÎÖ>ôö=oÈdE2,N       I3461           Ia  SimbadNEDP \R^@gÕA1’¨∂@(~ÎJ›£úAw◊
+ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ=+ádE5,N                       Ia  SimbadNEDP ]RØ@gl©§ÖÕ{@ ÷œ¸[Ax  AT(ˆ=LÃÕAIp§=u¬èAF·H=∏QÏ<¥9XÑE2                       Y  Ia  SimbadNEDP ^Rœ@g∞Á)§Ö@$*.‡^©¡Ax  Af=q=·GÆAa¬è>.{AVff>.{<õ•„ˇdE6         I3602           Ib  SimbadNEDP _R@gêÁ)§Ö@){ø_ÕAz·Hˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ=ondE0,N                       Ia  SimbadNEDP `R°@gkæv»≥@(ÊΩ»vAz·HAiGÆ=£◊
+A^=q=ÃÃÕAYÎÖ=·GÆ<ºjÙdE1,N                       Ia  SimbadNEDP aR"@g¡®û`Ô@# ÀoFPçA{33Ad  =è\)AYGÆ=£◊
+AZ=q>∏<ãCñÒdE2,N       I3633           Ia  SimbadNEDP bRË@gåõ•„S˜@&ÜLÈÌVA{Æˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ=LÃÕ˙dS0 pec                     II  SimbadNEDP cR—@gâÿg√Ï‚@%€à¬…ù=A~=qˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ=Cñ PdE5,N?      I3490           Ia  SimbadNEDP dR}@g£NŸá*@$ƒÎø_ÕAÖˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ<£◊
+xdE0,N                       Ia  SimbadNED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

@@ -1,0 +1,34 @@
+#Early type galaxies
+# data from Lyubenova & Tsatsi 2019 - most values from Tables 1&2, v_sig, v_e & sig_e are from Fig.2
+#Name	R_e_arc	R_e_pc	epsE	v_e 	sig_e 	v_sig_e	Dist	log_M	Ref
+FCC47	0.612	54	0.16	35	87.5	0.4	18.3	10.4	L19
+FCC148	0.233	22	0.08	15	60	0.25	19.9	10.0	L19
+FCC170	0.207	21	0.30	50	90.9	0.55	21.9	10.6	L19
+FCC177	0.099	9	0.04	8	40	0.2	20.9	9.7	L19
+FCC277	0.082	8	0.15	5	50	0.1	20.7	9.9	L19
+FCC310	0.328	31	0.10	7	35	0.2	19.9	10.0	L19
+
+# Data by Nguyen et al. 2018
+#Name	R_e_arc	R_e_pc	epsE	v_e 	sig_e 	v_sig_e	Dist	log_M	
+M32	1.1	4.4	0.25	52	61	0.82	0.79	9.0	N18
+NGC205	0.3	1.3	0.05	5	15	0.3	0.82	9.0	N18
+NGC5102	1.6	26.3	0.41	23	39	0.59	3.2	9.8	N18
+NGC5206	0.5	8.1	0.04	8	32	0.25	3.5	9.4	N18
+
+# Data by Seth et al. 2010, v_e and sig_e from Fig. 8	
+#Name	R_e_arc	R_e_pc	epsE	v_e 	sig_e 	v_sig_e	Dist	log_M	
+NGC404	0.68	10.1	0.06	2.5	33.0	0.08	3.1	9.1	S10
+
+#Late type galaxies
+# Data by Seth et al. 2008 - R_e, ellipticity from Seth et al. 2006, source for the galaxy mass: NSA using Roediger+15
+#Name	R_e_arc	R_e_pc	epsE	v_e 	sig_e 	v_sig_e	Dist	log_M	
+NGC4244	0.15	3.15	0.52	25	28	0.9	4.3	9.0	S08
+
+
+# Data by Feldmeier et al. 2014, R_e and eps from Schoedel et al. 2014	- total stellar mass from Bland-Hawthorn & Gebhardt 2016
+#Name	R_e_arc	R_e_pc	epsE	v_e 	sig_e 	v_sig_e	Dist	log_M	
+MW	108	4.2	0.29	30	50	0.6	8	10.8	F14
+
+# Data by Alfaro et al. 2019b - total stellar mass from Niederste-Ostholt et al. 2012
+#Name	R_e_arc	R_e_pc	epsE	v_e 	sig_e 	v_sig_e	Dist	log_M	
+M54	49.2	6.7	0.04	1.81	16.31	0.11	28	8.5	A19

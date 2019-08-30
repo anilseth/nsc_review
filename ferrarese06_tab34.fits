@@ -1,0 +1,145 @@
+SIMPLE  =                    T / Standard FITS Format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    0 / No Image --- just extension(s)                 EXTEND  =                    T / There are standard extensions                  ORIGIN  = 'xml2fits_v1.95'     / Converted from XML-Astrores to FITS                                     e-mail: question@simbad.u-strasbg.fr                   COMMENT  ARG='-rm'                                                              LONGSTRN= 'OGIP 1.0'           / Long string convention (&/CONTINUE) may be usedDATE    = '2019-05-23'         / Written on 2019-05-23:09:39:15 (GMT)                                        by: (nobody)@d3c5b7480ccf.cfa.harvard.ed                    **********************************************************                          EXCERPT from catalogues stored in VizieR (CDS)                                             with the following conditions:                                   **********************************************************                                                                                                      VizieR Astronomical Server vizier.cfa.harvard.edu                               Date: 2019-05-23T09:39:15 [V1.99+ (14-Oct-2013)]                                Explanations and Statistics of UCDs: See LINK below                             In case of problem, please report to: cds-question@unistra.fr                                                                                          INFO    = 'votable-version=1.99+ (14-Oct-2013)' / #                             INFO    = '-ref=VIZ5ce669951c557' / #                                           INFO    = '-out.max=unlimited' / #                                              Q-PARAMS=                   30 / Number of queryParameters (followed by list)            -oc.form=dec                                                                    -out.max=unlimited                                                              #out.form=FITS (binary) Table                                                   -nav=cat:J/ApJS/164/334&tab:{J/ApJS/164/334/struct}&key:source=J/ApJS/1         64/334/struct&HTTPPRM:&                                                         -c.eq=J2000                                                                     -c.r= 2                                                                         -c.u=arcmin                                                                     -c.geom=r                                                                       -source=J/ApJS/164/334/struct                                                   -order=I                                                                        -out=ACSVCS                                                                     -out=R                                                                          R=R                                                                             -out=f_ACSVCS                                                                   -out=Mod                                                                        -out=n.g                                                                        -out=reg                                                                        -out=rbg                                                                        -out=n.z                                                                        -out=rez                                                                        -out=rbz                                                                        -out=<mug>                                                                      -out=<eg>                                                                       -out=gmag.g                                                                     -out=g-z                                                                        -out=e_g-z                                                                      -out=<muz>                                                                      -out=zmag.g                                                                     -out=RAJ2000                                                                    -out=DEJ2000                                                                    #                                                                               #RESOURCE=yCat_21640334                                                         #Name: J/ApJS/164/334                                                           #Title: ACS Virgo Cluster Survey. VI (Ferrarese+, 2006)                         #Coosys J2000: eq_FK5 J2000                                                                                                                            END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / Binary Table Extension                         BITPIX  =                    8 / binary data                                    NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                   74 / Number of bytes per record                     NAXIS2  =                   98 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                   19 / Number of data fields (columns)                CDS-CAT = 'J/ApJS/164/334'     / Catalogue designation in CDS nomenclature               ACS Virgo Cluster Survey. VI (Ferrarese+, 2006)                        EXTNAME = 'J_ApJS_164_334_struct' / Identification of the table                 CDS-NAME= 'J/ApJS/164/334/struct' / Table name in METAtab                                Luminosity profile and structural parameters for program galaxies      UCD__1  = 'meta.id;meta.main'  / ................................byte#0         TDISP1  = 'I3      '           / Display Fortran Format                         TFORM1  = 'I       '           / 16-bit (short) integer                         TTYPE1  = 'ACSVCS  '           / Running source identification number (G1)      UCD__2  = 'meta.ref.url'       / ................................byte#2         TDISP2  = 'A1      '           / Display Fortran Format                         TFORM2  = 'A       '           / Ascii string                                   TTYPE2  = 'R       '           / Note about this galaxy (from ``notes'' table)  UCD__3  = 'meta.code'          / ................................byte#3         TDISP3  = 'A1      '           / Display Fortran Format                         TFORM3  = 'A       '           / Ascii string                                   TTYPE3  = 'f_ACSVCS'           / [1] Unreliable values (G3)                     UCD__4  = 'meta.note'          / ................................byte#4         TDISP4  = 'A2      '           / Display Fortran Format                         TFORM4  = '2A      '           / Ascii string                                   TTYPE4  = 'Mod     '           / Sersic (S) or core-Sersic (cS) best fitting                                     model                                          UCD__5  = 'stat.fit.param'     / ................................byte#6         TDISP5  = 'F6.3    '           / Display Fortran Format                         TFORM5  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE5  = 'n_g     '           / The g band Sersic model index (4)              UCD__6  = 'phys.angSize;src'   / ................................byte#10        TDISP6  = 'F6.2    '           / Display Fortran Format                         TFORM6  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE6  = 'reg     '           / The g band effective radius (4)                TUNIT6  = 'arcsec  '           / second of arc                                  UCD__7  = 'phys.angSize;src'   / ................................byte#14        TDISP7  = 'F5.2    '           / Display Fortran Format                         TFORM7  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE7  = 'rbg     '           / ? The g band break radius (4)                  TUNIT7  = 'arcsec  '           / second of arc                                  UCD__8  = 'stat.fit.param'     / ................................byte#18        TDISP8  = 'F6.3    '           / Display Fortran Format                         TFORM8  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE8  = 'n_z     '           / The z band Sersic model index (4)              UCD__9  = 'phys.angSize;src'   / ................................byte#22        TDISP9  = 'F6.2    '           / Display Fortran Format                         TFORM9  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE9  = 'rez     '           / The z band effective radius (4)                TUNIT9  = 'arcsec  '           / second of arc                                  UCD__10 = 'phys.angSize;src'   / ................................byte#26        TDISP10 = 'F5.2    '           / Display Fortran Format                         TFORM10 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE10 = 'rbz     '           / ? The z band break radius (4)                  TUNIT10 = 'arcsec  '           / second of arc                                  UCD__11 = 'phot.mag.sb'        / ................................byte#30        TDISP11 = 'F5.2    '           / Display Fortran Format                         TFORM11 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE11 = '__mug_  '           / Mean g band surface brightness within reg.g (5)TUNIT11 = 'mag/arcsec2'        / magnitude per square second of arc             UCD__12 = 'src.ellipticity'    / ................................byte#34        TDISP12 = 'F5.2    '           / Display Fortran Format                         TFORM12 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE12 = '__eg_   '           / ? Mean g band ellipticity                      UCD__13 = 'phot.mag;em.opt.B'  / ................................byte#38        TDISP13 = 'F5.2    '           / Display Fortran Format                         TFORM13 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE13 = 'gmag_g  '           / The g band magnitude (7)                       TUNIT13 = 'mag     '           / magnitude                                      UCD__14 = 'phot.color'         / ................................byte#42        TDISP14 = 'F5.2    '           / Display Fortran Format                         TFORM14 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE14 = 'g-z     '           / The (g-z) color index (7)                      TUNIT14 = 'mag     '           / magnitude                                      UCD__15 = 'stat.error'         / ................................byte#46        TDISP15 = 'F5.2    '           / Display Fortran Format                         TFORM15 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE15 = 'e_g-z   '           / Uncertainty in g-z                             TUNIT15 = 'mag     '           / magnitude                                      UCD__16 = 'phot.mag.sb'        / ................................byte#50        TDISP16 = 'F5.2    '           / Display Fortran Format                         TFORM16 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE16 = '__muz_  '           / Mean g band surface brightness within rez.g (5)TUNIT16 = 'mag/arcsec2'        / magnitude per square second of arc             UCD__17 = 'phot.mag;em.opt.I'  / ................................byte#54        TDISP17 = 'F5.2    '           / Display Fortran Format                         TFORM17 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE17 = 'zmag_g  '           / The z band magnitude (7)                       TUNIT17 = 'mag     '           / magnitude                                      UCD__18 = 'pos.eq.ra;meta.main' / ...............................byte#58        TDISP18 = 'F11.5   '           / Display Fortran Format                         TFORM18 = 'D       '           / 64-bit floating-point (double precision)       TTYPE18 = 'RAJ2000 '           / Hour of Right Ascension (J2000) (2)            TUNIT18 = 'deg     '           / degree                                         UCD__19 = 'pos.eq.dec;meta.main' / ..............................byte#66        TDISP19 = 'F13.7   '           / Display Fortran Format                         TFORM19 = 'D       '           / 64-bit floating-point (double precision)       TTYPE19 = 'DEJ2000 '           / Degree of Declination (J2000) (2)              TUNIT19 = 'deg     '           / degree                                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              R cS@∞ìCPè?¯QÏ@¥1CSaH?Ó{AØÆ=∏QÏAÎÖ?ÃÃÕ<ı¬èA£\)@ŸGÆ@gn;dZ´@  5D%˘v R cS@√C#‘{@‰ÃÕ@¿¨C$.@”33AØÆ<£◊
+A£◊?ÃÃÕ=#◊
+A¢ÃÕ@Ê{@gvñﬁå°@(»Luk-º R cS@òÉBƒQÏ@#◊
+@õS¯Bƒı√@!GÆA®z·=·GÆAGÆ?œ\)<£◊
+Aõôö@Óff@g›XbM“@'ÈßotÍ R cS@‡ÉCÕÎÖ?8QÏ@Í¨C‹~∏?:·HAºÃÕ>Bè\Az·?»ı√=LÃÕA±Ö@ﬂ
+=@gQëhr∞ @)‰j‹.… R cS@⁄C*—Ï?∏R@Ã¥9C Æ?ôöA±◊
+>u¬èA∏?∞£◊<ı¬èA•ôö@ı¬è@gK5?|Ìë@20¸≠}ﬁ R cS@Í»¥C¯R?ÏÃÕ@¯›/CxR?£◊A∞=q>8QÏAè\?«Æ<#◊
+A§£◊@Ú·H@gH~¢yÉ¿@)∆ì∆J∫ R cS@ªﬂ;BÊ«Æ?¨ÃÕ@…/BıaH?Æ{A∞QÏ>Ä  AÖ?√◊
+=LÃÕA§·HAff@gC«Æz‡@EkË&ı 	R S @€CñB’Ä ˇˇˇˇ@˙˘€B¸·HˇˇˇˇAØp§>Æ{A£◊?√◊
+=#◊
+A•ÖA·H@g–NŸá*@'K2x…WU 
+R cS@‚–ÂB™=q?&ff@ÛS¯B®Ωq?@  A¨·H=LÃÕA
+=?Œ{=#◊
+A†=qA¬è@gùOáŸ≈J@)ûÏø±Z R S @=∏Aá∏ˇˇˇˇ@N5?Aï∏ˇˇˇˇAò∏R>‹(ˆA/33?√◊
+<#◊
+Aç¬èA{@gnÉ¡1’¨@*€œ∞˛! R S @QÎÖA=ÎÖˇˇˇˇ@}ëhAd£◊ˇˇˇˇAò£◊>Æ{A;\)?∏QÏ<#◊
+AèÖA"∏R@h'x‘˝Ûµ@&vO*Íæ R S @ù`BA·33ˇˇˇˇ@¢=qAÏ  ˇˇˇˇA°∏>\)A.=q?≈∏<#◊
+Aï33Aı√@ghnóå@+ÙÓK“Nå R S @RüæAá\)ˇˇˇˇ@IXAc\)ˇˇˇˇAôôö>ä=qA0ı√?√◊
+<#◊
+Aã
+=AÎÖ@g`Ö∏QÎ@#õíÎAãã R S @àÌëA¡
+=ˇˇˇˇ@¢ÈyA˚ôöˇˇˇˇA†QÏ>Bè\A2{?¿  <#◊
+Aó\)A
+=@h"UUUUT@&†ºˆN^¿ R S @)GÆ@˝¬èˇˇˇˇ@0¥9@˜ÆˇˇˇˇAïÆ=u¬èACÖ?»ı√<#◊
+AàÃÕA*è\@gﬂÍ'ó@)ò´ŸñØÒ R S @OÆA—p§ˇˇˇˇ@bnòA⁄(ˆˇˇˇˇA£p§>û∏RA5p§?≈∏<#◊
+AóÆA£◊@gGaˆqRô@'h´ŸñØÒ R S @OﬂA  ˇˇˇˇ@/
+=Ap§ˇˇˇˇAîQÏ>≥33A:ff?√◊
+<#◊
+Aà  A"ff@gß ƒõ•‚@¸f√õS R S @~á+A'33ˇˇˇˇ@éßA
+=ˇˇˇˇAñff>ÃÃÕA;\)?¡GÆ<#◊
+Aâ∏A$QÏ@g‰C>g@&amË ø R S @J·HA>è\ˇˇˇˇ@M¬èA333ˇˇˇˇAóÆ>∏QÏA9p§?∆ff<#◊
+Aä£◊A!p§@g?∂E° ¿@0±Éíó^µ R S @~ŸA|(ˆˇˇˇˇ@äüæA~è\ˇˇˇˇAú·H>Æ{A:{?≈∏<#◊
+Aê∏RA!GÆ@g£öH\◊∏@&‡∫i€›: R S @Ä£◊A≠
+=ˇˇˇˇ@Å%A¶=qˇˇˇˇA•33>\)A?Æ?πôö<#◊
+Aòı√A(£◊@g<¥9Xa@0∏Ô4÷°a R S @Tz·AI∏ˇˇˇˇ@V»¥A9¬èˇˇˇˇAöff>«ÆA<ı√?Ωp§<#◊
+AçÆA&=q@gV¿Énó@#+U–’ R S @|z·Al£◊ˇˇˇˇ@É∂FAU¬èˇˇˇˇAúı√>˙·HA<QÏ?æ∏R<#◊
+Aê{A&{@g÷QÎÖ∑@&‚z¯îÈè R S ?˜ÔûA733ˇˇˇˇ@
+-A@(ˆˇˇˇˇAö  >LÃÕA?\)?∫·H<#◊
+Aé·HA'Ö@grS†m:@(®-%£?ì R S @éÈyB{ˇˇˇˇ@éÈyAŸ¬èˇˇˇˇA™è\>u¬èA<  ?∏QÏ<£◊
+AúÃÕA&è\@g¨Ã	é@#‚\¯X R S @nffAz·ˇˇˇˇ@lI∫AGÆˇˇˇˇAò(ˆ>∏AAGÆ?¬è\<#◊
+Aäz·A)p§@gtºj~@-¡¬ΩˆüÏ R S ?‘ºjA&·Hˇˇˇˇ?‘ºjAÆˇˇˇˇAöff?z·AB·H?µ¬è<#◊
+Aé∏RA,ı√@gú/…b¸@(pÙ™í\ R S @íffA«ÎÖˇˇˇˇ@íffA»(ˆˇˇˇˇA•ÎÖ>W
+=A<(ˆ?®ı√<#◊
+Aõ∏A&ff@gÃ]››››@BUË"L R S @W;dAá
+=ˇˇˇˇ@W;dAÖ\)ˇˇˇˇA¢è\>Ä  AC
+=?∫·H<#◊
+Añ£◊A+Æ@go$ÖÕ{è@,# ˛‹∫ó  R S @@bNAc◊
+ˇˇˇˇ@@bNAZ∏RˇˇˇˇAü¬è>.{AC
+=?∑
+=<#◊
+Aì¬èA,QÏ@gI˜ ÿg@/6“+ôÇK !R S @1˚ÁA (ˆˇˇˇˇ@8É@˝p§ˇˇˇˇAò£◊>\)AHı√?πôö<#◊
+Aå·HA1ÎÖ@gê—<¡‡ò@&§üß)ç8 "R S @Fóç@ºÃÕˇˇˇˇ@BM”@¶{ˇˇˇˇAî(ˆ>8QÏAJ∏R?º(ˆ<#◊
+AÜ∏RA4QÏ@gI§›/ü@-Ü7Öì9 #R S @¬v…BGÆˇˇˇˇ@πÅA  ˇˇˇˇA∞ı√=ÃÃÕADz·?™=q=u¬èA£p§A0ÃÕ@gv¯&:µñ@0¬:‰1UÉ $R S @˝ÙA,ı√ˇˇˇˇ@˝ÙA(  ˇˇˇˇAü
+=>£◊
+AK\)?Ωp§<#◊
+Aí·HA4  @gMê
+Ï3·@)û‰ª¯ %R cS@ˇ;dA1∏@ÃÕ@ˇ;dA<z·@∏A£33?   AFff?ö·H<#◊
+Aö{A2∏R@go·ü≥ä@(≤ã∏™p &R S @\)AT£◊ˇˇˇˇ@\)AQ¬èˇˇˇˇA°Ö>è\)AH£◊?¿  <#◊
+AïGÆA0z·@gù≈˘,_@(á"¢JÈI 'R S @¿ÉAîÃÕˇˇˇˇ@¿ÉAÄQÏˇˇˇˇA™=q>#◊
+AK33?Æ{=è\)Aû(ˆA7\)@gg≠e∑£'@*{‰‡¬ (R S @jM”A2{ˇˇˇˇ@mÅA!ÎÖˇˇˇˇAû£◊=è\)AI¬è?∑
+=<#◊
+AëÎÖA3Ö@g\ÂﬂÍ'@ NÓàgÈ5 )R S @rüæAr·Hˇˇˇˇ@ná+AN=qˇˇˇˇA§£◊>Ä  AJ·H?µ¬è<£◊
+Aó∏A5ôö@gukÖ∏Q@"Áõ%∫å *R S @ôöAj∏Rˇˇˇˇ@ôöAf=qˇˇˇˇA¶(ˆ?   ANff?∑
+=<#◊
+Aöè\A7Æ@g—l‚•4ê@¥…–Å-¡ +R S @.@”Öˇˇˇˇ@'K«@¥z·ˇˇˇˇAò£◊>ôôöAO◊
+?–£◊<#◊
+Aä=qA8z·@gw∂ùiœ@(ä®ÿ¢ ,R S @ëhAT(ˆˇˇˇˇ@ëhA2è\ˇˇˇˇA£ôö?.{AMôö?µ¬è<#◊
+Aóp§A;
+=@ge∆ßÔù±@'ÇëËõwH -R S @HÉA◊
+ˇˇˇˇ@Xr∞A◊
+ˇˇˇˇAüÖ>ôôöAPı√?¨ÃÕ<#◊
+Aî·HA;Æ@gàÆ√>f@0C˝–¬lh .R S @nß@“è\ˇˇˇˇ@]Û∂@∫è\ˇˇˇˇAô33>û∏RAPı√?º(ˆ<#◊
+AãÎÖA:∏R@gj’¨∂Ùd@ PK%ﬂ’. /R S @=qAö=qˇˇˇˇ@=qAõÆˇˇˇˇA´Ö>ôôöAPQÏ?º(ˆ<ı¬èAü◊
+A8z·@grs∂E° @+'‘¨ef 0R S @
+Ò™Aßôöˇˇˇˇ@£◊A°
+=ˇˇˇˇAØ33>îz·AT£◊?ôôö=LÃÕA•∏AAÎÖ@gqaGÆz@%è'K 1R S @\ºjAÄ{ˇˇˇˇ@W\)As33ˇˇˇˇA®z·>¬è\AP£◊?∞£◊<£◊
+Aú∏RA;
+=@g@´I∫@&oã °ßÃ 2R S ?Ù˝ÙAöQÏˇˇˇˇ@v…AØ◊
+ˇˇˇˇA∞=q>ä=qAYôö?¢è\=£◊
+AßÆAC◊
+@gÅÂﬂÍ'@$ÄØ sU 3R S ?Â`A>ffˇˇˇˇ?¸ãDAJ=qˇˇˇˇA©Ö?
+=qA]∏?ú(ˆ<#◊
+A†z·AHı√@g˙ﬂÍ'ó@$h*ô0æ 4R S ?Í·H@⁄=qˇˇˇˇ?˝“Ú@›p§ˇˇˇˇA¢£◊>\)Ab{?πôö<#◊
+AóGÆAJ·H@g ˚8®@&∆?ª 5R S ?Ç–ÂAÏı√ˇˇˇˇ?í∞!Bè\ˇˇˇˇAπ\)>8QÏA\ı√?ì33>ôöA±ÆAF·H@f ık-Ω@+¸4˘ï; 6R S AM?}Cı  ˇˇˇˇAU33Cı  ˇˇˇˇA◊∏>Æ{A7
+=?¨ÃÕ=#◊
+AÃffA!ôö@g5≈° ¿Ç@ esz⁄J 7R S ?ÃI∫AHQÏˇˇˇˇ?»1'A@(ˆˇˇˇˇA¨ı√>Bè\AaÎÖ?¥z·=#◊
+A°33AL  @g—(ı¬è[@'Ç;AfCr 8R S @"~˙A
+=ˇˇˇˇ@áA{ˇˇˇˇA≠GÆ>.{Aj·H?åÃÕ=#◊
+A¢£◊A[\)@g_Oﬂ;dY@ .@+∞œá 9R S ?ï∏AkÖˇˇˇˇ?®ìuAÖôöˇˇˇˇA∞ı√=∏QÏAd  ?ú(ˆ=∏QÏA®ffANè\@gO∫^5?|@$ñò§Ó® :R S ?≤nòA◊
+ˇˇˇˇ?∂AQÏˇˇˇˇAßGÆ>îz·AaGÆ?ú(ˆ<£◊
+AùÖAM¬è@f˘Æz·G@,›«®A, ;R S ?∑
+=Aƒffˇˇˇˇ?“–ÂAÙ(ˆˇˇˇˇAª33>LÃÕAg
+=?òQÏ<#◊
+A≥ôöAPQÏ@gz±&Èx‘@,;‚%… <R S ?«lãAñı√ˇˇˇˇ?÷ffA¢ı√ˇˇˇˇA≤{>kÖA]ÎÖ?•∏=è\)A®z·AH(ˆ@ga˙âÊ@'ît∞√·; =R S @.Ÿ@∏ˇˇˇˇ@2nò@è\ˇˇˇˇAçÆ>\)A^{?√◊
+<#◊
+AÅ∏AEp§@gtBè\(ı@(˙Ócä >R S ?Æ5?Ar=qˇˇˇˇ?ÀÁmAëÎÖˇˇˇˇA±∏ˇˇˇˇAcÖ?™=q>∏A®ffAK◊
+@g«œ0x&:@&^aMÅcY ?R S ?Õp§Aâ∏ˇˇˇˇ?€•„AíQÏˇˇˇˇA≤QÏ>ÊffAaÎÖ?û∏R<£◊
+A©∏AMGÆ@g2úT¶í@-Ö©„∂ @R S ?ƒ›/A¬èˇˇˇˇ?ƒ›/AffˇˇˇˇA™=q=#◊
+Ad£◊?µ¬è=#◊
+AûÃÕAM¬è@gÉ`Lu@&Üû’ruﬂ AR S @üæAffˇˇˇˇ@v…A{ˇˇˇˇA™è\>.{Aep§?•∏=#◊
+A†=qAPı√@gé·ˆqRô@*•H9„ﬂ∆ BR S @S¯A°Æˇˇˇˇ@#tºAÿffˇˇˇˇA∂{>£◊
+AcÆ?ì33=ÃÃÕAØÎÖAMGÆ@gßP6ùi@)
+$: CR S ?Ìëh@Ï(ˆˇˇˇˇ?Óóç@˜\)ˇˇˇˇA¶QÏ>ôôöAg\)?ö·H<£◊
+Aù33AS\)@g¬üg)§@/ﬁ“àŒp: DR S ?Û◊
+A»(ˆˇˇˇˇ?˝Û∂AœÎÖˇˇˇˇA∂è\>è\)A]∏?°GÆ>∏A¨ÃÕAHQÏ@g&Öv˙@1|•zxl" ER S ?º1At  ˇˇˇˇ?‹ãDAòz·ˇˇˇˇA≤ÃÕ>è\)Af∏R?òQÏ=u¬èA´\)AP(ˆ@gÍª¯}õ@+bv˜N∞N FR S ?Ü»¥Aôöˇˇˇˇ?à1'Aè\ˇˇˇˇAÆ£◊=·GÆApz·?åÃÕ<#◊
+A•ÎÖA^·H@fŸ+I@,åôv•¿_ GR S ?ÎALÃÕˇˇˇˇ?˜lãAQÎÖˇˇˇˇA≤è\>∏Al£◊?ö·H=è\)A©
+=AXÃÕ@g}úT¶ë@*=áÒÖ HR S @0  AT(ˆˇˇˇˇ@1ôöAb{ˇˇˇˇA≤ı√>‹(ˆAlQÏ?åÃÕ=è\)A™ı√AZ{@g5}Û∂E°@ÃﬁFπiâ IR S ?ö^5A(ˆˇˇˇˇ?®r∞ADz·ˇˇˇˇA≠ÎÖ>Ωp§Al£◊?QÎÖ=#◊
+A©p§A[◊
+@f”Å$‹@$`ô•@7W JR S ?≥˜œAı√ˇˇˇˇ?≤nòA(  ˇˇˇˇA¨ı√>≥33Alz·?aGÆ=u¬èAß
+=A\z·@gâ i!s^@"ÀYH†jÂ KR S ?∂ÈyA,QÏˇˇˇˇ?®1'A4£◊ˇˇˇˇAØ33>ÎÖAk◊
+?kÖ=#◊
+A®{A\  @g∏£◊
+=p@-v\4ú`L LR S ?Øù≤A!∏ˇˇˇˇ?≥tºA&·HˇˇˇˇAØ∏?   An{?é{=LÃÕA¶z·A[Æ@gŒÔù≤-@"Œ7¶ßÎ MR S ?û5?@∞  ˇˇˇˇ?ï?}@œ\)ˇˇˇˇA•∏>ÊffAo
+=?è\<£◊
+A°◊
+Ab·H@gä¢–Â`A@)¥¯⁄—Bî NR S @"·HA3◊
+ˇˇˇˇ@-Û∂A+◊
+ˇˇˇˇA∞(ˆ>#◊
+AlQÏ?´Ö=è\)A§ÃÕAW33@gëä=p£÷@(˘f†ßz OR S @:¨@Ë£◊ˇˇˇˇ@9∫^@‚·HˇˇˇˇA¶£◊>Ö∏AgÆ?¬è\<ı¬èAö(ˆAOÆ@glﬂÍ'ó@¯√·<v PR S ?Dõ¶A¶è\ˇˇˇˇ?["—AØ
+=ˇˇˇˇAªGÆ?   Am∏?kÖ>ôöA¥  A\ı√@g«<Z@$Ûâ⁄hg	 QR S ?û˘€Ai∏ˇˇˇˇ?∂AéffˇˇˇˇA∂=q>£◊
+Ao\)?ôôö>\)AÆQÏAX£◊@ga®FˇQ<@$òì—ÒXm RR S ?ìtºA/
+=ˇˇˇˇ?ôx’ACÖˇˇˇˇAµÆ>îz·AxQÏ?Üff>\)AÆ(ˆAep§@g◊¡1’¨∂@%]ülËx SR S @ bN@n∏Rˇˇˇˇ@ì@wÆˇˇˇˇA†ff=∏QÏAq¬è?µ¬è<£◊
+AïGÆAZ=q@gú˜ŒŸÜ@(√ïÅ$‹ TR S @GÔû@¯  ˇˇˇˇ@S•„@ˆffˇˇˇˇA©∏<£◊
+Aj∏R?°GÆ<ı¬èAû·HAVff@gÑteﬂÈ@.‘≤Ûœû UR S ?∞ ≈A\)ˇˇˇˇ?≠/AôöˇˇˇˇA≥33>∏Aw33?ï¬è=·GÆA©GÆAep§@g
+üæv»≥@'‚5(/± VR S ?®r∞A,ÃÕˇˇˇˇ?µ„TA;◊
+ˇˇˇˇA≤QÏ>˙·HAqÎÖ?îz·=LÃÕA©◊
+A^{@g˙¡â7K∆@(U/üæv WR S ?€dZA	GÆˇˇˇˇ?ˇæwA/\)ˇˇˇˇA±ôö=u¬èAx£◊?ùp§=£◊
+A™z·Aa¬è@g·öüæv»@)‚C˛\ë– XR S @ôöA33ˇˇˇˇ@∆®AOÆˇˇˇˇA≠∏>ÊffAj=q?™=q=#◊
+A•p§AQÎÖ@gFs^‰∫@21ÙpØ}ß YR S ?ªdZAhÃÕˇˇˇˇ?”∂FAÉÎÖˇˇˇˇA∑33>Ä  Aqp§?†  =ı¬èAÆz·A[Ö@g¡»¥9X@)ø€: € ZR S ?Íüæ@ö=qˇˇˇˇ?Ó˘€@õÖˇˇˇˇA™∏R=è\)A~è\?îz·<#◊
+A°ÖAk◊
+@g1¯}úT¶@™ÙÄˇ'J [R S ?≤nòA"∏Rˇˇˇˇ?¬∞!A.=qˇˇˇˇA∞£◊>ôöApz·?ùp§=£◊
+Aßp§A[◊
+@gÄ_;dZ@'«°V>Yß \R S ?KCñAI¬èˇˇˇˇ?U?}AVffˇˇˇˇA∂z·>«ÆAt£◊?Ä  >\)AÆ·HAc\)@gÕ@Énó@(~ï^K£ ]R S @<I∫@Z=qˇˇˇˇ@A%@Tz·ˇˇˇˇA£¬è=ÃÃÕA{◊
+?«Æ<#◊
+AñÃÕAb·H@gl¨_í≈¯@ πø¡´  ^R S ?ëhsA&è\ˇˇˇˇ?ñ»¥A+ÖˇˇˇˇA¥ff?ÃÕAwÖ?ëÎÖ=ÃÃÕA´ôöAdı√@g∞Ê«V@$*!
+ÉXV _R S ?ÙìA“ffˇˇˇˇ?œù≤A≥
+=ˇˇˇˇA¬(ˆ=∏QÏArff?ö·H>∏A∂è\A`ı√@gêËr∞ ƒ@){ØZ¥"
+ `R S ?ÃÌëAî  ˇˇˇˇ?€"—A©GÆˇˇˇˇAº£◊=ÃÃÕAs◊
+?£◊
+>.{A≥ÖA\ı√@gk#(FˇP@(ÊŸsº aR S ?¬–Â@·ÎÖˇˇˇˇ?¡%@€◊
+ˇˇˇˇAÆ=q>LÃÕAx(ˆ?îz·=LÃÕA§∏RAeÎÖ@g¡Q<¡‡@# ·lˆs¶ bR1cSAy?}Cı  >Ωp§@„S¯Bô£◊>¬è\AÍ{>u¬èA\£◊?òQÏ>∏A≈\)AS◊
+@gå°˝DÚ@&Ü^)òﬁ cR S ?~5?A&ffˇˇˇˇ?Åâ7A1p§ˇˇˇˇA∑◊
+>≥33A~=q?ä=q>.{AØÆAkÆ@gâ€z2Ño@%€Qk\Wè dR S @„TBhGÆˇˇˇˇ?˜+B{ˇˇˇˇAÀ∏=£◊
+AhÃÕ?£◊
+>aGÆAº·HAZ{@g£LÃÃÃÃ@$ƒ˛Æ !~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
