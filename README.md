@@ -1,8 +1,8 @@
-## Nuclear Star Cluster Review Data and Code to make Figures
-#Neumayer, Seth, Boker 2019, Astronomy & Astrophysics Reviews
+# Nuclear Star Cluster Review Data and Code to make Figures
+## Neumayer, Seth, Boker 2019, Astronomy & Astrophysics Reviews
 All code written/figures created by Anil Seth.
 
-#Nucleated Galaxy Demographics Figure
+## Nucleated Galaxy Demographics Figure
 
 galaxy_demographics.py -- primary code used to generate the galaxy color-mass diagram and the 
 
