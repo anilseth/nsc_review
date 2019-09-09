@@ -1,8 +1,21 @@
-# Nuclear Star Cluster Review Data and Code to make Figures
-## Neumayer, Seth, Boker 2019, Astronomy & Astrophysics Reviews
+# Nuclear Star Cluster Review
+## Github repository of data and code used to make figures
+### Neumayer, Seth, Boker 2019, Astronomy & Astrophysics Reviews
 All code written/figures created by Anil Seth.
 
-## Nucleated Galaxy Demographics Figure
+### Fig. 1: NSCs in NGC300 and NGC205 -- images and surface brightness profiles.
+
+review_figures.key -- keynote file with images and final SB profiles
+
+plot_sbs.py -- code used to plot sb profiles.  Reads in NGC205_SBP_Valluri_2005.txt from Valluri et al. 2005, additional data using GraphClicks from that paper, ngc205_valluri_clicks.txt.  For NGC300, data from ngc0300_Bland-Hawthorn.txt with data from Bland-Hawthorn et al. 2005, Boeker et al. 2002, and Kim et al. 2004 respectively; the data from both Bland-Hawthorn et al. 2005 and Kim et al. 2004 was digitized.
+
+
+
+### Fig. 2: NSCs are Special.  Data on NSCs and GCs from the Virgo cluster.
+
+nscs_are_special.py -- only galaxies with galaxy stellar masses from spengler17_tab8.dat are plotted.  The GC data radii and magnitudes are taken from jordan09.fits for the same galaxies as the nuclei that are plotted.  The right panel contains the same information by organized galaxy-by-galaxy in a mass-ranked order.  Galaxy masses were labeled by hand (not in the code). 
+
+### Fig. 3: Nucleated Galaxy Demographics Figure
 
 galaxy_demographics.py -- primary code used to generate the galaxy color-mass diagram and the 
 
