@@ -1,7 +1,7 @@
 # Nuclear Star Cluster Review
 ## Github repository of data and code used to make figures
-### Neumayer, Seth, Boker 2019, Astronomy & Astrophysics Reviews
-All code written/figures created by Anil Seth.
+### Neumayer, Seth, Boker 2020, Astronomy & Astrophysics Reviews
+All code written/figures created by Anil Seth except where otherwise noted.  This page will continue to be updated until final publication.  
 
 ### Fig. 1: NSCs in NGC300 and NGC205 -- images and surface brightness profiles.
 
@@ -34,15 +34,39 @@ reff_hist.py -- reads in data from Georgiev et al. 2016 (georgiev16.fits) and Co
 Creates: reff_histogram.pdf
 
 
-### Fig. 5: NSC Mass histogram
+### Fig. 5: Mass Ellipticity diagram
 
-mass_histogram.py --
+mass_ellipticity.py -- includes data from Geoergiev+ 2014, 2016, Spengler+ 2017 (obtained via private communication; see spengler17_privcomm.dat), and data from Seth+ 2006/2008.  
+
+### Fig. 6: NSC Mass Histogram
+
+mass_histogram.py -- Data from Georgiev+ 2016, Spengler+ 2017, Sanchez-Jannssen+ 2019, and globular cluster data from Harris Milky Way GC catalog, Harris 1996, updated 2010 (mw_gc_cat.fits).
+
+### Fig. 7: NSC Mass/Radius/Density plots
+
+mass_radius_plot.py -- 
+
+### Fig. 8: NGC 247 spectrum
+
+Plot made by Nikolay Kacharov.  See Kacharov+ 2018 for additional details.
+
+### Fig. 9: Mass -- Metallicity Plots for Early Type Galaxies
+
+metallicity_plots.py -- 
+
+### Fig. 10: NSC Rotation Maps
+
+Figures taken from Feldmeier+ 2014, Seth+ 2008b, Seth+ 2010, Lyubenova & Tsatsi 2019. Compiled and edited by the authors. 
 
 
 ### Fig. 11: NSC kinematics
 
-Figure compiled by Nadine Neumayer.
+vsig_eps.py -- Data compiled by Nadine Neumayer in v_sig_eps_table.txt.  Also plotted are globular clusater data from Kamann+ 2018 and Bianchini+ 2013 (GCs_Kamann.txt).  
 
-### Fig. 12: V/sigma epsilon diagram
+### Fig. 12: NSC Mass -- Galaxy Stellar Mass Relation
 
-vsig_eps.py -- reads in data from table of compiled literature results for NSCs (v_sig_eps_table.txt), as well as GC data from GCs_Kamann.txt.
+mass_scaling.py -- plots as well as fits to data.  
+
+### Fig. 13: BH Mass -- NSC Mass plots
+
+plot_bh_nsc.py -- plots data from many sources compiled in bh_nsc_galmass.csv. 
