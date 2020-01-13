@@ -17,6 +17,7 @@ t8=Table.read("lauer05_tab8.tex")
 t23=join(t2,t3,keys='galaxy',join_type='left')
 t237=join(t23,t7,keys='galaxy',join_type='left')
 allt=join(t237,t8,keys='galaxy',join_type='left')
+#Get galaxy masses
 #Use Jordi+ 2006 relation to get V-I to g-i
 #vigal is V-I color at 1" radius
 allt['g-i']=1.481*allt['vigal']+2.*allt['dvidr']-0.536
@@ -24,11 +25,19 @@ allt['g-i']=1.481*allt['vigal']+2.*allt['dvidr']-0.536
 allt['sloani']=(np.array(allt['MV'],dtype='float')-allt['vigal'])-(-0.370282*allt['vigal']-0.161448)
 allt['mli']=10.**(0.979*allt['g-i']-0.831)
 allt['logmstar']=np.log10(allt['mli']*10**(-0.4*(allt['sloani']-4.53)))
+allt['logmstargal']=allt['logmstar']
+#Get NSC masses
+allt['ginuc']=1.481*allt['vinuc']-0.536
+allt['mlinuc']=10.**(0.979*allt['ginuc']-0.831)
+allt['sloaninuc']=(np.array(allt['MVnuc'],dtype='float')-allt['vinuc'])-(-0.370282*allt['vinuc']-0.161448)
+allt['logmnuc']=np.log10(allt['mlinuc']*10**(-0.4*(allt['sloaninuc']-4.53)))
+
 allt['source']='L05'
 
 #reset NSC flags for only those objects with spectype eq 'a'
 emission=(allt['spectype'] != 'a')
 allt['nucflag'][emission]=0
+allt['T']=-5
 
 
 
@@ -36,4 +45,7 @@ nuc=(allt['nucflag'] == 1)
 nonuc=(allt['nucflag'] == 0)
 plt.scatter(allt['logmstar'][nonuc],allt['g-i'][nonuc],facecolors='none', edgecolors='black')
 plt.scatter(allt['logmstar'][nuc],allt['g-i'][nuc],facecolors='black', edgecolors='white',alpha=0.5)
+plt.show()
+plt.scatter(allt['logmstar'][nuc],allt['logmnuc'][nuc])
+plt.show()
 allt.write('lauer05_alltab.fits',overwrite=True)

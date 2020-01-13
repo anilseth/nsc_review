@@ -19,9 +19,12 @@ plt.rc('text', usetex=True)
 plt.rc('font', family='sans-serif')
 plt.rc('xtick', labelsize=ufontsize) 
 plt.rc('ytick', labelsize=ufontsize) 
+plt.rc('text.latex', preamble=r'\usepackage{cmbright}')
+
 nsa=Table.read('/Users/seth/astro/nsa/nsa_v0_1_2.fits')
 nsalogmass=np.log10(nsa['MASS'])
 nsagi=nsa['ABSMAG'][:,3]-nsa['ABSMAG'][:,5]
+
 
 #overall uses Roediger+ 2015 g-i for all masses
 
@@ -89,6 +92,10 @@ g14good=np.isfinite(g14['Imag'])
 
 #ACSVCS Sample
 c06=Table.read('cote06_table1.dat',format='ascii')
+c06['g-i_nuc']=c06['g-z_ap']*0.7851-0.006-(c06['E(B-V)']*3.1*(1.20585-0.49246))#from CMD website
+c06['mlz_nuc']=10**(0.886*c06['g-i_nuc']-0.848)
+c06['logmnuc']=np.log10(c06['mlz_nuc']*10**(-0.4*(c06['z_ab']-c06['E(B-V)']*3.1*0.49246-31.087-4.50)))
+
 print("c06 Columns: ", c06.colnames)
 f06_tab12=Table.read('ferrarese06_tab12.fits')
 #print("f06 Columns: ", f06_tab12.colnames)
@@ -99,7 +106,7 @@ print("f06 Columns: ", f06.colnames)
 
 #process f06
 f06['g-i']=f06['g-z']*0.7851-0.006-(f06['E_B-V_']*3.1*(1.20585-0.49246))#from CMD website
-f06['mlz']=10**(0.886*f06['g-i']-0.848) #from roediger
+f06['cmlz']=10**(0.886*f06['g-i']-0.848) #from roediger
 f06['logmstar']=np.log10(f06['mlz']*10**(-0.4*(f06['zmag_g']-f06['E_B-V_']*3.1*0.49246-31.087-4.50)))
 f06['nucflag']=np.zeros(len(f06),dtype=int)
 f06['nucflag'][(f06['N'] == 'Ia')]=1
@@ -107,12 +114,16 @@ f06['nucflag'][(f06['N'] == 'Ib')]=1
 f06['source']='ACSVCS'
 
 
-allgal=vstack([ei,sjgal,f06,g09,g14],join_type='inner')
+l05=Table.read('lauer05_alltab.fits')
+l05=l05[(l05['vigal'] > 0)]
+
+allgal=vstack([ei,sjgal,f06,g09,g14,l05],join_type='inner')
+#allgal=vstack([ei,sjgal,f06,l05],join_type='inner')
 
 
-logmstar_arr=np.arange(6,12,0.1)
-gidivide=(logmstar_arr-6)*0.12+0.40 #rough dividing line blue cloud red sequence
-top=np.zeros(len(gidivide))+1.4
+logmstar_arr=np.arange(5.5,12,0.1)
+gidivide=(logmstar_arr-5.5)*0.12+0.34 #rough dividing line blue cloud red sequence
+top=np.zeros(len(gidivide))+1.55
 bottom=np.zeros(len(gidivide))-1.4
 
 plt.figure(figsize=(6,6))
@@ -121,13 +132,13 @@ indnuc=(allgal['nucflag'] == 1)
 indnonuc=(allgal['nucflag'] == 0)
 plt.fill_between(logmstar_arr,gidivide,top,color='red',alpha=0.2)
 plt.fill_between(logmstar_arr,bottom,gidivide,color='blue',alpha=0.2)
-
+#plt.hexbin(nsalogmass,nsagi,gridsize=500)
 h1=plt.scatter(allgal['logmstar'][indnonuc],allgal['g-i'][indnonuc],facecolors='none', edgecolors='white',alpha=1.0)
 h2=plt.scatter(allgal['logmstar'][indnuc],allgal['g-i'][indnuc],facecolors='black',alpha=0.5)
 
 #plt.axes.Axes.tick_params(labelsize=16)
-plt.xlim(6,12)
-plt.ylim(-1.4,1.4)
+plt.xlim(5.5,12)
+plt.ylim(-1.4,1.55)
 plt.ylabel('($g-i$)$_0$',fontsize=ufontsize)
 plt.xlabel('log($M_\star$)',fontsize=ufontsize)
 #plt.legend()
@@ -144,7 +155,7 @@ plt.savefig('galaxy_sample_nscs.pdf',bbox_inches='tight')
 allgal['gitest']=allgal['g-i']-((allgal['logmstar']-6)*0.12+0.40) #if this is positive it is red sequence, negative, blue cloud
 redgal=allgal[(allgal['gitest']> 0)]
 bluegal=allgal[(allgal['gitest']< 0)]
-usebins=np.arange(5.5,12.3,0.5)
+usebins=np.arange(5.5,12.5,0.7)
 (totblue,outbins)=np.histogram(bluegal['logmstar'],bins=usebins)
 (nucblue,outbins)=np.histogram(bluegal['logmstar'][(bluegal['nucflag'] == 1)],bins=usebins)
 (totred,outbins)=np.histogram(redgal['logmstar'],bins=usebins)
@@ -157,13 +168,15 @@ errred=np.sqrt(occred*(1-occred)/totred)
 plt.figure(figsize=(6,6))
 
 plotbins=usebins[:-1]+(usebins[1]-usebins[0])*0.5
-plt.fill_between(plotbins,occblue-errblue,occblue+errblue,color='blue',alpha=0.2)
 plt.fill_between(plotbins,occred-errred,occred+errred,color='red',alpha=0.2)
-
-plt.plot(plotbins,occblue,color='blue')
 plt.plot(plotbins,occred,color='red')
-plt.legend(['Late-Type','Early-Type'],fontsize=ufontsize/1.2,loc='lower center')
+plotbins=usebins[:-2]+(usebins[1]-usebins[0])*0.5
+plt.fill_between(plotbins,(occblue-errblue)[:-1],(occblue+errblue)[:-1],color='blue',alpha=0.2)
+plt.plot(plotbins,occblue[:-1],color='blue')
+
+plt.legend(['Early-Type','Late-Type'],fontsize=ufontsize/1.2,loc='lower center')
 plt.ylim(0.0,1.0)
+plt.xlim(5.5,12)
 
 plt.ylabel('Fraction of Galaxies with NSC',fontsize=ufontsize)
 plt.xlabel('log($M_\star$)',fontsize=ufontsize)

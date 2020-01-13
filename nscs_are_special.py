@@ -24,9 +24,10 @@ ufontsize=24
 plt.gca().invert_yaxis()
 plt.xlabel('log($M_{\star}$)',fontsize=ufontsize)
 plt.ylabel('Absolute $g$ magnitude',fontsize=ufontsize)
+plt.rc('text.latex', preamble=r'\usepackage{cmbright}')
 
 for i in range(0,len(s17)):
-    ind=(j07['VCC'] == s17['VCC'][i])
+    ind=((j07['VCC'] == s17['VCC'][i]) & (j07['gmag']-31.15 > -12))
     cind=(c06['VCC'] == s17['VCC'][i])
     galaxymass=np.zeros(np.sum(ind))+i#s17['logmstargal'][i]
     plt.scatter(galaxymass,j07['gmag'][ind]-31.15,color='black',alpha=0.1)
@@ -51,7 +52,7 @@ plt.show()
 plt.figure(figsize=(6,6))    
 
 for i in range(0,len(s17)):
-    ind=(j07['VCC'] == s17['VCC'][i])
+    ind=((j07['VCC'] == s17['VCC'][i]) & (j07['gmag']-31.15 > -12))
     cind=(c06['VCC'] == s17['VCC'][i])
     galaxymass=np.zeros(np.sum(ind))+i#s17['logmstargal'][i]
 #    plt.scatter(np.log10(j07['GDist'][ind]*80.),j07['gmag'][ind],color='black',alpha=0.1)

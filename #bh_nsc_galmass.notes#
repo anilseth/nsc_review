@@ -1,0 +1,36 @@
+#Notes on bh_nsc_galmass.csv
+bhuliimit, nsculimit -- if 1 these are upper limits
+galtype 0=UCD, 1=LTG, 2=ETG
+
+Some masses may represent bulge masses rather than total stellar masses.
+Especially, early type masses from Graham09,Saglia16,Nguyen18.
+Nguyen18 masses uncertain source -- may actually be Georgiev18
+
+Mass determinations for two galaxies from Neumayer12 that had low stellar masses (probably because they are bulge mass estiates):
+NGC3998: m-M=30.76, D=14.2, Cosmicflows SBF Distance, K_s=7.365, 4.6e10 Lsol in K, assume M/L_K=1, this is much higher than bulge mass
+NGC2787: m-M=29.35, D=7.41 Mpc, Cosmicflows SBF distance, K_s=7.26, 1.39e10 Lsol in K, assume M/L_K=1, 
+
+
+For NGC3621 Galaxy mass find M_K=-22.50 from 2MASS LGA and 6.6 Mpc.  Assume M/L_K=0.75 as in Barth+ 2009.
+
+M31
+V_nuc=12.55, M_V=-12.1 from Kormendy99, they assume M/L_V=5.7 --> 3.5e7 Msol
+
+NGC4395 stellar mass estimate:
+Use Reines15 gives logmass=8.90
+NSAID 89394 g-i=0.22, this gives M/L_i=0.24 from Roediger relation
+denBrok15 gives M_i=-17.9, this suggest 2.1e8 Msol; Kormendy finds an even lower mass.
+
+
+
+
+
+Excluded uncertain sources from Graham09, including
+#NGC7457, 6.95, 0, 7.51, 0, 9.86, 2, Saglia16;Lauer05_der;Reines15
+
+
+
+Some sources from Krajnovic to follow up on???
+#NGC4339/VCC0648, 7.63, 0, no_known_NSC, 0 10.43, 2, Krajnovic18;none;Cappellari13
+#NGC4434/VCC1025,  7.95, 0 Cote06_Ic, 0, 9.86, 2,  Krajnovic18;Cote06;Cappellari13
+#NGC4762/VCC2095, 7.72, 0, Cote06_Ib, 0, 10.29, Krajnovic18;Cote06;Cappellari13

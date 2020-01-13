@@ -17,6 +17,8 @@ msolr=4.65 #SDSS AB
 msolb=5.44
 
 s17=Table.read('spengler17_tab8.dat',format='ascii')
+s17_tab9=Table.read('spengler17_tab9.tex')
+s17spec=join(s17_tab9,s17,keys='VCC',join_type='inner')
 p11_1=Table.read('paudel11_tab1.tex')
 p11_2=Table.read('paudel11_tab2.tex')
 p11=join(p11_1,p11_2,keys='galaxy')
@@ -72,6 +74,7 @@ plt.plot(gallazzi05['logmass'],gallazzi05['feh'],linestyle='-',color='black')
 h1=plt.scatter(s17['logmstargal'],s17['fehnuc'],color='black',alpha=0.2)
 h2=plt.scatter(p11['logmassgal'],p11['fehnuc'],color='r')
 plt.scatter(k09['logmassgal'],k09['feh1'],color='r')
+plt.scatter(s17spec['logmstargal'],s17spec['specfeh'],color='r')
 plt.scatter(splogmass[1:],spfeh[1:],color='r')
 plt.scatter([splogmass[0]],[spfeh[0]],color='red',alpha=1.0,marker="*",s=200)
 plt.text(splogmass[0]+0.02,spfeh[0]+0.02,'M54',fontsize=ufontsize/1.4)

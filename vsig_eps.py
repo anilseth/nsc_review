@@ -26,7 +26,7 @@ plt.rc('text.latex', preamble=r'\usepackage{cmbright}')
 
 
 vs=Table.read('v_sig_eps_table.txt',format='ascii')
-
+kam=Table.read('GCs_Kamann.txt',format='ascii')
 
 
 
@@ -55,22 +55,30 @@ fig, ax = plt.subplots(figsize=(7,6))
 #plt.figure()
 
 
+latetype=np.arange(11,13,1)
+earlytype=np.append((np.arange(0,11,1)),13)
+label=np.array((6,11,12))
+
 ax.plot(edgeon_eps,edgeon_vsig,linestyle='--',color='black')
 #plt.plot(inc_eps,inc_vsig,linestyle='--',color='black')
 
 #plt.scatter(vs['epsE'],vs['v_sig_e'])
 #ax.scatter(vs['epsE'],vs['v_sig_e'], color='black',s=100)
-data = ax.scatter(vs['epsE'],vs['v_sig_e'], c=vs['log_M'], edgecolors='face', cmap='plasma', s=100)
-cbar = fig.colorbar(data, ax=ax)#,ticks=np.arange(8.5,11.0,0.5))
-cbar.set_label('logM$_\star$', rotation=270,fontsize=ufontsize,labelpad=20)
-
+ldata = ax.scatter(vs['epsE'][latetype],vs['v_sig_e'][latetype], color='blue', s=100)
+edata = ax.scatter(vs['epsE'][earlytype],vs['v_sig_e'][earlytype], color='red', s=100)
+#data = ax.scatter(vs['epsE'],vs['v_sig_e'], c=vs['log_M'], edgecolors='face', cmap='plasma', s=60)
+#cbar = fig.colorbar(data, ax=ax)#,ticks=np.arange(8.5,11.0,0.5))
+#bar.set_label('log\,M$_\star$', rotation=270,fontsize=ufontsize,labelpad=20)
+ax.scatter(kam['ellip'],kam['vsigma'],facecolors='none',edgecolors='black',s=100)
+for i in np.arange(0,3):
+    ax.text(vs['epsE'][label][i]-0.01,vs['v_sig_e'][label][i],vs['Name'][label][i],fontsize=ufontsize/1.2,horizontalalignment='right')
 
 ax.set_ylabel('Rotational Support ($V_r / \sigma$)$_e$',fontsize=ufontsize)
-ax.set_xlabel('Ellipiticity $\epsilon_e$',fontsize=ufontsize)
+ax.set_xlabel('Ellipticity $\epsilon_e$',fontsize=ufontsize)
 ax.set_xlim(0,0.6)
 ax.set_ylim(0,1)
 
-plt.savefig('vsig_eps.eps',bbox_inches='tight')
+plt.savefig('vsig_eps.pdf',bbox_inches='tight')
 
 
 plt.show()

@@ -10,6 +10,7 @@ import numpy as np
 from astropy.table import Table, join, vstack, Column
 import matplotlib.pyplot as plt
 import pdb
+from scipy.stats import norm
 
 
 plt.close('all')
@@ -19,6 +20,7 @@ plt.rc('text', usetex=True)
 plt.rc('font', family='sans-serif')
 plt.rc('xtick', labelsize=ufontsize) 
 plt.rc('ytick', labelsize=ufontsize) 
+plt.rc('text.latex', preamble=r'\usepackage{cmbright}')
 
 
 #NGVS
@@ -92,12 +94,18 @@ s17['source']="S17"
 s17['logmnuc']=s17['logmstarnuc']
 s17['T']=-1
 
-e12=Table.read('erwin12_tab2.tex')
-e12['source']="E12"
+oe12=Table.read('erwin12_tab2.tex')
+oe12['source']="E12"
+ag=Table.read('additional_goodmass.dat',format='ascii')
+ag['source']='N18'
+e12=vstack([oe12,ag],join_type='inner')
 
-allnuc=vstack([sj,ngfs,ge,s17,e12],join_type='inner')
+l05=Table.read('lauer05_alltab.fits')
+l05nuc=(l05['nucflag'] == 1)
+l05=l05[l05nuc]
+
+allnuc=vstack([sj,ngfs,ge,s17,e12,l05],join_type='inner')
 allnuc['dmass']=allnuc['logmnuc']-allnuc['logmstargal']
-
 
 plt.figure(figsize=(6,6))
 earlyind=(allnuc['T'] < 1)
@@ -113,25 +121,59 @@ plt.xlim(5.5,11.2)
 plt.ylim(4.5,9)
 plt.xlabel('log($M_{\star}$)',fontsize=ufontsize)
 plt.ylabel('log($M_{NSC}$)',fontsize=ufontsize)
-plt.legend(['Late-Type','Early-Type','Good Masses'],fontsize=ufontsize/1.4)
+plt.legend(['Late-Type','Early-Type','Dyn/Spec Masses'],fontsize=ufontsize/1.4)
+
+fit=np.polyfit(allnuc['logmstargal']-9,allnuc['logmnuc'],1)
+xarr=np.arange(5.5,11.2,0.1)
+yarr=fit[0]*(xarr-9)+fit[1]
+yfit=fit[0]*(allnuc['logmstargal']-9)+fit[1]
+scatter=yfit-allnuc['logmnuc']
+print('SCATTER',norm.fit(scatter))
+plt.plot(xarr,yarr,linestyle='dashed',color='black',linewidth=2)
+
+#highmass=(allnuc['logmstargal'] > 9)
+#fithigh=np.polyfit(allnuc['logmstargal'][highmass],allnuc['logmnuc'][highmass],1)
+#xarr=np.arange(9.0,11.2,0.1)
+#yarr=fithigh[0]*xarr+fithigh[1]
+#plt.plot(xarr,yarr,linestyle='dashed',color='cyan')
+
+#highmass=(allnuc['logmstargal'] > 9)
+fitgood=np.polyfit((e12['logmstargal']-9),e12['logmnuc'],1)
+xarr=np.arange(9.0,11.2,0.1)
+yarr=fitgood[0]*(xarr-9)+fitgood[1]
+plt.plot(xarr,yarr,linestyle='dashdot',color='black',linewidth=2)
+
 plt.savefig('mnuc_mgal.pdf',bbox_inches='tight')
 plt.show()
+
+
+fitarr=np.zeros((2,100))
+fitgoodarr=np.zeros((2,100))
+for i in range(0,100):
+    resample=np.random.randint(0,high=len(allnuc),size=len(allnuc))
+    fitarr[:,i]=np.polyfit(allnuc['logmstargal'][resample]-9,allnuc['logmnuc'][resample],1)
+    regood=np.random.randint(0,high=len(e12),size=len(e12))
+    fitgoodarr[:,i]=np.polyfit((e12['logmstargal'][regood]-9),e12['logmnuc'][regood],1)
+   
+print("Fit Errors",np.std(fitarr[0,:]),np.std(fitarr[1,:]))    
+
+print("Fit FGood Errors",np.std(fitgoodarr[0,:]),np.std(fitgoodarr[1,:]))    
 
 
 
 late=allnuc[lateind]
 early=allnuc[earlyind]
-usebins=np.arange(5.6,12.3,0.4)
+usebins=np.arange(5.5,12.3,0.5)
 plotbins=usebins[:-1]+0.25
 latepercentiles=np.zeros((3,len(usebins)-1))
 earlypercentiles=np.zeros((3,len(usebins)-1))
 for i in range(len(usebins)-1):
     einbin=early[np.where((early['logmstargal'] > usebins[i]) & (early['logmstargal'] < usebins[i+1]))]
     linbin=late[np.where((late['logmstargal'] > usebins[i]) & (late['logmstargal'] < usebins[i+1]))]
-    if len(einbin) > 5:
+    if len(einbin) > 4:
 #        pdb.set_trace() 
         earlypercentiles[:,i]=np.percentile(einbin['dmass'],[25,50,75])
-    if len(linbin) > 5:
+    if len(linbin) > 4:
         latepercentiles[:,i]=np.percentile(linbin['dmass'],[25,50,75])
         
     #    earlypercentiles[:,i]=np.percentile(earlyboth,[10,50,90])
@@ -158,6 +200,33 @@ h1=plt.plot(plotbins[lind],latepercentiles[1][lind],color='b')
 h2=plt.plot(plotbins[eind],earlypercentiles[1][eind],color='r')
 plt.legend(['Late-Type','Early-Type'],fontsize=ufontsize/1.2)
 #legend=plt.legend(labels=['no NSC detected','w/ NSC'],handles=[h1,h2],fontsize=ufontsize/1.2,frameon=True)
+
+
+xarr=np.arange(5.5,11.2,0.1)
+yarr=fit[0]*(xarr-9)+fit[1]-xarr
+plt.plot(xarr,yarr,linestyle='dashed',color='black',linewidth=2)
+#xarr=np.arange(9.0,11.2,0.1)
+#yarr=fitgood[0]*xarr+fitgood[1]-xarr
+#plt.plot(xarr,yarr,linestyle='dashdot',color='black',linewidth=2)
 plt.savefig('frac_mnsc_mgal.pdf',bbox_inches='tight')
 
+
 plt.show()
+
+
+#Table 2
+earlylow=((allnuc['T'] <= 0) & (allnuc['logmstargal'] < 9.0))
+earlyhigh=((allnuc['T'] <= 0) & (allnuc['logmstargal'] >= 9.0))
+print("Early Low ",np.percentile(allnuc['logmnuc'][earlylow],(16,50,84)))
+print("Early High ",np.percentile(allnuc['logmnuc'][earlyhigh],(16,50,84)))
+print("Early Low ",10.**np.percentile(allnuc['dmass'][earlylow],(16,50,84)))
+print("Early High ",10.**np.percentile(allnuc['dmass'][earlyhigh],(16,50,84)))
+
+late=(allnuc['T'] > 0)
+
+latelow=((allnuc['T'] > 0) & (allnuc['logmstargal'] < 9.0))
+latehigh=((allnuc['T'] > 0) & (allnuc['logmstargal'] >= 9.0))
+print("Late Low ",np.percentile(allnuc['logmnuc'][latelow],(16,50,84)))
+print("Late High ",np.percentile(allnuc['logmnuc'][latehigh],(16,50,84)))
+print("Late Low ",10.**np.percentile(allnuc['dmass'][latelow],(16,50,84)))
+print("Late High ",10.**np.percentile(allnuc['dmass'][latehigh],(16,50,84)))
