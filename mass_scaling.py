@@ -101,6 +101,11 @@ ag['source']='N18'
 e12=vstack([oe12,ag],join_type='inner')
 
 l05=Table.read('lauer05_alltab.fits')
+l05_remove=['NGC4382', 'NGC4473', 'NGC4486B', 'NGC4621', 'NGC4649', 'NGC4660', 'NGC4552', 'NGC4472', 'NGC4458', 'NGC4365', 'NGC4478']#, 'NGC1399', 'NGC1316', 'NGC1374'] only need to remove these if including ACSFCS sample
+for galaxy in l05_remove:
+    removeind=np.where(l05['galaxy'] == galaxy)
+#    print(galaxy,removeind[0][0])
+    l05.remove_row(removeind[0][0])
 l05nuc=(l05['nucflag'] == 1)
 l05=l05[l05nuc]
 

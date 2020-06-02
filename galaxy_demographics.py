@@ -95,6 +95,8 @@ c06=Table.read('cote06_table1.dat',format='ascii')
 c06['g-i_nuc']=c06['g-z_ap']*0.7851-0.006-(c06['E(B-V)']*3.1*(1.20585-0.49246))#from CMD website
 c06['mlz_nuc']=10**(0.886*c06['g-i_nuc']-0.848)
 c06['logmnuc']=np.log10(c06['mlz_nuc']*10**(-0.4*(c06['z_ab']-c06['E(B-V)']*3.1*0.49246-31.087-4.50)))
+removeind=np.where(c06['VCC'] == 881)
+c06.remove_row(removeind[0][0])
 
 print("c06 Columns: ", c06.colnames)
 f06_tab12=Table.read('ferrarese06_tab12.fits')
@@ -106,16 +108,24 @@ print("f06 Columns: ", f06.colnames)
 
 #process f06
 f06['g-i']=f06['g-z']*0.7851-0.006-(f06['E_B-V_']*3.1*(1.20585-0.49246))#from CMD website
-f06['cmlz']=10**(0.886*f06['g-i']-0.848) #from roediger
+f06['mlz']=10**(0.886*f06['g-i']-0.848) #from roediger
 f06['logmstar']=np.log10(f06['mlz']*10**(-0.4*(f06['zmag_g']-f06['E_B-V_']*3.1*0.49246-31.087-4.50)))
 f06['nucflag']=np.zeros(len(f06),dtype=int)
 f06['nucflag'][(f06['N'] == 'Ia')]=1
 f06['nucflag'][(f06['N'] == 'Ib')]=1
 f06['source']='ACSVCS'
+removeind=np.where(f06['VCC'] == 881)
+f06.remove_row(removeind[0][0])
 
 
 l05=Table.read('lauer05_alltab.fits')
-l05=l05[(l05['vigal'] > 0)]
+l05_remove=['NGC4382', 'NGC4473', 'NGC4486B', 'NGC4621', 'NGC4649', 'NGC4660', 'NGC4552', 'NGC4472', 'NGC4458', 'NGC4365', 'NGC4478']#, 'NGC1399', 'NGC1316', 'NGC1374'] only need to remove these if including ACSFCS sample
+for galaxy in l05_remove:
+    removeind=np.where(l05['galaxy'] == galaxy)
+#    print(galaxy,removeind[0][0])
+    l05.remove_row(removeind[0][0])
+l05=l05[(l05['vigal'] < 4)]
+
 
 allgal=vstack([ei,sjgal,f06,g09,g14,l05],join_type='inner')
 #allgal=vstack([ei,sjgal,f06,l05],join_type='inner')

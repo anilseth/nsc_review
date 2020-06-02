@@ -1,0 +1,22 @@
+Overall, we included NSCs from the Lauer sample to have better statistics on the (rare) NSCs in high mass elliptical galaxies.  We include only those nuclei with (1) absorption line spctra, and (2) color measurements of the nucleus (which are needed to derive massees).  In total, this leaves just 8 nucleated galaxies, all with logMstar > 10.3:
+l05['galaxy','logmstar','logmnuc'][l05nuc]
+ galaxy      logmstar           logmnuc      
+------- ------------------ ------------------
+NGC1023      10.6601618396 6.3632843800000005
+NGC1427 10.679558329400002 7.4039988600000015
+NGC1439 10.707002418800002         7.02364162
+NGC3115 10.944491563600003  7.353820240000001
+NGC3384      10.3822871224 7.2039988600000004
+NGC4026      10.5802458396 7.2439988600000005
+NGC4406      11.3811909086 5.7938202400000005
+
+
+For the galaxy sample, there are a total of 30 galaxies in the Lauer sample after removal of galaxies with (1) no color information to derive galaxy masses, and (2) removal of duplicates (see below).
+
+DUPLICATE HANDLING:
+The inclusion of the Lauer+ 2005 sample creates some duplicate measurements with the ACSVCS sample that affect the galaxy_demographics.py derivations.
+Specifically, the following galaxies have been removed from the Lauer sample since they are included in ACSVCS and thus would be duplicated in our demographic plots:
+NGC4382, NGC4473, NGC4486B, NGC4621, NGC4649, NGC4660, NGC4552, NGC4472, NGC4458, NGC4365, NGC4478
+
+In one case NGC4406/VCC881 we decided that the NSC in this galaxy looked credible (Cote mentions a small enhancement in the image, and it has the same color as the galaxy suggesting it is not an AGN), and included it, while removing this galaxy from the ACSVCS sample (f06 in the galaxy_demographics.py program).  
+
